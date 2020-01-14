@@ -1,0 +1,9112 @@
+[
+  {
+    "id": 1,
+    "name": "Petrification"
+  },
+  {
+    "id": 2,
+    "name": "Stun"
+  },
+  {
+    "id": 3,
+    "name": "Sleep"
+  },
+  {
+    "id": 4,
+    "name": "Daze"
+  },
+  {
+    "id": 5,
+    "name": "Amnesia"
+  },
+  {
+    "id": 6,
+    "name": "Pacification"
+  },
+  {
+    "id": 7,
+    "name": "Silence"
+  },
+  {
+    "id": 8,
+    "name": "Haste"
+  },
+  {
+    "id": 9,
+    "name": "Slow"
+  },
+  {
+    "id": 10,
+    "name": "Slow"
+  },
+  {
+    "id": 11,
+    "name": "Confused"
+  },
+  {
+    "id": 12,
+    "name": "Levitation"
+  },
+  {
+    "id": 13,
+    "name": "Bind"
+  },
+  {
+    "id": 14,
+    "name": "Heavy"
+  },
+  {
+    "id": 15,
+    "name": "Blind"
+  },
+  {
+    "id": 16,
+    "name": ""
+  },
+  {
+    "id": 17,
+    "name": "Paralysis"
+  },
+  {
+    "id": 18,
+    "name": "Poison"
+  },
+  {
+    "id": 19,
+    "name": "Pollen"
+  },
+  {
+    "id": 20,
+    "name": "TP Bleed"
+  },
+  {
+    "id": 21,
+    "name": "HP Boost"
+  },
+  {
+    "id": 22,
+    "name": "HP Penalty"
+  },
+  {
+    "id": 23,
+    "name": "MP Boost"
+  },
+  {
+    "id": 24,
+    "name": "MP Penalty"
+  },
+  {
+    "id": 25,
+    "name": "Attack Up"
+  },
+  {
+    "id": 26,
+    "name": "Attack Down"
+  },
+  {
+    "id": 27,
+    "name": "Accuracy Up"
+  },
+  {
+    "id": 28,
+    "name": "Accuracy Down"
+  },
+  {
+    "id": 29,
+    "name": "Defense Up"
+  },
+  {
+    "id": 30,
+    "name": "Defense Down"
+  },
+  {
+    "id": 31,
+    "name": "Evasion Up"
+  },
+  {
+    "id": 32,
+    "name": "Evasion Down"
+  },
+  {
+    "id": 33,
+    "name": "Attack Magic Potency Up"
+  },
+  {
+    "id": 34,
+    "name": "Attack Magic Potency Down"
+  },
+  {
+    "id": 35,
+    "name": "Healing Potency Up"
+  },
+  {
+    "id": 36,
+    "name": "Healing Potency Down"
+  },
+  {
+    "id": 37,
+    "name": "Magic Defense Up"
+  },
+  {
+    "id": 38,
+    "name": "Magic Defense Down"
+  },
+  {
+    "id": 39,
+    "name": "Stun Resistance"
+  },
+  {
+    "id": 40,
+    "name": "Silence Resistance"
+  },
+  {
+    "id": 41,
+    "name": "Crafting Facility"
+  },
+  {
+    "id": 42,
+    "name": "The Echo"
+  },
+  {
+    "id": 43,
+    "name": "Weakness"
+  },
+  {
+    "id": 44,
+    "name": "Brink of Death"
+  },
+  {
+    "id": 45,
+    "name": "Crafter's Grace"
+  },
+  {
+    "id": 46,
+    "name": "Gatherer's Grace"
+  },
+  {
+    "id": 47,
+    "name": "Sneak"
+  },
+  {
+    "id": 48,
+    "name": "Well Fed"
+  },
+  {
+    "id": 49,
+    "name": "Medicated"
+  },
+  {
+    "id": 50,
+    "name": "Sprint"
+  },
+  {
+    "id": 51,
+    "name": "Strength Down"
+  },
+  {
+    "id": 52,
+    "name": "Vitality Down"
+  },
+  {
+    "id": 53,
+    "name": "Physical Damage Up"
+  },
+  {
+    "id": 54,
+    "name": "Physical Damage Down"
+  },
+  {
+    "id": 55,
+    "name": "Physical Vulnerability Down"
+  },
+  {
+    "id": 56,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 57,
+    "name": "Magic Damage Up"
+  },
+  {
+    "id": 58,
+    "name": "Magic Damage Down"
+  },
+  {
+    "id": 59,
+    "name": "Magic Vulnerability Down"
+  },
+  {
+    "id": 60,
+    "name": "Magic Vulnerability Up"
+  },
+  {
+    "id": 61,
+    "name": "Damage Up"
+  },
+  {
+    "id": 62,
+    "name": "Damage Down"
+  },
+  {
+    "id": 63,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 64,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 65,
+    "name": "Critical Skill"
+  },
+  {
+    "id": 66,
+    "name": "Terror"
+  },
+  {
+    "id": 67,
+    "name": "Leaden"
+  },
+  {
+    "id": 68,
+    "name": "Drainstrikes"
+  },
+  {
+    "id": 69,
+    "name": "Aspirstrikes"
+  },
+  {
+    "id": 70,
+    "name": "Stunstrikes"
+  },
+  {
+    "id": 71,
+    "name": "Rampart"
+  },
+  {
+    "id": 72,
+    "name": "Convalescence"
+  },
+  {
+    "id": 73,
+    "name": "Awareness"
+  },
+  {
+    "id": 74,
+    "name": "Sentinel",
+    "mit": {
+      "type": "all",
+      "value": 30
+    }
+  },
+  {
+    "id": 75,
+    "name": "Tempered Will"
+  },
+  {
+    "id": 76,
+    "name": "Fight or Flight"
+  },
+  {
+    "id": 77,
+    "name": "Bulwark"
+  },
+  {
+    "id": 78,
+    "name": "Sword Oath"
+  },
+  {
+    "id": 79,
+    "name": "Iron Will"
+  },
+  {
+    "id": 80,
+    "name": "Cover"
+  },
+  {
+    "id": 81,
+    "name": "Covered"
+  },
+  {
+    "id": 82,
+    "name": "Hallowed Ground"
+  },
+  {
+    "id": 83,
+    "name": "Foresight"
+  },
+  {
+    "id": 84,
+    "name": "Bloodbath"
+  },
+  {
+    "id": 85,
+    "name": "Maim"
+  },
+  {
+    "id": 86,
+    "name": "Berserk"
+  },
+  {
+    "id": 87,
+    "name": "Thrill of Battle"
+  },
+  {
+    "id": 88,
+    "name": "Holmgang"
+  },
+  {
+    "id": 89,
+    "name": "Vengeance",
+    "mit": {
+      "value": 30,
+      "type": "all"
+    }
+  },
+  {
+    "id": 90,
+    "name": "Storm's Eye"
+  },
+  {
+    "id": 91,
+    "name": "Defiance"
+  },
+  {
+    "id": 92,
+    "name": "Unchained"
+  },
+  {
+    "id": 93,
+    "name": "Wrath"
+  },
+  {
+    "id": 94,
+    "name": "Wrath II"
+  },
+  {
+    "id": 95,
+    "name": "Wrath III"
+  },
+  {
+    "id": 96,
+    "name": "Wrath IV"
+  },
+  {
+    "id": 97,
+    "name": "Infuriated"
+  },
+  {
+    "id": 98,
+    "name": "Dragon Kick"
+  },
+  {
+    "id": 99,
+    "name": "Featherfoot"
+  },
+  {
+    "id": 100,
+    "name": "Internal Release"
+  },
+  {
+    "id": 101,
+    "name": "Twin Snakes"
+  },
+  {
+    "id": 102,
+    "name": "Mantra"
+  },
+  {
+    "id": 103,
+    "name": "Fists of Fire"
+  },
+  {
+    "id": 104,
+    "name": "Fists of Earth"
+  },
+  {
+    "id": 105,
+    "name": "Fists of Wind"
+  },
+  {
+    "id": 106,
+    "name": "Touch of Death"
+  },
+  {
+    "id": 107,
+    "name": "Opo-opo Form"
+  },
+  {
+    "id": 108,
+    "name": "Raptor Form"
+  },
+  {
+    "id": 109,
+    "name": "Coeurl Form"
+  },
+  {
+    "id": 110,
+    "name": "Perfect Balance"
+  },
+  {
+    "id": 111,
+    "name": "Greased Lightning"
+  },
+  {
+    "id": 112,
+    "name": "Greased Lightning II"
+  },
+  {
+    "id": 113,
+    "name": "Greased Lightning III"
+  },
+  {
+    "id": 114,
+    "name": "Keen Flurry"
+  },
+  {
+    "id": 115,
+    "name": "Heavy Thrust"
+  },
+  {
+    "id": 116,
+    "name": "Life Surge"
+  },
+  {
+    "id": 117,
+    "name": "Blood for Blood"
+  },
+  {
+    "id": 118,
+    "name": "Chaos Thrust"
+  },
+  {
+    "id": 119,
+    "name": "Phlebotomize"
+  },
+  {
+    "id": 120,
+    "name": "Power Surge"
+  },
+  {
+    "id": 121,
+    "name": "Disembowel"
+  },
+  {
+    "id": 122,
+    "name": "Straight Shot Ready"
+  },
+  {
+    "id": 123,
+    "name": "Hawk's Eye"
+  },
+  {
+    "id": 124,
+    "name": "Venomous Bite"
+  },
+  {
+    "id": 125,
+    "name": "Raging Strikes"
+  },
+  {
+    "id": 126,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 127,
+    "name": "Diversion"
+  },
+  {
+    "id": 128,
+    "name": "Barrage"
+  },
+  {
+    "id": 129,
+    "name": "Windbite"
+  },
+  {
+    "id": 130,
+    "name": "Straight Shot"
+  },
+  {
+    "id": 131,
+    "name": "Downpour of Death"
+  },
+  {
+    "id": 132,
+    "name": "Quicker Nock"
+  },
+  {
+    "id": 133,
+    "name": "Swiftsong"
+  },
+  {
+    "id": 134,
+    "name": "Swiftsong"
+  },
+  {
+    "id": 135,
+    "name": "Mage's Ballad"
+  },
+  {
+    "id": 136,
+    "name": "Mage's Ballad"
+  },
+  {
+    "id": 137,
+    "name": "Army's Paeon"
+  },
+  {
+    "id": 138,
+    "name": "Army's Paeon"
+  },
+  {
+    "id": 139,
+    "name": "Foe Requiem"
+  },
+  {
+    "id": 140,
+    "name": "Foe Requiem"
+  },
+  {
+    "id": 141,
+    "name": "Battle Voice"
+  },
+  {
+    "id": 142,
+    "name": "Stun"
+  },
+  {
+    "id": 143,
+    "name": "Aero"
+  },
+  {
+    "id": 144,
+    "name": "Aero II"
+  },
+  {
+    "id": 145,
+    "name": "Cleric Stance"
+  },
+  {
+    "id": 146,
+    "name": "Protect"
+  },
+  {
+    "id": 147,
+    "name": "Protect"
+  },
+  {
+    "id": 148,
+    "name": "Raise"
+  },
+  {
+    "id": 149,
+    "name": "Stun"
+  },
+  {
+    "id": 150,
+    "name": "Medica II"
+  },
+  {
+    "id": 151,
+    "name": "Stoneskin"
+  },
+  {
+    "id": 152,
+    "name": "Stoneskin (Physical)"
+  },
+  {
+    "id": 153,
+    "name": "Stoneskin (Magical)"
+  },
+  {
+    "id": 154,
+    "name": "Shroud of Saints"
+  },
+  {
+    "id": 155,
+    "name": "Freecure"
+  },
+  {
+    "id": 156,
+    "name": "Overcure"
+  },
+  {
+    "id": 157,
+    "name": "Presence of Mind"
+  },
+  {
+    "id": 158,
+    "name": "Regen"
+  },
+  {
+    "id": 159,
+    "name": "Divine Seal"
+  },
+  {
+    "id": 160,
+    "name": "Surecast"
+  },
+  {
+    "id": 161,
+    "name": "Thunder"
+  },
+  {
+    "id": 162,
+    "name": "Thunder II"
+  },
+  {
+    "id": 163,
+    "name": "Thunder III"
+  },
+  {
+    "id": 164,
+    "name": "Thundercloud"
+  },
+  {
+    "id": 165,
+    "name": "Firestarter"
+  },
+  {
+    "id": 166,
+    "name": "Succor"
+  },
+  {
+    "id": 167,
+    "name": "Swiftcast"
+  },
+  {
+    "id": 168,
+    "name": "Manaward"
+  },
+  {
+    "id": 169,
+    "name": "Manawall"
+  },
+  {
+    "id": 170,
+    "name": "Apocatastasis"
+  },
+  {
+    "id": 171,
+    "name": "Ekpyrosis"
+  },
+  {
+    "id": 172,
+    "name": "Infirmity"
+  },
+  {
+    "id": 173,
+    "name": "Astral Fire"
+  },
+  {
+    "id": 174,
+    "name": "Astral Fire II"
+  },
+  {
+    "id": 175,
+    "name": "Astral Fire III"
+  },
+  {
+    "id": 176,
+    "name": "Umbral Ice"
+  },
+  {
+    "id": 177,
+    "name": "Umbral Ice II"
+  },
+  {
+    "id": 178,
+    "name": "Umbral Ice III"
+  },
+  {
+    "id": 179,
+    "name": "Bio"
+  },
+  {
+    "id": 180,
+    "name": "Miasma"
+  },
+  {
+    "id": 181,
+    "name": "Disease"
+  },
+  {
+    "id": 182,
+    "name": "Virus"
+  },
+  {
+    "id": 183,
+    "name": "Fever"
+  },
+  {
+    "id": 184,
+    "name": "Sustain"
+  },
+  {
+    "id": 185,
+    "name": "Eye for an Eye"
+  },
+  {
+    "id": 186,
+    "name": "Eye for an Eye"
+  },
+  {
+    "id": 187,
+    "name": "Rouse"
+  },
+  {
+    "id": 188,
+    "name": "Miasma II"
+  },
+  {
+    "id": 189,
+    "name": "Bio II"
+  },
+  {
+    "id": 190,
+    "name": "Shadow Flare"
+  },
+  {
+    "id": 191,
+    "name": "Malady"
+  },
+  {
+    "id": 192,
+    "name": "Spur"
+  },
+  {
+    "id": 193,
+    "name": "Slow"
+  },
+  {
+    "id": 194,
+    "name": "Shield Wall"
+  },
+  {
+    "id": 195,
+    "name": "Stronghold"
+  },
+  {
+    "id": 196,
+    "name": "Last Bastion"
+  },
+  {
+    "id": 197,
+    "name": "Blaze Spikes"
+  },
+  {
+    "id": 198,
+    "name": "Ice Spikes"
+  },
+  {
+    "id": 199,
+    "name": "Shock Spikes"
+  },
+  {
+    "id": 200,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 201,
+    "name": "Stun"
+  },
+  {
+    "id": 202,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 203,
+    "name": "Boost"
+  },
+  {
+    "id": 204,
+    "name": "Enfire"
+  },
+  {
+    "id": 205,
+    "name": "Enblizzard"
+  },
+  {
+    "id": 206,
+    "name": "Enaero"
+  },
+  {
+    "id": 207,
+    "name": "Enstone"
+  },
+  {
+    "id": 208,
+    "name": "Enthunder"
+  },
+  {
+    "id": 209,
+    "name": "Enwater"
+  },
+  {
+    "id": 210,
+    "name": "Doom"
+  },
+  {
+    "id": 211,
+    "name": "Sharpened Knife"
+  },
+  {
+    "id": 212,
+    "name": "True Sight"
+  },
+  {
+    "id": 213,
+    "name": "Pacification"
+  },
+  {
+    "id": 214,
+    "name": "Agitation"
+  },
+  {
+    "id": 215,
+    "name": "Damage Down"
+  },
+  {
+    "id": 216,
+    "name": "Paralysis"
+  },
+  {
+    "id": 217,
+    "name": "Triangulate"
+  },
+  {
+    "id": 218,
+    "name": "Gathering Rate Up"
+  },
+  {
+    "id": 219,
+    "name": "Gathering Yield Up"
+  },
+  {
+    "id": 220,
+    "name": "Gathering Fortune Up"
+  },
+  {
+    "id": 221,
+    "name": "Truth of Forests"
+  },
+  {
+    "id": 222,
+    "name": "Truth of Mountains"
+  },
+  {
+    "id": 223,
+    "name": "Byregot's Ward"
+  },
+  {
+    "id": 224,
+    "name": "Nophica's Ward"
+  },
+  {
+    "id": 225,
+    "name": "Prospect"
+  },
+  {
+    "id": 226,
+    "name": "Haste"
+  },
+  {
+    "id": 227,
+    "name": "Seduced"
+  },
+  {
+    "id": 228,
+    "name": "Menphina's Ward"
+  },
+  {
+    "id": 229,
+    "name": "Nald'thal's Ward"
+  },
+  {
+    "id": 230,
+    "name": "Llymlaen's Ward"
+  },
+  {
+    "id": 231,
+    "name": "Thaliak's Ward"
+  },
+  {
+    "id": 232,
+    "name": "Preparation"
+  },
+  {
+    "id": 233,
+    "name": "Arbor Call"
+  },
+  {
+    "id": 234,
+    "name": "Lay of the Land"
+  },
+  {
+    "id": 235,
+    "name": "Windburn"
+  },
+  {
+    "id": 236,
+    "name": "Choco Beak"
+  },
+  {
+    "id": 237,
+    "name": "Choco Regen"
+  },
+  {
+    "id": 238,
+    "name": "Choco Surge"
+  },
+  {
+    "id": 239,
+    "name": "The Echo"
+  },
+  {
+    "id": 240,
+    "name": "Heavy"
+  },
+  {
+    "id": 241,
+    "name": "Blessing of Light"
+  },
+  {
+    "id": 242,
+    "name": "Arbor Call II"
+  },
+  {
+    "id": 243,
+    "name": "Lay of the Land II"
+  },
+  {
+    "id": 244,
+    "name": "Fracture"
+  },
+  {
+    "id": 245,
+    "name": "Sanction"
+  },
+  {
+    "id": 246,
+    "name": "Demolish"
+  },
+  {
+    "id": 247,
+    "name": "Rain of Death"
+  },
+  {
+    "id": 248,
+    "name": "Circle of Scorn"
+  },
+  {
+    "id": 249,
+    "name": "Flaming Arrow"
+  },
+  {
+    "id": 250,
+    "name": "Burns"
+  },
+  {
+    "id": 251,
+    "name": "Inner Quiet"
+  },
+  {
+    "id": 252,
+    "name": "Waste Not"
+  },
+  {
+    "id": 253,
+    "name": "Steady Hand"
+  },
+  {
+    "id": 254,
+    "name": "Great Strides"
+  },
+  {
+    "id": 255,
+    "name": "Ingenuity"
+  },
+  {
+    "id": 256,
+    "name": "Ingenuity II"
+  },
+  {
+    "id": 257,
+    "name": "Waste Not II"
+  },
+  {
+    "id": 258,
+    "name": "Manipulation"
+  },
+  {
+    "id": 259,
+    "name": "Innovation"
+  },
+  {
+    "id": 260,
+    "name": "Reclaim"
+  },
+  {
+    "id": 261,
+    "name": "Comfort Zone"
+  },
+  {
+    "id": 262,
+    "name": "Steady Hand II"
+  },
+  {
+    "id": 263,
+    "name": "Damage Up"
+  },
+  {
+    "id": 264,
+    "name": "Flesh Wound"
+  },
+  {
+    "id": 265,
+    "name": "Stab Wound"
+  },
+  {
+    "id": 266,
+    "name": "Concussion"
+  },
+  {
+    "id": 267,
+    "name": "Burns"
+  },
+  {
+    "id": 268,
+    "name": "Frostbite"
+  },
+  {
+    "id": 269,
+    "name": "Windburn"
+  },
+  {
+    "id": 270,
+    "name": "Sludge"
+  },
+  {
+    "id": 271,
+    "name": "Electrocution"
+  },
+  {
+    "id": 272,
+    "name": "Dropsy"
+  },
+  {
+    "id": 273,
+    "name": "Bleeding"
+  },
+  {
+    "id": 274,
+    "name": "Recuperation"
+  },
+  {
+    "id": 275,
+    "name": "Poison +1"
+  },
+  {
+    "id": 276,
+    "name": "Voice of Valor"
+  },
+  {
+    "id": 277,
+    "name": "Voice of Fortitude"
+  },
+  {
+    "id": 278,
+    "name": "Relentless March"
+  },
+  {
+    "id": 279,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 280,
+    "name": "Bind"
+  },
+  {
+    "id": 281,
+    "name": "Physical Damage Down"
+  },
+  {
+    "id": 282,
+    "name": "Mana Modulation"
+  },
+  {
+    "id": 283,
+    "name": "Dropsy"
+  },
+  {
+    "id": 284,
+    "name": "Burns"
+  },
+  {
+    "id": 285,
+    "name": "Frostbite"
+  },
+  {
+    "id": 286,
+    "name": "Windburn"
+  },
+  {
+    "id": 287,
+    "name": "Sludge"
+  },
+  {
+    "id": 288,
+    "name": "Electrocution"
+  },
+  {
+    "id": 289,
+    "name": "Dropsy"
+  },
+  {
+    "id": 290,
+    "name": "Damage Up"
+  },
+  {
+    "id": 291,
+    "name": "Hundred Fists"
+  },
+  {
+    "id": 292,
+    "name": "Fetters"
+  },
+  {
+    "id": 293,
+    "name": "Skill Speed Up"
+  },
+  {
+    "id": 294,
+    "name": "Spell Speed Up"
+  },
+  {
+    "id": 295,
+    "name": "Goldbile"
+  },
+  {
+    "id": 296,
+    "name": "Hysteria"
+  },
+  {
+    "id": 297,
+    "name": "Galvanize"
+  },
+  {
+    "id": 298,
+    "name": "Sacred Soil"
+  },
+  {
+    "id": 299,
+    "name": "Sacred Soil",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 300,
+    "name": "Damage Up"
+  },
+  {
+    "id": 301,
+    "name": "Critical Strikes"
+  },
+  {
+    "id": 302,
+    "name": "Gold Lung"
+  },
+  {
+    "id": 303,
+    "name": "Burrs"
+  },
+  {
+    "id": 304,
+    "name": "Aetherflow"
+  },
+  {
+    "id": 305,
+    "name": "The Dragon's Curse"
+  },
+  {
+    "id": 306,
+    "name": "Inner Dragon"
+  },
+  {
+    "id": 307,
+    "name": "Voice of Valor"
+  },
+  {
+    "id": 308,
+    "name": "Voice of Fortitude"
+  },
+  {
+    "id": 309,
+    "name": "Relentless March"
+  },
+  {
+    "id": 310,
+    "name": "Curl"
+  },
+  {
+    "id": 311,
+    "name": "Earthen Ward"
+  },
+  {
+    "id": 312,
+    "name": "Razed Earth"
+  },
+  {
+    "id": 313,
+    "name": "Radiant Shield"
+  },
+  {
+    "id": 314,
+    "name": "Inferno"
+  },
+  {
+    "id": 315,
+    "name": "Whispering Dawn"
+  },
+  {
+    "id": 316,
+    "name": "Fey Covenant"
+  },
+  {
+    "id": 317,
+    "name": "Fey Illumination",
+    "mit": {
+      "value": 5,
+      "type": "all"
+    }
+  },
+  {
+    "id": 318,
+    "name": "Fey Glow"
+  },
+  {
+    "id": 319,
+    "name": "Fey Light"
+  },
+  {
+    "id": 320,
+    "name": "Bleeding"
+  },
+  {
+    "id": 321,
+    "name": "Gungnir"
+  },
+  {
+    "id": 322,
+    "name": "Crystal Veil"
+  },
+  {
+    "id": 323,
+    "name": "Reduced Immunity"
+  },
+  {
+    "id": 324,
+    "name": "Greenwrath"
+  },
+  {
+    "id": 325,
+    "name": "Invincibility"
+  },
+  {
+    "id": 326,
+    "name": "Lightning Charge"
+  },
+  {
+    "id": 327,
+    "name": "Ice Charge"
+  },
+  {
+    "id": 328,
+    "name": "Heart of the Mountain"
+  },
+  {
+    "id": 329,
+    "name": "Modification"
+  },
+  {
+    "id": 330,
+    "name": "Haste"
+  },
+  {
+    "id": 331,
+    "name": "Magic Vulnerability Down"
+  },
+  {
+    "id": 332,
+    "name": "Damage Up"
+  },
+  {
+    "id": 333,
+    "name": "Allagan Rot"
+  },
+  {
+    "id": 334,
+    "name": "Allagan Immunity"
+  },
+  {
+    "id": 335,
+    "name": "Firestream"
+  },
+  {
+    "id": 336,
+    "name": "Sequence AB1"
+  },
+  {
+    "id": 337,
+    "name": "Sequence AP1"
+  },
+  {
+    "id": 338,
+    "name": "Sequence AS1"
+  },
+  {
+    "id": 339,
+    "name": "Bleeding"
+  },
+  {
+    "id": 340,
+    "name": "Physical Field"
+  },
+  {
+    "id": 341,
+    "name": "Aetherial Field"
+  },
+  {
+    "id": 342,
+    "name": "Repelling Spray"
+  },
+  {
+    "id": 343,
+    "name": "Bleeding"
+  },
+  {
+    "id": 344,
+    "name": "Neurolink"
+  },
+  {
+    "id": 345,
+    "name": "Recharge"
+  },
+  {
+    "id": 346,
+    "name": "Waxen Flesh"
+  },
+  {
+    "id": 347,
+    "name": "Pox"
+  },
+  {
+    "id": 348,
+    "name": "Disseminate"
+  },
+  {
+    "id": 349,
+    "name": "Steel Scales"
+  },
+  {
+    "id": 350,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 351,
+    "name": "Rancor"
+  },
+  {
+    "id": 352,
+    "name": "Spjot"
+  },
+  {
+    "id": 353,
+    "name": "Brave New World"
+  },
+  {
+    "id": 354,
+    "name": "Live off the Land"
+  },
+  {
+    "id": 355,
+    "name": "What You See"
+  },
+  {
+    "id": 356,
+    "name": "Eat from the Hand"
+  },
+  {
+    "id": 357,
+    "name": "In Control"
+  },
+  {
+    "id": 358,
+    "name": "Snowman"
+  },
+  {
+    "id": 359,
+    "name": "Fey Fire"
+  },
+  {
+    "id": 360,
+    "name": "Meat and Mead"
+  },
+  {
+    "id": 361,
+    "name": "That Which Binds Us"
+  },
+  {
+    "id": 362,
+    "name": "Proper Care"
+  },
+  {
+    "id": 363,
+    "name": "Back on Your Feet"
+  },
+  {
+    "id": 364,
+    "name": "Reduced Rates"
+  },
+  {
+    "id": 365,
+    "name": "The Heat of Battle"
+  },
+  {
+    "id": 366,
+    "name": "A Man's Best Friend"
+  },
+  {
+    "id": 367,
+    "name": "Earth and Water"
+  },
+  {
+    "id": 368,
+    "name": "Helping Hand"
+  },
+  {
+    "id": 369,
+    "name": "Viscous Aetheroplasm"
+  },
+  {
+    "id": 370,
+    "name": "Siren Song"
+  },
+  {
+    "id": 371,
+    "name": "Zombification"
+  },
+  {
+    "id": 372,
+    "name": "Brood Rage"
+  },
+  {
+    "id": 373,
+    "name": "Blight"
+  },
+  {
+    "id": 374,
+    "name": "Corrupted Crystal"
+  },
+  {
+    "id": 375,
+    "name": "Suppuration"
+  },
+  {
+    "id": 376,
+    "name": "Searing Wind"
+  },
+  {
+    "id": 377,
+    "name": "Infernal Fetters"
+  },
+  {
+    "id": 378,
+    "name": "Death Throes"
+  },
+  {
+    "id": 379,
+    "name": "Thermal Low"
+  },
+  {
+    "id": 380,
+    "name": "Thermal High"
+  },
+  {
+    "id": 381,
+    "name": "Sword Oath"
+  },
+  {
+    "id": 382,
+    "name": ""
+  },
+  {
+    "id": 383,
+    "name": "Growing"
+  },
+  {
+    "id": 384,
+    "name": "Full-grown"
+  },
+  {
+    "id": 385,
+    "name": "Fool's Tightrope"
+  },
+  {
+    "id": 386,
+    "name": "Unfooled"
+  },
+  {
+    "id": 387,
+    "name": "Fool's Tumble"
+  },
+  {
+    "id": 388,
+    "name": "Fool's Figure"
+  },
+  {
+    "id": 389,
+    "name": "Skewer"
+  },
+  {
+    "id": 390,
+    "name": "Growing"
+  },
+  {
+    "id": 391,
+    "name": "Full-grown"
+  },
+  {
+    "id": 392,
+    "name": "Royal Guard"
+  },
+  {
+    "id": 393,
+    "name": "Iron Will"
+  },
+  {
+    "id": 394,
+    "name": "Invincibility"
+  },
+  {
+    "id": 395,
+    "name": "Physical Damage Down"
+  },
+  {
+    "id": 396,
+    "name": "Concentration"
+  },
+  {
+    "id": 397,
+    "name": "Safeguard"
+  },
+  {
+    "id": 398,
+    "name": "Astral Realignment"
+  },
+  {
+    "id": 399,
+    "name": "Corporeal Return"
+  },
+  {
+    "id": 400,
+    "name": "Charge"
+  },
+  {
+    "id": 401,
+    "name": "Seized"
+  },
+  {
+    "id": 402,
+    "name": "Thrown for a Loop"
+  },
+  {
+    "id": 403,
+    "name": "Damage Up"
+  },
+  {
+    "id": 404,
+    "name": "Transporting"
+  },
+  {
+    "id": 405,
+    "name": "Bewildered"
+  },
+  {
+    "id": 406,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 407,
+    "name": "Dust Poisoning"
+  },
+  {
+    "id": 408,
+    "name": "Storm's Path"
+  },
+  {
+    "id": 409,
+    "name": "Holmgang"
+  },
+  {
+    "id": 410,
+    "name": "Antibody"
+  },
+  {
+    "id": 411,
+    "name": "Inner Beast"
+  },
+  {
+    "id": 412,
+    "name": "Hover"
+  },
+  {
+    "id": 413,
+    "name": "Mark Up"
+  },
+  {
+    "id": 414,
+    "name": "Seal Sweetener"
+  },
+  {
+    "id": 415,
+    "name": "Regain"
+  },
+  {
+    "id": 416,
+    "name": "Transparent"
+  },
+  {
+    "id": 417,
+    "name": "Protect"
+  },
+  {
+    "id": 418,
+    "name": "Physical Vulnerability Down"
+  },
+  {
+    "id": 419,
+    "name": "Misty Veil"
+  },
+  {
+    "id": 420,
+    "name": "Prey"
+  },
+  {
+    "id": 421,
+    "name": "Devoured"
+  },
+  {
+    "id": 422,
+    "name": "Healing Magic Down"
+  },
+  {
+    "id": 423,
+    "name": "Nightmare"
+  },
+  {
+    "id": 424,
+    "name": "Diabolic Curse"
+  },
+  {
+    "id": 425,
+    "name": "Eerie Air"
+  },
+  {
+    "id": 426,
+    "name": "Noctoshield"
+  },
+  {
+    "id": 427,
+    "name": "Slow+"
+  },
+  {
+    "id": 428,
+    "name": "Haste+"
+  },
+  {
+    "id": 429,
+    "name": "Scale Flakes"
+  },
+  {
+    "id": 430,
+    "name": "Misery"
+  },
+  {
+    "id": 431,
+    "name": "Water Resistance Down"
+  },
+  {
+    "id": 432,
+    "name": "Briny Mirror"
+  },
+  {
+    "id": 433,
+    "name": "Briny Veil"
+  },
+  {
+    "id": 434,
+    "name": "Absolute Bind"
+  },
+  {
+    "id": 435,
+    "name": "Demon Eye"
+  },
+  {
+    "id": 436,
+    "name": "Briar"
+  },
+  {
+    "id": 437,
+    "name": "Stone Curse"
+  },
+  {
+    "id": 438,
+    "name": "Minimum"
+  },
+  {
+    "id": 439,
+    "name": "Toad"
+  },
+  {
+    "id": 440,
+    "name": "Minimum"
+  },
+  {
+    "id": 441,
+    "name": "Toad"
+  },
+  {
+    "id": 442,
+    "name": "Slow"
+  },
+  {
+    "id": 443,
+    "name": "Damage Up"
+  },
+  {
+    "id": 444,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 445,
+    "name": "Thorny Vine"
+  },
+  {
+    "id": 446,
+    "name": "Honey-glazed"
+  },
+  {
+    "id": 447,
+    "name": "Potent Acid"
+  },
+  {
+    "id": 448,
+    "name": "Swarmed"
+  },
+  {
+    "id": 449,
+    "name": "Stung"
+  },
+  {
+    "id": 450,
+    "name": "Petrification Resistance"
+  },
+  {
+    "id": 451,
+    "name": "Cursed Voice"
+  },
+  {
+    "id": 452,
+    "name": "Cursed Shriek"
+  },
+  {
+    "id": 453,
+    "name": "Allagan Venom"
+  },
+  {
+    "id": 454,
+    "name": "Allagan Field"
+  },
+  {
+    "id": 455,
+    "name": "Languishing"
+  },
+  {
+    "id": 456,
+    "name": "HP Penalty"
+  },
+  {
+    "id": 457,
+    "name": "Bind+"
+  },
+  {
+    "id": 458,
+    "name": "Raven Blight"
+  },
+  {
+    "id": 459,
+    "name": "Normal Stance"
+  },
+  {
+    "id": 460,
+    "name": "Aggressive Stance"
+  },
+  {
+    "id": 461,
+    "name": "Subversive Stance"
+  },
+  {
+    "id": 462,
+    "name": "Garrote Twist"
+  },
+  {
+    "id": 463,
+    "name": "Garrote"
+  },
+  {
+    "id": 464,
+    "name": "Firescorched"
+  },
+  {
+    "id": 465,
+    "name": "Icebitten"
+  },
+  {
+    "id": 466,
+    "name": "Thunderstruck"
+  },
+  {
+    "id": 467,
+    "name": "Briny Veil"
+  },
+  {
+    "id": 468,
+    "name": "Voidbound"
+  },
+  {
+    "id": 469,
+    "name": "High and Mighty"
+  },
+  {
+    "id": 470,
+    "name": "Pombination"
+  },
+  {
+    "id": 471,
+    "name": "Moglight Resistance Down"
+  },
+  {
+    "id": 472,
+    "name": "Mogdark Resistance Down"
+  },
+  {
+    "id": 473,
+    "name": "Bemoggled"
+  },
+  {
+    "id": 474,
+    "name": "Royal Rouse"
+  },
+  {
+    "id": 475,
+    "name": "Slippery Prey"
+  },
+  {
+    "id": 476,
+    "name": "Gloam"
+  },
+  {
+    "id": 477,
+    "name": "Mantle of the Whorl"
+  },
+  {
+    "id": 478,
+    "name": "Veil of the Whorl"
+  },
+  {
+    "id": 479,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 480,
+    "name": "Haste+"
+  },
+  {
+    "id": 481,
+    "name": "Sprint"
+  },
+  {
+    "id": 482,
+    "name": "Paralysis"
+  },
+  {
+    "id": 483,
+    "name": "HP Boost"
+  },
+  {
+    "id": 484,
+    "name": "Ink"
+  },
+  {
+    "id": 485,
+    "name": "Dropsy"
+  },
+  {
+    "id": 486,
+    "name": "Watery Grave"
+  },
+  {
+    "id": 487,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 488,
+    "name": "Shade Shift"
+  },
+  {
+    "id": 489,
+    "name": "Kiss of the Wasp"
+  },
+  {
+    "id": 490,
+    "name": "Kiss of the Viper"
+  },
+  {
+    "id": 491,
+    "name": "Dancing Edge"
+  },
+  {
+    "id": 492,
+    "name": "Mutilation"
+  },
+  {
+    "id": 493,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 494,
+    "name": "Magic Vulnerability Up"
+  },
+  {
+    "id": 495,
+    "name": "Goad"
+  },
+  {
+    "id": 496,
+    "name": "Mudra"
+  },
+  {
+    "id": 497,
+    "name": "Kassatsu"
+  },
+  {
+    "id": 498,
+    "name": "Infirmity"
+  },
+  {
+    "id": 499,
+    "name": ""
+  },
+  {
+    "id": 500,
+    "name": "Huton"
+  },
+  {
+    "id": 501,
+    "name": "Doton"
+  },
+  {
+    "id": 502,
+    "name": "Doton Heavy"
+  },
+  {
+    "id": 503,
+    "name": "Burns"
+  },
+  {
+    "id": 504,
+    "name": "Fetters"
+  },
+  {
+    "id": 505,
+    "name": "Damage Up"
+  },
+  {
+    "id": 506,
+    "name": "Vertigo"
+  },
+  {
+    "id": 507,
+    "name": "Suiton"
+  },
+  {
+    "id": 508,
+    "name": "Shadow Fang"
+  },
+  {
+    "id": 509,
+    "name": "Aetherochemical Bomb"
+  },
+  {
+    "id": 510,
+    "name": "Fetters"
+  },
+  {
+    "id": 511,
+    "name": "Fire Toad"
+  },
+  {
+    "id": 512,
+    "name": "Electroconductivity"
+  },
+  {
+    "id": 513,
+    "name": "Static Condensation"
+  },
+  {
+    "id": 514,
+    "name": "Causality"
+  },
+  {
+    "id": 515,
+    "name": "Thunderclap"
+  },
+  {
+    "id": 516,
+    "name": "Chaos"
+  },
+  {
+    "id": 517,
+    "name": "Surge Protection"
+  },
+  {
+    "id": 518,
+    "name": "Reflect"
+  },
+  {
+    "id": 519,
+    "name": "Counter"
+  },
+  {
+    "id": 520,
+    "name": "Fire Resistance Up"
+  },
+  {
+    "id": 521,
+    "name": "Water Resistance Up"
+  },
+  {
+    "id": 522,
+    "name": "Wind Resistance Up"
+  },
+  {
+    "id": 523,
+    "name": "Lightning Resistance Up"
+  },
+  {
+    "id": 524,
+    "name": "Earth Resistance Up"
+  },
+  {
+    "id": 525,
+    "name": "Ice Resistance Up"
+  },
+  {
+    "id": 526,
+    "name": "Frost Blade"
+  },
+  {
+    "id": 527,
+    "name": "Frost Brand"
+  },
+  {
+    "id": 528,
+    "name": "Frost Bow"
+  },
+  {
+    "id": 529,
+    "name": "Invincibility"
+  },
+  {
+    "id": 530,
+    "name": "Burns"
+  },
+  {
+    "id": 531,
+    "name": "Dropsy"
+  },
+  {
+    "id": 532,
+    "name": "Windburn"
+  },
+  {
+    "id": 533,
+    "name": "Electrocution"
+  },
+  {
+    "id": 534,
+    "name": "Sludge"
+  },
+  {
+    "id": 535,
+    "name": "Frostbite"
+  },
+  {
+    "id": 536,
+    "name": "Companion EXP Up"
+  },
+  {
+    "id": 537,
+    "name": "Companion EXP Up II"
+  },
+  {
+    "id": 538,
+    "name": "Companion Attack Up"
+  },
+  {
+    "id": 539,
+    "name": "Companion Attack Up II"
+  },
+  {
+    "id": 540,
+    "name": "Companion Healing Potency Up"
+  },
+  {
+    "id": 541,
+    "name": "Companion Healing Potency Up II"
+  },
+  {
+    "id": 542,
+    "name": "Companion Maximum HP Up"
+  },
+  {
+    "id": 543,
+    "name": "Companion Maximum HP Up II"
+  },
+  {
+    "id": 544,
+    "name": "Companion Enmity Up"
+  },
+  {
+    "id": 545,
+    "name": "Companion Enmity Up II"
+  },
+  {
+    "id": 546,
+    "name": "Enervation"
+  },
+  {
+    "id": 547,
+    "name": "Facility Access: Production"
+  },
+  {
+    "id": 548,
+    "name": "Facility Access: Finishing"
+  },
+  {
+    "id": 549,
+    "name": "Facility Access: Detailing"
+  },
+  {
+    "id": 550,
+    "name": "Facility Access: Production II"
+  },
+  {
+    "id": 551,
+    "name": "Facility Access: Specialization"
+  },
+  {
+    "id": 552,
+    "name": "Facility Access: Specialization II"
+  },
+  {
+    "id": 553,
+    "name": "Facility Access: Detailing II"
+  },
+  {
+    "id": 554,
+    "name": "Facility Access: Finishing II"
+  },
+  {
+    "id": 555,
+    "name": "Repelling Spray"
+  },
+  {
+    "id": 556,
+    "name": "Repelling Spray"
+  },
+  {
+    "id": 557,
+    "name": "Repelling Spray"
+  },
+  {
+    "id": 558,
+    "name": "Repelling Spray"
+  },
+  {
+    "id": 559,
+    "name": "Poison"
+  },
+  {
+    "id": 560,
+    "name": "Poison"
+  },
+  {
+    "id": 561,
+    "name": "Slow"
+  },
+  {
+    "id": 562,
+    "name": "Prey"
+  },
+  {
+    "id": 563,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 564,
+    "name": "Bind"
+  },
+  {
+    "id": 565,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 566,
+    "name": "Damage Up"
+  },
+  {
+    "id": 567,
+    "name": "6 Fulms Under"
+  },
+  {
+    "id": 568,
+    "name": "Fisher's Intuition"
+  },
+  {
+    "id": 569,
+    "name": "Slime"
+  },
+  {
+    "id": 570,
+    "name": "In the Line of Fire"
+  },
+  {
+    "id": 571,
+    "name": "Blind"
+  },
+  {
+    "id": 572,
+    "name": "Slashing Resistance Down"
+  },
+  {
+    "id": 573,
+    "name": "Blunt Resistance Down"
+  },
+  {
+    "id": 574,
+    "name": "Erratic Blaster"
+  },
+  {
+    "id": 575,
+    "name": "Static Charge"
+  },
+  {
+    "id": 576,
+    "name": "Lightning Resistance Down"
+  },
+  {
+    "id": 577,
+    "name": "Barofield"
+  },
+  {
+    "id": 578,
+    "name": "In the Headlights"
+  },
+  {
+    "id": 579,
+    "name": "Critical Strikes"
+  },
+  {
+    "id": 580,
+    "name": "Aetherochemical Nanospores α"
+  },
+  {
+    "id": 581,
+    "name": "Aetherochemical Nanospores β"
+  },
+  {
+    "id": 582,
+    "name": "Magic Vulnerability Down"
+  },
+  {
+    "id": 583,
+    "name": "Physical Vulnerability Down"
+  },
+  {
+    "id": 584,
+    "name": "Energy Field"
+  },
+  {
+    "id": 585,
+    "name": "Energy Field Down"
+  },
+  {
+    "id": 586,
+    "name": "HP Boost"
+  },
+  {
+    "id": 587,
+    "name": "Forked Lightning"
+  },
+  {
+    "id": 588,
+    "name": "Revelation Resistance Down"
+  },
+  {
+    "id": 589,
+    "name": "Chain of Purgatory"
+  },
+  {
+    "id": 590,
+    "name": "Arm of Purgatory"
+  },
+  {
+    "id": 591,
+    "name": "Bluefire"
+  },
+  {
+    "id": 592,
+    "name": "Ring of Fire"
+  },
+  {
+    "id": 593,
+    "name": "Rise of the Phoenix"
+  },
+  {
+    "id": 594,
+    "name": "Harvest"
+  },
+  {
+    "id": 595,
+    "name": "Cloak of Death"
+  },
+  {
+    "id": 596,
+    "name": "Suffocated Will"
+  },
+  {
+    "id": 597,
+    "name": "Flare Dampening"
+  },
+  {
+    "id": 598,
+    "name": "(仮)物理シールド(ストンスキン)"
+  },
+  {
+    "id": 599,
+    "name": "(仮)魔法シールド(ストンスキン)"
+  },
+  {
+    "id": 600,
+    "name": "Magic Vulnerability Down"
+  },
+  {
+    "id": 601,
+    "name": "Physical Vulnerability Down"
+  },
+  {
+    "id": 602,
+    "name": "Curse of the Mummy"
+  },
+  {
+    "id": 603,
+    "name": "Mummification"
+  },
+  {
+    "id": 604,
+    "name": "Thin Ice"
+  },
+  {
+    "id": 605,
+    "name": "Frostbite"
+  },
+  {
+    "id": 606,
+    "name": "Frozen"
+  },
+  {
+    "id": 607,
+    "name": "Snowball"
+  },
+  {
+    "id": 608,
+    "name": "Death Throes"
+  },
+  {
+    "id": 609,
+    "name": "Seized"
+  },
+  {
+    "id": 610,
+    "name": "Petrification"
+  },
+  {
+    "id": 611,
+    "name": "Invigoration"
+  },
+  {
+    "id": 612,
+    "name": "Wet Plate"
+  },
+  {
+    "id": 613,
+    "name": "Imp"
+  },
+  {
+    "id": 614,
+    "name": "Hidden"
+  },
+  {
+    "id": 615,
+    "name": "Hidden"
+  },
+  {
+    "id": 616,
+    "name": "Invisible"
+  },
+  {
+    "id": 617,
+    "name": "Irradiated"
+  },
+  {
+    "id": 618,
+    "name": "Area of Influence Up"
+  },
+  {
+    "id": 619,
+    "name": "Burns"
+  },
+  {
+    "id": 620,
+    "name": "Pacification"
+  },
+  {
+    "id": 621,
+    "name": "Fire Resistance Down"
+  },
+  {
+    "id": 622,
+    "name": "Rotting Lungs"
+  },
+  {
+    "id": 623,
+    "name": "Disease"
+  },
+  {
+    "id": 624,
+    "name": "Flesh Wound"
+  },
+  {
+    "id": 625,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 626,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 627,
+    "name": "Neurolink"
+  },
+  {
+    "id": 628,
+    "name": "Damage Down"
+  },
+  {
+    "id": 629,
+    "name": "Infirmity"
+  },
+  {
+    "id": 630,
+    "name": "Heavy"
+  },
+  {
+    "id": 631,
+    "name": "Tireless"
+  },
+  {
+    "id": 632,
+    "name": "Frenzied"
+  },
+  {
+    "id": 633,
+    "name": "Lamed"
+  },
+  {
+    "id": 634,
+    "name": "Silenced"
+  },
+  {
+    "id": 635,
+    "name": "Distracted"
+  },
+  {
+    "id": 636,
+    "name": "Brand of the Sullen"
+  },
+  {
+    "id": 637,
+    "name": "Brand of the Ireful"
+  },
+  {
+    "id": 638,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 639,
+    "name": "Pyretic"
+  },
+  {
+    "id": 640,
+    "name": "Poison Resistance Up"
+  },
+  {
+    "id": 641,
+    "name": "Choco Reflect"
+  },
+  {
+    "id": 642,
+    "name": "Bleeding"
+  },
+  {
+    "id": 643,
+    "name": "Bleeding"
+  },
+  {
+    "id": 644,
+    "name": "Chicken"
+  },
+  {
+    "id": 645,
+    "name": "Digesting"
+  },
+  {
+    "id": 646,
+    "name": "Abandonment"
+  },
+  {
+    "id": 647,
+    "name": "Atrophy"
+  },
+  {
+    "id": 648,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 649,
+    "name": "Attack Up"
+  },
+  {
+    "id": 650,
+    "name": "Attack Magic Potency Up"
+  },
+  {
+    "id": 651,
+    "name": "Haste"
+  },
+  {
+    "id": 652,
+    "name": "HP & MP Boost"
+  },
+  {
+    "id": 653,
+    "name": "Battle High"
+  },
+  {
+    "id": 654,
+    "name": "Battle Fever"
+  },
+  {
+    "id": 655,
+    "name": "Aegis Boon"
+  },
+  {
+    "id": 656,
+    "name": "Invincibility"
+  },
+  {
+    "id": 657,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 658,
+    "name": "Magic Vulnerability Up"
+  },
+  {
+    "id": 659,
+    "name": "Blight"
+  },
+  {
+    "id": 660,
+    "name": "Extend"
+  },
+  {
+    "id": 661,
+    "name": "Double"
+  },
+  {
+    "id": 662,
+    "name": "Triple"
+  },
+  {
+    "id": 663,
+    "name": "Red Light"
+  },
+  {
+    "id": 664,
+    "name": "Prey"
+  },
+  {
+    "id": 665,
+    "name": "Slippery Prey"
+  },
+  {
+    "id": 666,
+    "name": "Electrocution"
+  },
+  {
+    "id": 667,
+    "name": "Fetters"
+  },
+  {
+    "id": 668,
+    "name": "Fetters"
+  },
+  {
+    "id": 669,
+    "name": "Movement Speed Up"
+  },
+  {
+    "id": 670,
+    "name": "Fire Resistance Down"
+  },
+  {
+    "id": 671,
+    "name": "Invincibility"
+  },
+  {
+    "id": 672,
+    "name": "Damage Up"
+  },
+  {
+    "id": 673,
+    "name": "Nanoparticles"
+  },
+  {
+    "id": 674,
+    "name": "Resin"
+  },
+  {
+    "id": 675,
+    "name": ""
+  },
+  {
+    "id": 676,
+    "name": "Concealed"
+  },
+  {
+    "id": 677,
+    "name": "Concentrated Poison"
+  },
+  {
+    "id": 678,
+    "name": "Tailwind"
+  },
+  {
+    "id": 679,
+    "name": "Windwall"
+  },
+  {
+    "id": 680,
+    "name": "Directional Parry"
+  },
+  {
+    "id": 681,
+    "name": "Offensive Optimization"
+  },
+  {
+    "id": 682,
+    "name": "Defensive Optimization"
+  },
+  {
+    "id": 683,
+    "name": "Blessing of Earth"
+  },
+  {
+    "id": 684,
+    "name": "Blessing of Fire"
+  },
+  {
+    "id": 685,
+    "name": "Wind Resistance Down"
+  },
+  {
+    "id": 686,
+    "name": "Poison"
+  },
+  {
+    "id": 687,
+    "name": "Damage Up"
+  },
+  {
+    "id": 688,
+    "name": "Hypercharge"
+  },
+  {
+    "id": 689,
+    "name": "Mana Capacitor"
+  },
+  {
+    "id": 690,
+    "name": "Muscle Activator"
+  },
+  {
+    "id": 691,
+    "name": "Marked for Vulnerability Up"
+  },
+  {
+    "id": 692,
+    "name": "Marked for Damage Down"
+  },
+  {
+    "id": 693,
+    "name": "Marked for Healing Magic Down"
+  },
+  {
+    "id": 694,
+    "name": "Hard Marked"
+  },
+  {
+    "id": 695,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 696,
+    "name": "Damage Down"
+  },
+  {
+    "id": 697,
+    "name": "Healing Magic Down"
+  },
+  {
+    "id": 698,
+    "name": "Positive Charge"
+  },
+  {
+    "id": 699,
+    "name": "Negative Charge"
+  },
+  {
+    "id": 700,
+    "name": "Throttle"
+  },
+  {
+    "id": 701,
+    "name": "Battle Efficiency Down"
+  },
+  {
+    "id": 702,
+    "name": "Bloated"
+  },
+  {
+    "id": 703,
+    "name": "Draconian Gaze"
+  },
+  {
+    "id": 704,
+    "name": "Draconian Light"
+  },
+  {
+    "id": 705,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 706,
+    "name": "Luminous Aetheroplasm"
+  },
+  {
+    "id": 707,
+    "name": "Decree Nisi A"
+  },
+  {
+    "id": 708,
+    "name": "Decree Nisi B"
+  },
+  {
+    "id": 709,
+    "name": "Heavy Feet"
+  },
+  {
+    "id": 710,
+    "name": "Charge"
+  },
+  {
+    "id": 711,
+    "name": "Temporary Insanity"
+  },
+  {
+    "id": 712,
+    "name": "Tempered Will"
+  },
+  {
+    "id": 713,
+    "name": "Severe Damage"
+  },
+  {
+    "id": 714,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 715,
+    "name": "Staggered"
+  },
+  {
+    "id": 716,
+    "name": "Turbulence"
+  },
+  {
+    "id": 717,
+    "name": "Will of the Wind"
+  },
+  {
+    "id": 718,
+    "name": "Will of the Water"
+  },
+  {
+    "id": 719,
+    "name": "Whaleback"
+  },
+  {
+    "id": 720,
+    "name": "Slashing Resistance Up"
+  },
+  {
+    "id": 721,
+    "name": "Piercing Resistance Up"
+  },
+  {
+    "id": 722,
+    "name": "Blunt Resistance Up"
+  },
+  {
+    "id": 723,
+    "name": "Aetherochemical Bomb"
+  },
+  {
+    "id": 724,
+    "name": "Strength Down"
+  },
+  {
+    "id": 725,
+    "name": "Goring Blade"
+  },
+  {
+    "id": 726,
+    "name": "Divine Veil"
+  },
+  {
+    "id": 727,
+    "name": "Divine Veil"
+  },
+  {
+    "id": 728,
+    "name": "Sheltron"
+  },
+  {
+    "id": 729,
+    "name": "Deliverance"
+  },
+  {
+    "id": 730,
+    "name": "Abandon"
+  },
+  {
+    "id": 731,
+    "name": "Abandon II"
+  },
+  {
+    "id": 732,
+    "name": "Abandon III"
+  },
+  {
+    "id": 733,
+    "name": "Abandon IV"
+  },
+  {
+    "id": 734,
+    "name": "Uncontrollable"
+  },
+  {
+    "id": 735,
+    "name": "Raw Intuition",
+    "mit": {
+      "value": 20,
+      "type": "all"
+    }
+  },
+  {
+    "id": 736,
+    "name": "Blood of the Dragon"
+  },
+  {
+    "id": 737,
+    "name": "Ley Lines"
+  },
+  {
+    "id": 738,
+    "name": "Circle of Power"
+  },
+  {
+    "id": 739,
+    "name": "Asylum"
+  },
+  {
+    "id": 740,
+    "name": "Shadowskin"
+  },
+  {
+    "id": 741,
+    "name": "Scourge"
+  },
+  {
+    "id": 742,
+    "name": "Blood Weapon"
+  },
+  {
+    "id": 743,
+    "name": "Grit"
+  },
+  {
+    "id": 744,
+    "name": "Dark Dance"
+  },
+  {
+    "id": 745,
+    "name": "Blood Price"
+  },
+  {
+    "id": 746,
+    "name": "Dark Mind",
+    "mit": {
+      "value": 20,
+      "type": "magic"
+    }
+  },
+  {
+    "id": 747,
+    "name": "Shadow Wall",
+    "mit": {
+      "value": 30,
+      "type": "all"
+    }
+  },
+  {
+    "id": 748,
+    "name": "Delirium"
+  },
+  {
+    "id": 749,
+    "name": "Salted Earth"
+  },
+  {
+    "id": 750,
+    "name": "Another Victim"
+  },
+  {
+    "id": 751,
+    "name": "Darkside"
+  },
+  {
+    "id": 752,
+    "name": "Dark Arts"
+  },
+  {
+    "id": 753,
+    "name": "Reprisal"
+  },
+  {
+    "id": 754,
+    "name": "Gathering Rate Up (Limited)"
+  },
+  {
+    "id": 755,
+    "name": "Gathering Fortune Up (Limited)"
+  },
+  {
+    "id": 756,
+    "name": "Gathering Yield Up (Limited)"
+  },
+  {
+    "id": 757,
+    "name": "Discerning Eye"
+  },
+  {
+    "id": 758,
+    "name": "Utmost Caution"
+  },
+  {
+    "id": 759,
+    "name": ""
+  },
+  {
+    "id": 760,
+    "name": "Single Mind"
+  },
+  {
+    "id": 761,
+    "name": "Snagging"
+  },
+  {
+    "id": 762,
+    "name": "Fish Eyes"
+  },
+  {
+    "id": 763,
+    "name": "Chum"
+  },
+  {
+    "id": 764,
+    "name": "Inefficient Hooking"
+  },
+  {
+    "id": 765,
+    "name": "Catch and Release"
+  },
+  {
+    "id": 766,
+    "name": "Anthropomorph"
+  },
+  {
+    "id": 767,
+    "name": "Chiromorph"
+  },
+  {
+    "id": 768,
+    "name": "Anemomorph"
+  },
+  {
+    "id": 769,
+    "name": "Burning Chains"
+  },
+  {
+    "id": 770,
+    "name": "Fetters"
+  },
+  {
+    "id": 771,
+    "name": ""
+  },
+  {
+    "id": 772,
+    "name": ""
+  },
+  {
+    "id": 773,
+    "name": "Enliven"
+  },
+  {
+    "id": 774,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 775,
+    "name": "Invincibility"
+  },
+  {
+    "id": 776,
+    "name": "Invincibility"
+  },
+  {
+    "id": 777,
+    "name": "Blessing of the Void"
+  },
+  {
+    "id": 778,
+    "name": "Earthen Accord"
+  },
+  {
+    "id": 779,
+    "name": "Out of Body"
+  },
+  {
+    "id": 780,
+    "name": "Resonant"
+  },
+  {
+    "id": 781,
+    "name": "Aether Sickness"
+  },
+  {
+    "id": 782,
+    "name": "Unbridled"
+  },
+  {
+    "id": 783,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 784,
+    "name": "Voidblood"
+  },
+  {
+    "id": 785,
+    "name": "Nymian Plague"
+  },
+  {
+    "id": 786,
+    "name": "Battle Litany"
+  },
+  {
+    "id": 787,
+    "name": "Silhouette"
+  },
+  {
+    "id": 788,
+    "name": "Shadewalker"
+  },
+  {
+    "id": 789,
+    "name": "Smoke Screen"
+  },
+  {
+    "id": 790,
+    "name": "Duality"
+  },
+  {
+    "id": 791,
+    "name": "Dissipation"
+  },
+  {
+    "id": 792,
+    "name": "Emergency Tactics"
+  },
+  {
+    "id": 793,
+    "name": "First Chakra"
+  },
+  {
+    "id": 794,
+    "name": "Second Chakra"
+  },
+  {
+    "id": 795,
+    "name": "Third Chakra"
+  },
+  {
+    "id": 796,
+    "name": "Fourth Chakra"
+  },
+  {
+    "id": 797,
+    "name": "Fifth Chakra"
+  },
+  {
+    "id": 798,
+    "name": "Aero III"
+  },
+  {
+    "id": 799,
+    "name": "Fey Wind"
+  },
+  {
+    "id": 800,
+    "name": "Fetters"
+  },
+  {
+    "id": 801,
+    "name": "Poison"
+  },
+  {
+    "id": 802,
+    "name": "Sharper Fang and Claw"
+  },
+  {
+    "id": 803,
+    "name": "Enhanced Wheeling Thrust"
+  },
+  {
+    "id": 804,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 805,
+    "name": "Collector's Glove"
+  },
+  {
+    "id": 806,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 807,
+    "name": "Aethertrail Attunement"
+  },
+  {
+    "id": 808,
+    "name": "Dreadwyrm Trance"
+  },
+  {
+    "id": 809,
+    "name": "Slime"
+  },
+  {
+    "id": 810,
+    "name": "Living Dead"
+  },
+  {
+    "id": 811,
+    "name": "Walking Dead"
+  },
+  {
+    "id": 812,
+    "name": "Magic Vulnerability Down"
+  },
+  {
+    "id": 813,
+    "name": "Dark Dance"
+  },
+  {
+    "id": 814,
+    "name": "Enhanced Unleash"
+  },
+  {
+    "id": 815,
+    "name": "Enhanced Benefic II"
+  },
+  {
+    "id": 816,
+    "name": "Enhanced Royal Road"
+  },
+  {
+    "id": 817,
+    "name": "Expanded Royal Road"
+  },
+  {
+    "id": 818,
+    "name": "Extended Royal Road"
+  },
+  {
+    "id": 819,
+    "name": "Slashing Resistance Down"
+  },
+  {
+    "id": 820,
+    "name": "Piercing Resistance Down"
+  },
+  {
+    "id": 821,
+    "name": "Blunt Resistance Down"
+  },
+  {
+    "id": 822,
+    "name": "Fetters"
+  },
+  {
+    "id": 823,
+    "name": "Seduced"
+  },
+  {
+    "id": 824,
+    "name": ""
+  },
+  {
+    "id": 825,
+    "name": "The Twelve's Bounty"
+  },
+  {
+    "id": 826,
+    "name": "Card Drawn"
+  },
+  {
+    "id": 827,
+    "name": "Royal Road"
+  },
+  {
+    "id": 828,
+    "name": "Card Held"
+  },
+  {
+    "id": 829,
+    "name": "The Balance"
+  },
+  {
+    "id": 830,
+    "name": "The Bole"
+  },
+  {
+    "id": 831,
+    "name": "The Arrow"
+  },
+  {
+    "id": 832,
+    "name": "The Spear"
+  },
+  {
+    "id": 833,
+    "name": "The Ewer"
+  },
+  {
+    "id": 834,
+    "name": "The Spire"
+  },
+  {
+    "id": 835,
+    "name": "Aspected Benefic"
+  },
+  {
+    "id": 836,
+    "name": "Aspected Helios"
+  },
+  {
+    "id": 837,
+    "name": "Nocturnal Field"
+  },
+  {
+    "id": 838,
+    "name": "Combust"
+  },
+  {
+    "id": 839,
+    "name": "Diurnal Sect"
+  },
+  {
+    "id": 840,
+    "name": "Nocturnal Sect"
+  },
+  {
+    "id": 841,
+    "name": "Lightspeed"
+  },
+  {
+    "id": 842,
+    "name": "Luminiferous Aether"
+  },
+  {
+    "id": 843,
+    "name": "Combust II"
+  },
+  {
+    "id": 844,
+    "name": "Disabled"
+  },
+  {
+    "id": 845,
+    "name": "Synastry"
+  },
+  {
+    "id": 846,
+    "name": "Synastry"
+  },
+  {
+    "id": 847,
+    "name": "Collective Unconscious"
+  },
+  {
+    "id": 848,
+    "name": "Collective Unconscious"
+  },
+  {
+    "id": 849,
+    "name": "Collective Unconscious"
+  },
+  {
+    "id": 850,
+    "name": "Gathering Fortune Up"
+  },
+  {
+    "id": 851,
+    "name": "Reassembled"
+  },
+  {
+    "id": 852,
+    "name": "Promotion"
+  },
+  {
+    "id": 853,
+    "name": "Rapid Fire"
+  },
+  {
+    "id": 854,
+    "name": "Lead Shot"
+  },
+  {
+    "id": 855,
+    "name": "Hot Shot"
+  },
+  {
+    "id": 856,
+    "name": "Enhanced Slug Shot"
+  },
+  {
+    "id": 857,
+    "name": "Cleaner Shot"
+  },
+  {
+    "id": 858,
+    "name": "Gauss Barrel"
+  },
+  {
+    "id": 859,
+    "name": "Rent Mind"
+  },
+  {
+    "id": 860,
+    "name": "Dismantled"
+  },
+  {
+    "id": 861,
+    "name": "Wildfire"
+  },
+  {
+    "id": 862,
+    "name": "Ammunition Loaded"
+  },
+  {
+    "id": 863,
+    "name": "Land Waker"
+  },
+  {
+    "id": 864,
+    "name": "Dark Force"
+  },
+  {
+    "id": 865,
+    "name": "The Wanderer's Minuet"
+  },
+  {
+    "id": 866,
+    "name": "The Warden's Paean"
+  },
+  {
+    "id": 867,
+    "name": "Sharpcast"
+  },
+  {
+    "id": 868,
+    "name": "Enochian"
+  },
+  {
+    "id": 869,
+    "name": "Carnal Chill"
+  },
+  {
+    "id": 870,
+    "name": "Push Back"
+  },
+  {
+    "id": 871,
+    "name": "Name of the Elements"
+  },
+  {
+    "id": 872,
+    "name": ""
+  },
+  {
+    "id": 873,
+    "name": ""
+  },
+  {
+    "id": 874,
+    "name": ""
+  },
+  {
+    "id": 875,
+    "name": ""
+  },
+  {
+    "id": 876,
+    "name": ""
+  },
+  {
+    "id": 877,
+    "name": "Nameless"
+  },
+  {
+    "id": 878,
+    "name": "Maker's Mark"
+  },
+  {
+    "id": 879,
+    "name": "Crafter's Soul"
+  },
+  {
+    "id": 880,
+    "name": "Whistle"
+  },
+  {
+    "id": 881,
+    "name": "Traders' Favor (Coerthas Western Highlands)"
+  },
+  {
+    "id": 882,
+    "name": "Traders' Favor (Dravanian Forelands)"
+  },
+  {
+    "id": 883,
+    "name": "Traders' Favor (Dravanian Hinterlands)"
+  },
+  {
+    "id": 884,
+    "name": "Traders' Favor (The Churning Mists)"
+  },
+  {
+    "id": 885,
+    "name": "Traders' Favor (The Sea of Clouds)"
+  },
+  {
+    "id": 886,
+    "name": "Traders' Favor (Azys Lla)"
+  },
+  {
+    "id": 887,
+    "name": "Matron's Favor (Coerthas Western Highlands)"
+  },
+  {
+    "id": 888,
+    "name": "Matron's Favor (Dravanian Forelands)"
+  },
+  {
+    "id": 889,
+    "name": "Matron's Favor (Dravanian Hinterlands)"
+  },
+  {
+    "id": 890,
+    "name": "Matron's Favor (The Churning Mists)"
+  },
+  {
+    "id": 891,
+    "name": "Matron's Favor (The Sea of Clouds)"
+  },
+  {
+    "id": 892,
+    "name": "Matron's Favor (Azys Lla)"
+  },
+  {
+    "id": 893,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 894,
+    "name": "Wind Resistance Down"
+  },
+  {
+    "id": 895,
+    "name": "Invincibility"
+  },
+  {
+    "id": 896,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 897,
+    "name": "Regen"
+  },
+  {
+    "id": 898,
+    "name": "Lightning Resistance Down"
+  },
+  {
+    "id": 899,
+    "name": "Physical Vulnerability Down"
+  },
+  {
+    "id": 900,
+    "name": "Temporal Displacement"
+  },
+  {
+    "id": 901,
+    "name": "Fetters"
+  },
+  {
+    "id": 902,
+    "name": "Jackpot"
+  },
+  {
+    "id": 903,
+    "name": "Collectable Synthesis"
+  },
+  {
+    "id": 904,
+    "name": "Prey"
+  },
+  {
+    "id": 905,
+    "name": "Thin Ice"
+  },
+  {
+    "id": 906,
+    "name": "Darkness"
+  },
+  {
+    "id": 907,
+    "name": "Arcanum Blessing"
+  },
+  {
+    "id": 908,
+    "name": "Aethertrail Attunement"
+  },
+  {
+    "id": 909,
+    "name": "Refresh"
+  },
+  {
+    "id": 910,
+    "name": "Doom"
+  },
+  {
+    "id": 911,
+    "name": "Thin Ice"
+  },
+  {
+    "id": 912,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 913,
+    "name": "Balance Drawn"
+  },
+  {
+    "id": 914,
+    "name": "Bole Drawn"
+  },
+  {
+    "id": 915,
+    "name": "Arrow Drawn"
+  },
+  {
+    "id": 916,
+    "name": "Spear Drawn"
+  },
+  {
+    "id": 917,
+    "name": "Ewer Drawn"
+  },
+  {
+    "id": 918,
+    "name": "Spire Drawn"
+  },
+  {
+    "id": 919,
+    "name": "Heightened Visibility"
+  },
+  {
+    "id": 920,
+    "name": "Balance Held"
+  },
+  {
+    "id": 921,
+    "name": "Bole Held"
+  },
+  {
+    "id": 922,
+    "name": "Arrow Held"
+  },
+  {
+    "id": 923,
+    "name": "Spear Held"
+  },
+  {
+    "id": 924,
+    "name": "Ewer Held"
+  },
+  {
+    "id": 925,
+    "name": "Spire Held"
+  },
+  {
+    "id": 926,
+    "name": "Sleep"
+  },
+  {
+    "id": 927,
+    "name": "Nectar"
+  },
+  {
+    "id": 928,
+    "name": "Black Menace"
+  },
+  {
+    "id": 929,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 930,
+    "name": "Fetters"
+  },
+  {
+    "id": 931,
+    "name": "Blunt Resistance Down"
+  },
+  {
+    "id": 932,
+    "name": "Quarantine"
+  },
+  {
+    "id": 933,
+    "name": "Healing Potency Down"
+  },
+  {
+    "id": 934,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 935,
+    "name": ""
+  },
+  {
+    "id": 936,
+    "name": ""
+  },
+  {
+    "id": 937,
+    "name": "Unwilling Host"
+  },
+  {
+    "id": 938,
+    "name": "Throttle"
+  },
+  {
+    "id": 939,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 940,
+    "name": "Bleeding"
+  },
+  {
+    "id": 941,
+    "name": "Ranged Resistance"
+  },
+  {
+    "id": 942,
+    "name": "Magic Resistance"
+  },
+  {
+    "id": 943,
+    "name": "Light of Ascalon"
+  },
+  {
+    "id": 944,
+    "name": "Sword of the Heavens"
+  },
+  {
+    "id": 945,
+    "name": "Shield of the Heavens"
+  },
+  {
+    "id": 946,
+    "name": "Legs of the Spider"
+  },
+  {
+    "id": 947,
+    "name": "Wings of the Raptor"
+  },
+  {
+    "id": 948,
+    "name": "Shocking Counter"
+  },
+  {
+    "id": 949,
+    "name": "Burning Counter"
+  },
+  {
+    "id": 950,
+    "name": "Freezing Counter"
+  },
+  {
+    "id": 951,
+    "name": "Cutting Counter"
+  },
+  {
+    "id": 952,
+    "name": "Burying Counter"
+  },
+  {
+    "id": 953,
+    "name": "Drowning Counter"
+  },
+  {
+    "id": 954,
+    "name": "Unrelenting Counter"
+  },
+  {
+    "id": 955,
+    "name": "Healing Potency Up"
+  },
+  {
+    "id": 956,
+    "name": "Wheel of Fortune"
+  },
+  {
+    "id": 957,
+    "name": "Digestive Enzymes"
+  },
+  {
+    "id": 958,
+    "name": "Prey"
+  },
+  {
+    "id": 959,
+    "name": "Strings of the Marionette"
+  },
+  {
+    "id": 960,
+    "name": "Pyretic"
+  },
+  {
+    "id": 961,
+    "name": "Seized"
+  },
+  {
+    "id": 962,
+    "name": "ATK Up"
+  },
+  {
+    "id": 963,
+    "name": "ATK Down"
+  },
+  {
+    "id": 964,
+    "name": "DEF Up"
+  },
+  {
+    "id": 965,
+    "name": "DEF Down"
+  },
+  {
+    "id": 966,
+    "name": "SPD Up"
+  },
+  {
+    "id": 967,
+    "name": "SPD Down"
+  },
+  {
+    "id": 968,
+    "name": "Arcana Breaker"
+  },
+  {
+    "id": 969,
+    "name": "Invincibility"
+  },
+  {
+    "id": 970,
+    "name": "Critter Resistance"
+  },
+  {
+    "id": 971,
+    "name": "Monster Resistance"
+  },
+  {
+    "id": 972,
+    "name": "Poppet Resistance"
+  },
+  {
+    "id": 973,
+    "name": "Gadget Resistance"
+  },
+  {
+    "id": 974,
+    "name": "Critter Vulnerability"
+  },
+  {
+    "id": 975,
+    "name": "Monster Vulnerability"
+  },
+  {
+    "id": 976,
+    "name": "Poppet Vulnerability"
+  },
+  {
+    "id": 977,
+    "name": "Forced Withdrawal"
+  },
+  {
+    "id": 978,
+    "name": "ATK & DEF Up"
+  },
+  {
+    "id": 979,
+    "name": "Damage Over Time"
+  },
+  {
+    "id": 980,
+    "name": "Expanded Attack"
+  },
+  {
+    "id": 981,
+    "name": "Invincibility"
+  },
+  {
+    "id": 982,
+    "name": "Critter Resistance"
+  },
+  {
+    "id": 983,
+    "name": "Monster Resistance"
+  },
+  {
+    "id": 984,
+    "name": "Poppet Resistance"
+  },
+  {
+    "id": 985,
+    "name": "Gadget Resistance"
+  },
+  {
+    "id": 986,
+    "name": "Bind"
+  },
+  {
+    "id": 987,
+    "name": "Trapper"
+  },
+  {
+    "id": 988,
+    "name": "Paralysis"
+  },
+  {
+    "id": 989,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 990,
+    "name": "Fetters"
+  },
+  {
+    "id": 991,
+    "name": "Seduced"
+  },
+  {
+    "id": 992,
+    "name": "Offense Kit"
+  },
+  {
+    "id": 993,
+    "name": "Defense Kit"
+  },
+  {
+    "id": 994,
+    "name": "Marked for Culling"
+  },
+  {
+    "id": 995,
+    "name": "Headache"
+  },
+  {
+    "id": 996,
+    "name": "Concussion"
+  },
+  {
+    "id": 997,
+    "name": "Concussion"
+  },
+  {
+    "id": 998,
+    "name": "Bigbulge Goblixer"
+  },
+  {
+    "id": 999,
+    "name": "Swiftkicks Goblixer"
+  },
+  {
+    "id": 1000,
+    "name": "Blankface Goblixer"
+  },
+  {
+    "id": 1001,
+    "name": "Goblixer Overgulp"
+  },
+  {
+    "id": 1002,
+    "name": "Goblixer Grumblygut"
+  },
+  {
+    "id": 1003,
+    "name": "Bigbulge Biggerbrain"
+  },
+  {
+    "id": 1004,
+    "name": "Anti-coagulant"
+  },
+  {
+    "id": 1005,
+    "name": "Force Against Might"
+  },
+  {
+    "id": 1006,
+    "name": "Force Against Magic"
+  },
+  {
+    "id": 1007,
+    "name": "Invisible"
+  },
+  {
+    "id": 1008,
+    "name": "Nohurts Goblixer"
+  },
+  {
+    "id": 1009,
+    "name": "Road to Toad"
+  },
+  {
+    "id": 1010,
+    "name": "Fetters"
+  },
+  {
+    "id": 1011,
+    "name": "Concentrated Poison"
+  },
+  {
+    "id": 1012,
+    "name": "High Wire"
+  },
+  {
+    "id": 1013,
+    "name": "Reverse"
+  },
+  {
+    "id": 1014,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 1015,
+    "name": "Seed of Life"
+  },
+  {
+    "id": 1016,
+    "name": "Damage Down"
+  },
+  {
+    "id": 1017,
+    "name": "Physical Damage Up"
+  },
+  {
+    "id": 1018,
+    "name": "Physical Damage Up"
+  },
+  {
+    "id": 1019,
+    "name": "Magic Damage Up"
+  },
+  {
+    "id": 1020,
+    "name": "Allied Arithmeticks"
+  },
+  {
+    "id": 1021,
+    "name": "Low Arithmeticks"
+  },
+  {
+    "id": 1022,
+    "name": "High Arithmeticks"
+  },
+  {
+    "id": 1023,
+    "name": "Compressed Water"
+  },
+  {
+    "id": 1024,
+    "name": "Compressed Lightning"
+  },
+  {
+    "id": 1025,
+    "name": "Water Resistance Down II"
+  },
+  {
+    "id": 1026,
+    "name": "Lightning Resistance Down II"
+  },
+  {
+    "id": 1027,
+    "name": "Final Punishment"
+  },
+  {
+    "id": 1028,
+    "name": "Direct Attack"
+  },
+  {
+    "id": 1029,
+    "name": "Final Decree Nisi A"
+  },
+  {
+    "id": 1030,
+    "name": "Final Decree Nisi B"
+  },
+  {
+    "id": 1031,
+    "name": "Final Judgment: Max HP"
+  },
+  {
+    "id": 1032,
+    "name": "Final Judgment: Min HP"
+  },
+  {
+    "id": 1033,
+    "name": "Final Judgment: Penalty I"
+  },
+  {
+    "id": 1034,
+    "name": "Final Judgment: Penalty II"
+  },
+  {
+    "id": 1035,
+    "name": "Final Judgment: Penalty III"
+  },
+  {
+    "id": 1036,
+    "name": "Final Judgment: Decree Nisi A"
+  },
+  {
+    "id": 1037,
+    "name": "Final Judgment: Decree Nisi B"
+  },
+  {
+    "id": 1038,
+    "name": "Final Flight"
+  },
+  {
+    "id": 1039,
+    "name": "Brilliant Conviction"
+  },
+  {
+    "id": 1040,
+    "name": "Brilliant Conviction"
+  },
+  {
+    "id": 1041,
+    "name": "Brilliant Conviction"
+  },
+  {
+    "id": 1042,
+    "name": "Direct Attack"
+  },
+  {
+    "id": 1043,
+    "name": "Direct Attack"
+  },
+  {
+    "id": 1044,
+    "name": "Magnetic Levitation"
+  },
+  {
+    "id": 1045,
+    "name": "Gradual Zombification"
+  },
+  {
+    "id": 1046,
+    "name": "Concentrated Poison"
+  },
+  {
+    "id": 1047,
+    "name": "Confused"
+  },
+  {
+    "id": 1048,
+    "name": "Direct Attack"
+  },
+  {
+    "id": 1049,
+    "name": "Pyretic"
+  },
+  {
+    "id": 1050,
+    "name": "EXP Bonus"
+  },
+  {
+    "id": 1051,
+    "name": "Prey"
+  },
+  {
+    "id": 1052,
+    "name": "Wind Resistance Down II"
+  },
+  {
+    "id": 1053,
+    "name": "Earth Resistance Down II"
+  },
+  {
+    "id": 1054,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1055,
+    "name": "Fetters"
+  },
+  {
+    "id": 1056,
+    "name": "Mimic"
+  },
+  {
+    "id": 1057,
+    "name": "Feather Field"
+  },
+  {
+    "id": 1058,
+    "name": "Super Sprint"
+  },
+  {
+    "id": 1059,
+    "name": "Enervation"
+  },
+  {
+    "id": 1060,
+    "name": "Silence"
+  },
+  {
+    "id": 1061,
+    "name": "Priority Aetheryte Pass"
+  },
+  {
+    "id": 1062,
+    "name": "Heavy Medal"
+  },
+  {
+    "id": 1063,
+    "name": "Healing Potency Down"
+  },
+  {
+    "id": 1064,
+    "name": "Off-balance"
+  },
+  {
+    "id": 1065,
+    "name": "Brand of the Fallen"
+  },
+  {
+    "id": 1066,
+    "name": "Bitter Hate"
+  },
+  {
+    "id": 1067,
+    "name": "Dirty Venom"
+  },
+  {
+    "id": 1068,
+    "name": "Assimilation"
+  },
+  {
+    "id": 1069,
+    "name": "Assimilated"
+  },
+  {
+    "id": 1070,
+    "name": "Cube"
+  },
+  {
+    "id": 1071,
+    "name": "Pyramid"
+  },
+  {
+    "id": 1072,
+    "name": "Acceleration Bomb"
+  },
+  {
+    "id": 1073,
+    "name": "Digestive Fluid"
+  },
+  {
+    "id": 1074,
+    "name": "Bleeding"
+  },
+  {
+    "id": 1075,
+    "name": "Heart of Man"
+  },
+  {
+    "id": 1076,
+    "name": "Heart of Dragon"
+  },
+  {
+    "id": 1077,
+    "name": "Lightning Chain"
+  },
+  {
+    "id": 1078,
+    "name": "Priority Seal Allowance"
+  },
+  {
+    "id": 1079,
+    "name": "Gold Saucer VIP Card"
+  },
+  {
+    "id": 1080,
+    "name": "Squadron Battle Manual"
+  },
+  {
+    "id": 1081,
+    "name": "Squadron Survival Manual"
+  },
+  {
+    "id": 1082,
+    "name": "Squadron Engineering Manual"
+  },
+  {
+    "id": 1083,
+    "name": "Squadron Spiritbonding Manual"
+  },
+  {
+    "id": 1084,
+    "name": "Squadron Rationing Manual"
+  },
+  {
+    "id": 1085,
+    "name": "Squadron Gear Maintenance Manual"
+  },
+  {
+    "id": 1086,
+    "name": "Squadron Enlistment Manual"
+  },
+  {
+    "id": 1087,
+    "name": "Accursed Pox"
+  },
+  {
+    "id": 1088,
+    "name": "Blind"
+  },
+  {
+    "id": 1089,
+    "name": "HP Penalty"
+  },
+  {
+    "id": 1090,
+    "name": "Damage Down"
+  },
+  {
+    "id": 1091,
+    "name": "Haste"
+  },
+  {
+    "id": 1092,
+    "name": "Amnesia"
+  },
+  {
+    "id": 1093,
+    "name": "HP & MP Boost"
+  },
+  {
+    "id": 1094,
+    "name": "Item Penalty"
+  },
+  {
+    "id": 1095,
+    "name": "Sprint Penalty"
+  },
+  {
+    "id": 1096,
+    "name": "Knockback Penalty"
+  },
+  {
+    "id": 1097,
+    "name": "Auto-heal Penalty"
+  },
+  {
+    "id": 1098,
+    "name": "Aetherial Surge"
+  },
+  {
+    "id": 1099,
+    "name": "Healing Potency Up"
+  },
+  {
+    "id": 1100,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 1101,
+    "name": "Toad"
+  },
+  {
+    "id": 1102,
+    "name": "Chicken"
+  },
+  {
+    "id": 1103,
+    "name": "Imp"
+  },
+  {
+    "id": 1104,
+    "name": "Obfuscated"
+  },
+  {
+    "id": 1105,
+    "name": "Pumpkin"
+  },
+  {
+    "id": 1106,
+    "name": "Obfuscated"
+  },
+  {
+    "id": 1107,
+    "name": "Heavy"
+  },
+  {
+    "id": 1108,
+    "name": "Hidden"
+  },
+  {
+    "id": 1109,
+    "name": "Impervious"
+  },
+  {
+    "id": 1110,
+    "name": "Clawbound"
+  },
+  {
+    "id": 1111,
+    "name": "Fangbound"
+  },
+  {
+    "id": 1112,
+    "name": "Movement Speed Up"
+  },
+  {
+    "id": 1113,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 1114,
+    "name": "Disease"
+  },
+  {
+    "id": 1115,
+    "name": "Eternal Doom"
+  },
+  {
+    "id": 1116,
+    "name": "Haste"
+  },
+  {
+    "id": 1117,
+    "name": "Stab Wound"
+  },
+  {
+    "id": 1118,
+    "name": "Passenger"
+  },
+  {
+    "id": 1119,
+    "name": "Temporal Displacement"
+  },
+  {
+    "id": 1120,
+    "name": "Defamation"
+  },
+  {
+    "id": 1121,
+    "name": "Aggravated Assault"
+  },
+  {
+    "id": 1122,
+    "name": "Shared Sentence"
+  },
+  {
+    "id": 1123,
+    "name": "House Arrest"
+  },
+  {
+    "id": 1124,
+    "name": "Restraining Order"
+  },
+  {
+    "id": 1125,
+    "name": "Directional Invincibility"
+  },
+  {
+    "id": 1126,
+    "name": "Main Hull Reassembly"
+  },
+  {
+    "id": 1127,
+    "name": "Right Arm Reassembly"
+  },
+  {
+    "id": 1128,
+    "name": "Left Arm Reassembly"
+  },
+  {
+    "id": 1129,
+    "name": "Main Hull Operational"
+  },
+  {
+    "id": 1130,
+    "name": "Right Arm Operational"
+  },
+  {
+    "id": 1131,
+    "name": "Left Arm Operational"
+  },
+  {
+    "id": 1132,
+    "name": "Extreme Caution"
+  },
+  {
+    "id": 1133,
+    "name": "Pyretic"
+  },
+  {
+    "id": 1134,
+    "name": "Imp"
+  },
+  {
+    "id": 1135,
+    "name": "Sunseal"
+  },
+  {
+    "id": 1136,
+    "name": "Moonseal"
+  },
+  {
+    "id": 1137,
+    "name": "Fire Resistance Down II"
+  },
+  {
+    "id": 1138,
+    "name": "Magic Vulnerability Up"
+  },
+  {
+    "id": 1139,
+    "name": "Physical Damage Up"
+  },
+  {
+    "id": 1140,
+    "name": "Raise"
+  },
+  {
+    "id": 1141,
+    "name": "Heavy"
+  },
+  {
+    "id": 1142,
+    "name": "Aetherial Surge"
+  },
+  {
+    "id": 1143,
+    "name": "Infinite Fire"
+  },
+  {
+    "id": 1144,
+    "name": "Infinite Ice"
+  },
+  {
+    "id": 1145,
+    "name": "Keen Edge"
+  },
+  {
+    "id": 1146,
+    "name": "Riled"
+  },
+  {
+    "id": 1147,
+    "name": "Shadow Links"
+  },
+  {
+    "id": 1148,
+    "name": "Shadow Limb"
+  },
+  {
+    "id": 1149,
+    "name": "Wolf's Heart Kit"
+  },
+  {
+    "id": 1150,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 1151,
+    "name": "Fae Cloak"
+  },
+  {
+    "id": 1152,
+    "name": "Darksight"
+  },
+  {
+    "id": 1153,
+    "name": "Fetters"
+  },
+  {
+    "id": 1154,
+    "name": "Beastking's Boon"
+  },
+  {
+    "id": 1155,
+    "name": "Aetherial Enhancement"
+  },
+  {
+    "id": 1156,
+    "name": "Magic Damage Up"
+  },
+  {
+    "id": 1157,
+    "name": "Water Resistance Down II"
+  },
+  {
+    "id": 1158,
+    "name": "Nose for Battle"
+  },
+  {
+    "id": 1159,
+    "name": "Infinite Anguish"
+  },
+  {
+    "id": 1160,
+    "name": "Enfeebled"
+  },
+  {
+    "id": 1161,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1162,
+    "name": "Infinite Anguish"
+  },
+  {
+    "id": 1163,
+    "name": "Stroke of Genius"
+  },
+  {
+    "id": 1164,
+    "name": "Manipulation"
+  },
+  {
+    "id": 1165,
+    "name": "Initial Preparations"
+  },
+  {
+    "id": 1166,
+    "name": "Fathom"
+  },
+  {
+    "id": 1167,
+    "name": "Shark Eye"
+  },
+  {
+    "id": 1168,
+    "name": "Shark Eye II"
+  },
+  {
+    "id": 1169,
+    "name": "Veteran Trade"
+  },
+  {
+    "id": 1170,
+    "name": "Bountiful Catch"
+  },
+  {
+    "id": 1171,
+    "name": "Nature's Bounty"
+  },
+  {
+    "id": 1172,
+    "name": "Salvage"
+  },
+  {
+    "id": 1173,
+    "name": "Truth of Oceans"
+  },
+  {
+    "id": 1174,
+    "name": "Intervention",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 1175,
+    "name": "Passage of Arms"
+  },
+  {
+    "id": 1176,
+    "name": "Arms Up",
+    "mit": {
+      "type": "all",
+      "value": 15
+    }
+  },
+  {
+    "id": 1177,
+    "name": "Inner Release"
+  },
+  {
+    "id": 1178,
+    "name": "Blackest Night"
+  },
+  {
+    "id": 1179,
+    "name": "Riddle of Earth"
+  },
+  {
+    "id": 1180,
+    "name": "Earth's Reply",
+    "mit": {
+      "value": 10,
+      "type": "all"
+    }
+  },
+  {
+    "id": 1181,
+    "name": "Riddle of Fire"
+  },
+  {
+    "id": 1182,
+    "name": "Meditative Brotherhood"
+  },
+  {
+    "id": 1183,
+    "name": "Right Eye"
+  },
+  {
+    "id": 1184,
+    "name": "Left Eye"
+  },
+  {
+    "id": 1185,
+    "name": "Brotherhood"
+  },
+  {
+    "id": 1186,
+    "name": "Ten Chi Jin"
+  },
+  {
+    "id": 1187,
+    "name": "Troubadour's Ballad"
+  },
+  {
+    "id": 1188,
+    "name": "Critical Up"
+  },
+  {
+    "id": 1189,
+    "name": "Troubadour's Paeon"
+  },
+  {
+    "id": 1190,
+    "name": "Troubadour's Minuet"
+  },
+  {
+    "id": 1191,
+    "name": "Rampart",
+    "mit": {
+      "type": "all",
+      "value": 20
+    }
+  },
+  {
+    "id": 1192,
+    "name": "Convalescence"
+  },
+  {
+    "id": 1193,
+    "name": "Reprisal",
+    "mit": {
+      "value": 10,
+      "type": "all",
+      "debuff": true
+    }
+  },
+  {
+    "id": 1194,
+    "name": "Anticipation"
+  },
+  {
+    "id": 1195,
+    "name": "Feint"
+  },
+  {
+    "id": 1196,
+    "name": "Palisade"
+  },
+  {
+    "id": 1197,
+    "name": "Tactician"
+  },
+  {
+    "id": 1198,
+    "name": "Refresh"
+  },
+  {
+    "id": 1199,
+    "name": "Peloton"
+  },
+  {
+    "id": 1200,
+    "name": "Caustic Bite"
+  },
+  {
+    "id": 1201,
+    "name": "Stormbite"
+  },
+  {
+    "id": 1202,
+    "name": "Nature's Minne"
+  },
+  {
+    "id": 1203,
+    "name": "Addle",
+    "mit": {
+      "type": "magic",
+      "value": 10,
+      "debuff": true
+    }
+  },
+  {
+    "id": 1204,
+    "name": "Lucid Dreaming"
+  },
+  {
+    "id": 1205,
+    "name": "Flamethrower"
+  },
+  {
+    "id": 1206,
+    "name": "Wheel of Fortune"
+  },
+  {
+    "id": 1207,
+    "name": "Largesse"
+  },
+  {
+    "id": 1208,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1209,
+    "name": "Arm's Length"
+  },
+  {
+    "id": 1210,
+    "name": "Thunder IV"
+  },
+  {
+    "id": 1211,
+    "name": "Triplecast"
+  },
+  {
+    "id": 1212,
+    "name": "Further Ruin"
+  },
+  {
+    "id": 1213,
+    "name": "Devotion"
+  },
+  {
+    "id": 1214,
+    "name": "Bio III"
+  },
+  {
+    "id": 1215,
+    "name": "Miasma III"
+  },
+  {
+    "id": 1216,
+    "name": ""
+  },
+  {
+    "id": 1217,
+    "name": "Thin Air"
+  },
+  {
+    "id": 1218,
+    "name": "Divine Benison"
+  },
+  {
+    "id": 1219,
+    "name": "Confession"
+  },
+  {
+    "id": 1220,
+    "name": "Excogitation"
+  },
+  {
+    "id": 1221,
+    "name": "Chain Stratagem"
+  },
+  {
+    "id": 1222,
+    "name": "Fey Union"
+  },
+  {
+    "id": 1223,
+    "name": "Fey Union"
+  },
+  {
+    "id": 1224,
+    "name": "Earthly Dominance"
+  },
+  {
+    "id": 1225,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1226,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 1227,
+    "name": "Yukikaze"
+  },
+  {
+    "id": 1228,
+    "name": "Higanbana"
+  },
+  {
+    "id": 1229,
+    "name": "Kaiten"
+  },
+  {
+    "id": 1230,
+    "name": "Recuperation"
+  },
+  {
+    "id": 1231,
+    "name": "Meditate"
+  },
+  {
+    "id": 1232,
+    "name": "Third Eye"
+  },
+  {
+    "id": 1233,
+    "name": "Meikyo Shisui"
+  },
+  {
+    "id": 1234,
+    "name": "Verfire Ready"
+  },
+  {
+    "id": 1235,
+    "name": "Verstone Ready"
+  },
+  {
+    "id": 1236,
+    "name": "Enhanced Enpi"
+  },
+  {
+    "id": 1237,
+    "name": "Enhanced Scatter"
+  },
+  {
+    "id": 1238,
+    "name": "Acceleration"
+  },
+  {
+    "id": 1239,
+    "name": "Embolden"
+  },
+  {
+    "id": 1240,
+    "name": "Chiten"
+  },
+  {
+    "id": 1241,
+    "name": "Monomachy"
+  },
+  {
+    "id": 1242,
+    "name": "Monomachy"
+  },
+  {
+    "id": 1243,
+    "name": "Dive Ready"
+  },
+  {
+    "id": 1244,
+    "name": "Riddle of Wind"
+  },
+  {
+    "id": 1245,
+    "name": ""
+  },
+  {
+    "id": 1246,
+    "name": ""
+  },
+  {
+    "id": 1247,
+    "name": ""
+  },
+  {
+    "id": 1248,
+    "name": "Giant Dominance"
+  },
+  {
+    "id": 1249,
+    "name": "Dualcast"
+  },
+  {
+    "id": 1250,
+    "name": "True North"
+  },
+  {
+    "id": 1251,
+    "name": "Turret Reset"
+  },
+  {
+    "id": 1252,
+    "name": "Eyes Open"
+  },
+  {
+    "id": 1253,
+    "name": "Prey"
+  },
+  {
+    "id": 1254,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 1255,
+    "name": "Fire Resistance Down II"
+  },
+  {
+    "id": 1256,
+    "name": "Wounded"
+  },
+  {
+    "id": 1257,
+    "name": "Forced March"
+  },
+  {
+    "id": 1258,
+    "name": "Fetters"
+  },
+  {
+    "id": 1259,
+    "name": "Old"
+  },
+  {
+    "id": 1260,
+    "name": "Lightning Resistance Down II"
+  },
+  {
+    "id": 1261,
+    "name": ""
+  },
+  {
+    "id": 1262,
+    "name": "Gathering Fortune Up II (Limited)"
+  },
+  {
+    "id": 1263,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 1264,
+    "name": "Brilliant Conviction"
+  },
+  {
+    "id": 1265,
+    "name": "Brilliant Conviction"
+  },
+  {
+    "id": 1266,
+    "name": "Transparent II"
+  },
+  {
+    "id": 1267,
+    "name": "Affixed"
+  },
+  {
+    "id": 1268,
+    "name": "In Event"
+  },
+  {
+    "id": 1269,
+    "name": "Extreme Caution"
+  },
+  {
+    "id": 1270,
+    "name": "Churning"
+  },
+  {
+    "id": 1271,
+    "name": "Clashing"
+  },
+  {
+    "id": 1272,
+    "name": "Slashing Resistance Down II"
+  },
+  {
+    "id": 1273,
+    "name": "Sinking"
+  },
+  {
+    "id": 1274,
+    "name": "Bardam's Price"
+  },
+  {
+    "id": 1275,
+    "name": "Fire Convergence"
+  },
+  {
+    "id": 1276,
+    "name": "Ice Convergence"
+  },
+  {
+    "id": 1277,
+    "name": "Lightning Convergence"
+  },
+  {
+    "id": 1278,
+    "name": "Aspected to Fire"
+  },
+  {
+    "id": 1279,
+    "name": "Aspected to Ice"
+  },
+  {
+    "id": 1280,
+    "name": "Aspected to Lightning"
+  },
+  {
+    "id": 1281,
+    "name": "Empowered Rahu"
+  },
+  {
+    "id": 1282,
+    "name": "Empowered Ketu"
+  },
+  {
+    "id": 1283,
+    "name": "Confused"
+  },
+  {
+    "id": 1284,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 1285,
+    "name": "Gathering Fortune Up II"
+  },
+  {
+    "id": 1286,
+    "name": "Gathering Yield Up II"
+  },
+  {
+    "id": 1287,
+    "name": "Seized"
+  },
+  {
+    "id": 1288,
+    "name": "Twist of Fate"
+  },
+  {
+    "id": 1289,
+    "name": "Twist of Fate"
+  },
+  {
+    "id": 1290,
+    "name": "Vril"
+  },
+  {
+    "id": 1291,
+    "name": "Ruination"
+  },
+  {
+    "id": 1292,
+    "name": "Piggy"
+  },
+  {
+    "id": 1293,
+    "name": "Forward March"
+  },
+  {
+    "id": 1294,
+    "name": "About Face"
+  },
+  {
+    "id": 1295,
+    "name": "Left Face"
+  },
+  {
+    "id": 1296,
+    "name": "Right Face"
+  },
+  {
+    "id": 1297,
+    "name": "Embolden"
+  },
+  {
+    "id": 1298,
+    "name": "Jinpu"
+  },
+  {
+    "id": 1299,
+    "name": "Shifu"
+  },
+  {
+    "id": 1300,
+    "name": "Cover"
+  },
+  {
+    "id": 1301,
+    "name": "Covered"
+  },
+  {
+    "id": 1302,
+    "name": "Hallowed Ground"
+  },
+  {
+    "id": 1303,
+    "name": "Inner Release"
+  },
+  {
+    "id": 1304,
+    "name": "Holmgang"
+  },
+  {
+    "id": 1305,
+    "name": "Holmgang"
+  },
+  {
+    "id": 1306,
+    "name": "Sole Survivor"
+  },
+  {
+    "id": 1307,
+    "name": "Ice Spikes"
+  },
+  {
+    "id": 1308,
+    "name": "Blackest Night"
+  },
+  {
+    "id": 1309,
+    "name": "Demolish"
+  },
+  {
+    "id": 1310,
+    "name": "Riddle of Earth"
+  },
+  {
+    "id": 1311,
+    "name": "Earth's Reply"
+  },
+  {
+    "id": 1312,
+    "name": "Chaos Thrust"
+  },
+  {
+    "id": 1313,
+    "name": "Shadow Fang"
+  },
+  {
+    "id": 1314,
+    "name": "Assassinated"
+  },
+  {
+    "id": 1315,
+    "name": "Kakuremi"
+  },
+  {
+    "id": 1316,
+    "name": "Hidden"
+  },
+  {
+    "id": 1317,
+    "name": "Three Mudra"
+  },
+  {
+    "id": 1318,
+    "name": "Yukikaze"
+  },
+  {
+    "id": 1319,
+    "name": "Higanbana"
+  },
+  {
+    "id": 1320,
+    "name": "Meikyo Shisui"
+  },
+  {
+    "id": 1321,
+    "name": "Caustic Bite"
+  },
+  {
+    "id": 1322,
+    "name": "Stormbite"
+  },
+  {
+    "id": 1323,
+    "name": "Wildfire"
+  },
+  {
+    "id": 1324,
+    "name": "Thunder"
+  },
+  {
+    "id": 1325,
+    "name": "Swiftcast"
+  },
+  {
+    "id": 1326,
+    "name": "Bio III"
+  },
+  {
+    "id": 1327,
+    "name": "Miasma III"
+  },
+  {
+    "id": 1328,
+    "name": "Electrocution"
+  },
+  {
+    "id": 1329,
+    "name": "Withering"
+  },
+  {
+    "id": 1330,
+    "name": "Regen"
+  },
+  {
+    "id": 1331,
+    "name": "Galvanize"
+  },
+  {
+    "id": 1332,
+    "name": "Chanchala"
+  },
+  {
+    "id": 1333,
+    "name": "Eye for an Eye"
+  },
+  {
+    "id": 1334,
+    "name": "Eye for an Eye"
+  },
+  {
+    "id": 1335,
+    "name": "Abridged"
+  },
+  {
+    "id": 1336,
+    "name": "Synastry"
+  },
+  {
+    "id": 1337,
+    "name": "Synastry"
+  },
+  {
+    "id": 1338,
+    "name": "The Balance"
+  },
+  {
+    "id": 1339,
+    "name": "The Bole"
+  },
+  {
+    "id": 1340,
+    "name": "The Ewer"
+  },
+  {
+    "id": 1341,
+    "name": "The Spire"
+  },
+  {
+    "id": 1342,
+    "name": "Bolt"
+  },
+  {
+    "id": 1343,
+    "name": "Stun"
+  },
+  {
+    "id": 1344,
+    "name": "Heavy"
+  },
+  {
+    "id": 1345,
+    "name": "Bind"
+  },
+  {
+    "id": 1346,
+    "name": "Slow"
+  },
+  {
+    "id": 1347,
+    "name": "Silence"
+  },
+  {
+    "id": 1348,
+    "name": "Sleep"
+  },
+  {
+    "id": 1349,
+    "name": "Stun Resistance"
+  },
+  {
+    "id": 1350,
+    "name": "Heavy Resistance"
+  },
+  {
+    "id": 1351,
+    "name": "Bind Resistance"
+  },
+  {
+    "id": 1352,
+    "name": "Slow Resistance"
+  },
+  {
+    "id": 1353,
+    "name": "Silence Resistance"
+  },
+  {
+    "id": 1354,
+    "name": "Sleep Resistance"
+  },
+  {
+    "id": 1355,
+    "name": "Knockback Penalty"
+  },
+  {
+    "id": 1356,
+    "name": "Imp"
+  },
+  {
+    "id": 1357,
+    "name": "Gravity Flip"
+  },
+  {
+    "id": 1358,
+    "name": "Elevated"
+  },
+  {
+    "id": 1359,
+    "name": "Gradual Petrification"
+  },
+  {
+    "id": 1360,
+    "name": "Unstable Gravity"
+  },
+  {
+    "id": 1361,
+    "name": "Magitek Levitation"
+  },
+  {
+    "id": 1362,
+    "name": ""
+  },
+  {
+    "id": 1363,
+    "name": "Sleep"
+  },
+  {
+    "id": 1364,
+    "name": "Riddle of Wind"
+  },
+  {
+    "id": 1365,
+    "name": "Thundercloud"
+  },
+  {
+    "id": 1366,
+    "name": "Levitation"
+  },
+  {
+    "id": 1367,
+    "name": "Impactful"
+  },
+  {
+    "id": 1368,
+    "name": "Requiescat"
+  },
+  {
+    "id": 1369,
+    "name": "Requiescat"
+  },
+  {
+    "id": 1370,
+    "name": "Rage of Halone"
+  },
+  {
+    "id": 1371,
+    "name": "Butcher's Block"
+  },
+  {
+    "id": 1372,
+    "name": "Power Slash"
+  },
+  {
+    "id": 1373,
+    "name": "Immaterialized"
+  },
+  {
+    "id": 1374,
+    "name": "Target Right"
+  },
+  {
+    "id": 1375,
+    "name": "Target Left"
+  },
+  {
+    "id": 1376,
+    "name": "Kyoshin"
+  },
+  {
+    "id": 1377,
+    "name": "Life Drain"
+  },
+  {
+    "id": 1378,
+    "name": "Dualcast"
+  },
+  {
+    "id": 1379,
+    "name": "Almagest"
+  },
+  {
+    "id": 1380,
+    "name": "White Wound"
+  },
+  {
+    "id": 1381,
+    "name": "Black Wound"
+  },
+  {
+    "id": 1382,
+    "name": "Beyond Death"
+  },
+  {
+    "id": 1383,
+    "name": "HP Penalty"
+  },
+  {
+    "id": 1384,
+    "name": "Acceleration Bomb"
+  },
+  {
+    "id": 1385,
+    "name": "Off-balance"
+  },
+  {
+    "id": 1386,
+    "name": "Sludge"
+  },
+  {
+    "id": 1387,
+    "name": "Altered States"
+  },
+  {
+    "id": 1388,
+    "name": "Ashen"
+  },
+  {
+    "id": 1389,
+    "name": "Seduced"
+  },
+  {
+    "id": 1390,
+    "name": "Levitation"
+  },
+  {
+    "id": 1391,
+    "name": "Fetters"
+  },
+  {
+    "id": 1392,
+    "name": "Shining Moonstone"
+  },
+  {
+    "id": 1393,
+    "name": "Dualcast"
+  },
+  {
+    "id": 1394,
+    "name": "Limp"
+  },
+  {
+    "id": 1395,
+    "name": "Shield Oath"
+  },
+  {
+    "id": 1396,
+    "name": "Defiance"
+  },
+  {
+    "id": 1397,
+    "name": "Grit"
+  },
+  {
+    "id": 1398,
+    "name": "Inner Beast"
+  },
+  {
+    "id": 1399,
+    "name": "Fetters"
+  },
+  {
+    "id": 1400,
+    "name": "Terror"
+  },
+  {
+    "id": 1401,
+    "name": "Enervation"
+  },
+  {
+    "id": 1402,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1403,
+    "name": "Lightspeed"
+  },
+  {
+    "id": 1404,
+    "name": "Divine Benison"
+  },
+  {
+    "id": 1405,
+    "name": "Disabled"
+  },
+  {
+    "id": 1406,
+    "name": "Chain Stratagem"
+  },
+  {
+    "id": 1407,
+    "name": "Barrage"
+  },
+  {
+    "id": 1408,
+    "name": "Cometeor"
+  },
+  {
+    "id": 1409,
+    "name": "Terminal Velocity"
+  },
+  {
+    "id": 1410,
+    "name": "Chanchala"
+  },
+  {
+    "id": 1411,
+    "name": "The Road to 70"
+  },
+  {
+    "id": 1412,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1413,
+    "name": "Riddle of Fire"
+  },
+  {
+    "id": 1414,
+    "name": "Battle Litany"
+  },
+  {
+    "id": 1415,
+    "name": "Protect"
+  },
+  {
+    "id": 1416,
+    "name": "Grounded"
+  },
+  {
+    "id": 1417,
+    "name": "Stone Curse"
+  },
+  {
+    "id": 1418,
+    "name": "Abandonment"
+  },
+  {
+    "id": 1419,
+    "name": "The Worm's Curse"
+  },
+  {
+    "id": 1420,
+    "name": "Mounted"
+  },
+  {
+    "id": 1421,
+    "name": "Craven"
+  },
+  {
+    "id": 1422,
+    "name": "Temporary Misdirection"
+  },
+  {
+    "id": 1423,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1424,
+    "name": "Divine Commandment: Flee"
+  },
+  {
+    "id": 1425,
+    "name": "Divine Commandment: Turn"
+  },
+  {
+    "id": 1426,
+    "name": "Unnerved"
+  },
+  {
+    "id": 1427,
+    "name": "Drenched"
+  },
+  {
+    "id": 1428,
+    "name": "削除予定"
+  },
+  {
+    "id": 1429,
+    "name": "Breathless"
+  },
+  {
+    "id": 1430,
+    "name": "Legendary Resolve"
+  },
+  {
+    "id": 1431,
+    "name": "Tower Defense"
+  },
+  {
+    "id": 1432,
+    "name": "Tower Defense"
+  },
+  {
+    "id": 1433,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1434,
+    "name": "Mana Hypersensitivity"
+  },
+  {
+    "id": 1435,
+    "name": "Piercing Resistance Down II"
+  },
+  {
+    "id": 1436,
+    "name": "Phoenix's Blessing"
+  },
+  {
+    "id": 1437,
+    "name": "Lohs Daih"
+  },
+  {
+    "id": 1438,
+    "name": "Resonant"
+  },
+  {
+    "id": 1439,
+    "name": "Independent Tactics"
+  },
+  {
+    "id": 1440,
+    "name": "Offensive Tactics"
+  },
+  {
+    "id": 1441,
+    "name": "Defensive Tactics"
+  },
+  {
+    "id": 1442,
+    "name": "Balanced Tactics"
+  },
+  {
+    "id": 1443,
+    "name": "Clockwork"
+  },
+  {
+    "id": 1444,
+    "name": "Magitek Field"
+  },
+  {
+    "id": 1445,
+    "name": "The Deceiver"
+  },
+  {
+    "id": 1446,
+    "name": "The Upholder"
+  },
+  {
+    "id": 1447,
+    "name": "Elemental EXP Up"
+  },
+  {
+    "id": 1448,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1449,
+    "name": "Troubadour's Minuet"
+  },
+  {
+    "id": 1450,
+    "name": "Troubadour's Paeon"
+  },
+  {
+    "id": 1451,
+    "name": "Lord of Crowns"
+  },
+  {
+    "id": 1452,
+    "name": "Lady of Crowns"
+  },
+  {
+    "id": 1453,
+    "name": "Right Eye"
+  },
+  {
+    "id": 1454,
+    "name": "Left Eye"
+  },
+  {
+    "id": 1455,
+    "name": "Flamethrower"
+  },
+  {
+    "id": 1456,
+    "name": "Thrill of War"
+  },
+  {
+    "id": 1457,
+    "name": "Shake It Off"
+  },
+  {
+    "id": 1458,
+    "name": "Flamethrower Flames"
+  },
+  {
+    "id": 1459,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1460,
+    "name": "Fetters"
+  },
+  {
+    "id": 1461,
+    "name": "Elemental Blessing: EXP"
+  },
+  {
+    "id": 1462,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 1463,
+    "name": "Elemental Blessing: Damage"
+  },
+  {
+    "id": 1464,
+    "name": "Time's Up"
+  },
+  {
+    "id": 1465,
+    "name": "Soaring"
+  },
+  {
+    "id": 1466,
+    "name": "Stab Wound"
+  },
+  {
+    "id": 1467,
+    "name": "Yellow Paint"
+  },
+  {
+    "id": 1468,
+    "name": "Blue Paint"
+  },
+  {
+    "id": 1469,
+    "name": "Black Paint"
+  },
+  {
+    "id": 1470,
+    "name": "Red Paint"
+  },
+  {
+    "id": 1471,
+    "name": "Last Kiss"
+  },
+  {
+    "id": 1472,
+    "name": "Apathetic"
+  },
+  {
+    "id": 1473,
+    "name": "Cemented"
+  },
+  {
+    "id": 1474,
+    "name": "Filthy"
+  },
+  {
+    "id": 1475,
+    "name": "Aether Rot"
+  },
+  {
+    "id": 1476,
+    "name": "Aether Rot Immunity"
+  },
+  {
+    "id": 1477,
+    "name": "Fetters"
+  },
+  {
+    "id": 1478,
+    "name": "Connectivity"
+  },
+  {
+    "id": 1479,
+    "name": "Falling"
+  },
+  {
+    "id": 1480,
+    "name": "Unrelenting Anguish"
+  },
+  {
+    "id": 1481,
+    "name": "Ominous Wind"
+  },
+  {
+    "id": 1482,
+    "name": "Mana Charge"
+  },
+  {
+    "id": 1483,
+    "name": "Fire Charged"
+  },
+  {
+    "id": 1484,
+    "name": "Blizzard Charged"
+  },
+  {
+    "id": 1485,
+    "name": "Thunder Charged"
+  },
+  {
+    "id": 1486,
+    "name": "Jester's Antics"
+  },
+  {
+    "id": 1487,
+    "name": "Jester's Truths"
+  },
+  {
+    "id": 1488,
+    "name": "Incurable"
+  },
+  {
+    "id": 1489,
+    "name": "Ultros Simulation"
+  },
+  {
+    "id": 1490,
+    "name": "Air Force Simulation"
+  },
+  {
+    "id": 1491,
+    "name": "Dadaluma Simulation"
+  },
+  {
+    "id": 1492,
+    "name": "Bibliotaph Simulation"
+  },
+  {
+    "id": 1493,
+    "name": "Virus"
+  },
+  {
+    "id": 1494,
+    "name": "Face in the Crowd"
+  },
+  {
+    "id": 1495,
+    "name": "Scalebound"
+  },
+  {
+    "id": 1496,
+    "name": "Vanished"
+  },
+  {
+    "id": 1497,
+    "name": "Fetters"
+  },
+  {
+    "id": 1498,
+    "name": "Shocked"
+  },
+  {
+    "id": 1499,
+    "name": "Heavy Medal"
+  },
+  {
+    "id": 1500,
+    "name": "Heavy Medal"
+  },
+  {
+    "id": 1501,
+    "name": "Heavy Medal"
+  },
+  {
+    "id": 1502,
+    "name": "Heavy Medal"
+  },
+  {
+    "id": 1503,
+    "name": "Light Medal"
+  },
+  {
+    "id": 1504,
+    "name": "Light Medal"
+  },
+  {
+    "id": 1505,
+    "name": "Light Medal"
+  },
+  {
+    "id": 1506,
+    "name": "Light Medal"
+  },
+  {
+    "id": 1507,
+    "name": "Pollen"
+  },
+  {
+    "id": 1508,
+    "name": "Windburn"
+  },
+  {
+    "id": 1509,
+    "name": "Slow"
+  },
+  {
+    "id": 1510,
+    "name": "Sleep"
+  },
+  {
+    "id": 1511,
+    "name": "Petrification"
+  },
+  {
+    "id": 1512,
+    "name": "Knockback Penalty"
+  },
+  {
+    "id": 1513,
+    "name": "Stun"
+  },
+  {
+    "id": 1514,
+    "name": "スリル・オブ・ウォー：効果"
+  },
+  {
+    "id": 1515,
+    "name": "Hover"
+  },
+  {
+    "id": 1516,
+    "name": "Cemented"
+  },
+  {
+    "id": 1517,
+    "name": "Fire Resistance Up"
+  },
+  {
+    "id": 1518,
+    "name": "King of the Skies"
+  },
+  {
+    "id": 1519,
+    "name": "Drubbed"
+  },
+  {
+    "id": 1520,
+    "name": "Mounted"
+  },
+  {
+    "id": 1521,
+    "name": "Stun"
+  },
+  {
+    "id": 1522,
+    "name": "Stun"
+  },
+  {
+    "id": 1523,
+    "name": "Haste+"
+  },
+  {
+    "id": 1524,
+    "name": "Blind"
+  },
+  {
+    "id": 1525,
+    "name": "Thermal Low"
+  },
+  {
+    "id": 1526,
+    "name": "Thermal High"
+  },
+  {
+    "id": 1527,
+    "name": "Accursed Flame"
+  },
+  {
+    "id": 1528,
+    "name": "Aetherially Charged"
+  },
+  {
+    "id": 1529,
+    "name": "Woken"
+  },
+  {
+    "id": 1530,
+    "name": "Beyond Limits"
+  },
+  {
+    "id": 1531,
+    "name": "Down the Rabbit Hole"
+  },
+  {
+    "id": 1532,
+    "name": "Viscous Aetheroplasm"
+  },
+  {
+    "id": 1533,
+    "name": "Airbound"
+  },
+  {
+    "id": 1534,
+    "name": "Role-playing"
+  },
+  {
+    "id": 1535,
+    "name": "Full Moon"
+  },
+  {
+    "id": 1536,
+    "name": "New Moon"
+  },
+  {
+    "id": 1537,
+    "name": "Blood Moon"
+  },
+  {
+    "id": 1538,
+    "name": "Moonlit"
+  },
+  {
+    "id": 1539,
+    "name": "Moonshadowed"
+  },
+  {
+    "id": 1540,
+    "name": "Veil of Shadow"
+  },
+  {
+    "id": 1541,
+    "name": "Veil of Light"
+  },
+  {
+    "id": 1542,
+    "name": "Haunt"
+  },
+  {
+    "id": 1543,
+    "name": "Haunt"
+  },
+  {
+    "id": 1544,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1545,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 1546,
+    "name": "Odder"
+  },
+  {
+    "id": 1547,
+    "name": "True Self"
+  },
+  {
+    "id": 1548,
+    "name": "Sprint"
+  },
+  {
+    "id": 1549,
+    "name": "Unmagicked"
+  },
+  {
+    "id": 1550,
+    "name": "Magnetic Lysis +"
+  },
+  {
+    "id": 1551,
+    "name": "Magnetic Lysis -"
+  },
+  {
+    "id": 1552,
+    "name": "Magnetic Levitation"
+  },
+  {
+    "id": 1553,
+    "name": "The One Dragon"
+  },
+  {
+    "id": 1554,
+    "name": "Borne Heart"
+  },
+  {
+    "id": 1555,
+    "name": "Heartless"
+  },
+  {
+    "id": 1556,
+    "name": "Threatened"
+  },
+  {
+    "id": 1557,
+    "name": "HP Penalty"
+  },
+  {
+    "id": 1558,
+    "name": "HP Boost +1"
+  },
+  {
+    "id": 1559,
+    "name": "HP Boost +2"
+  },
+  {
+    "id": 1560,
+    "name": "HP Boost +3"
+  },
+  {
+    "id": 1561,
+    "name": "HP Boost +4"
+  },
+  {
+    "id": 1562,
+    "name": "Computation Mode"
+  },
+  {
+    "id": 1563,
+    "name": "Tartarus Mode"
+  },
+  {
+    "id": 1564,
+    "name": "Annihilation Mode"
+  },
+  {
+    "id": 1565,
+    "name": "Computation Boost"
+  },
+  {
+    "id": 1566,
+    "name": "Computation Error"
+  },
+  {
+    "id": 1567,
+    "name": "Primal Rage"
+  },
+  {
+    "id": 1568,
+    "name": "Slow+"
+  },
+  {
+    "id": 1569,
+    "name": "Auspicious"
+  },
+  {
+    "id": 1570,
+    "name": "Invincibility"
+  },
+  {
+    "id": 1571,
+    "name": "Temporal Barrier"
+  },
+  {
+    "id": 1572,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1573,
+    "name": "Grudge"
+  },
+  {
+    "id": 1574,
+    "name": ""
+  },
+  {
+    "id": 1575,
+    "name": "Brotherly Love"
+  },
+  {
+    "id": 1576,
+    "name": "石化の呪い"
+  },
+  {
+    "id": 1577,
+    "name": "Burns"
+  },
+  {
+    "id": 1578,
+    "name": "Searing Wind"
+  },
+  {
+    "id": 1579,
+    "name": "Thin Ice"
+  },
+  {
+    "id": 1580,
+    "name": "Thin Ice"
+  },
+  {
+    "id": 1581,
+    "name": "Adaptation"
+  },
+  {
+    "id": 1582,
+    "name": "Mutation"
+  },
+  {
+    "id": 1583,
+    "name": "Elemental EXP Up"
+  },
+  {
+    "id": 1584,
+    "name": "Komainu's Favor"
+  },
+  {
+    "id": 1585,
+    "name": "Inugami's Favor"
+  },
+  {
+    "id": 1586,
+    "name": "Senri's Favor"
+  },
+  {
+    "id": 1587,
+    "name": "Elemental Harmony"
+  },
+  {
+    "id": 1588,
+    "name": "Mutation"
+  },
+  {
+    "id": 1589,
+    "name": "Mutation"
+  },
+  {
+    "id": 1590,
+    "name": "Light in the Dark"
+  },
+  {
+    "id": 1591,
+    "name": "Woken"
+  },
+  {
+    "id": 1592,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1593,
+    "name": "Adaptation"
+  },
+  {
+    "id": 1594,
+    "name": "Hundred Fists"
+  },
+  {
+    "id": 1595,
+    "name": "Heavy"
+  },
+  {
+    "id": 1596,
+    "name": "Sleep"
+  },
+  {
+    "id": 1597,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1598,
+    "name": "Mutation"
+  },
+  {
+    "id": 1599,
+    "name": "Pyretic"
+  },
+  {
+    "id": 1600,
+    "name": "Entropy"
+  },
+  {
+    "id": 1601,
+    "name": "Dynamic Fluid"
+  },
+  {
+    "id": 1602,
+    "name": "Headwind"
+  },
+  {
+    "id": 1603,
+    "name": "Tailwind"
+  },
+  {
+    "id": 1604,
+    "name": "Accretion"
+  },
+  {
+    "id": 1605,
+    "name": "Primordial Crust"
+  },
+  {
+    "id": 1606,
+    "name": "Muddy"
+  },
+  {
+    "id": 1607,
+    "name": "●弱点：雷属性"
+  },
+  {
+    "id": 1608,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1609,
+    "name": "Transfiguration"
+  },
+  {
+    "id": 1610,
+    "name": "Landborne"
+  },
+  {
+    "id": 1611,
+    "name": "Arcane Bulwark"
+  },
+  {
+    "id": 1612,
+    "name": "Defenseless"
+  },
+  {
+    "id": 1613,
+    "name": "Burning Soul"
+  },
+  {
+    "id": 1614,
+    "name": "Fetters"
+  },
+  {
+    "id": 1615,
+    "name": "Crumbling Bulwark"
+  },
+  {
+    "id": 1616,
+    "name": "Death from Above"
+  },
+  {
+    "id": 1617,
+    "name": "Death from Below"
+  },
+  {
+    "id": 1618,
+    "name": "Logos-minded"
+  },
+  {
+    "id": 1619,
+    "name": "Preoccupied"
+  },
+  {
+    "id": 1620,
+    "name": "Unveiled"
+  },
+  {
+    "id": 1621,
+    "name": "Concealed"
+  },
+  {
+    "id": 1622,
+    "name": "Critical Strikes"
+  },
+  {
+    "id": 1623,
+    "name": "Live Wire"
+  },
+  {
+    "id": 1624,
+    "name": "Looper"
+  },
+  {
+    "id": 1625,
+    "name": "Memory Degredation"
+  },
+  {
+    "id": 1626,
+    "name": "Memory Loss"
+  },
+  {
+    "id": 1627,
+    "name": "Chains of Memory"
+  },
+  {
+    "id": 1628,
+    "name": "Gradual Petrification"
+  },
+  {
+    "id": 1629,
+    "name": "Kill Command"
+  },
+  {
+    "id": 1630,
+    "name": "Love's True Form"
+  },
+  {
+    "id": 1631,
+    "name": "Wisdom of the Aetherweaver"
+  },
+  {
+    "id": 1632,
+    "name": "Wisdom of the Martialist"
+  },
+  {
+    "id": 1633,
+    "name": "Wisdom of the Platebearer"
+  },
+  {
+    "id": 1634,
+    "name": "Wisdom of the Guardian"
+  },
+  {
+    "id": 1635,
+    "name": "Wisdom of the Ordained"
+  },
+  {
+    "id": 1636,
+    "name": "Wisdom of the Skirmisher"
+  },
+  {
+    "id": 1637,
+    "name": "Wisdom of the Watcher"
+  },
+  {
+    "id": 1638,
+    "name": "Wisdom of the Templar"
+  },
+  {
+    "id": 1639,
+    "name": "Wisdom of the Irregular"
+  },
+  {
+    "id": 1640,
+    "name": "Wisdom of the Breathtaker"
+  },
+  {
+    "id": 1641,
+    "name": "Spirit of the Remembered"
+  },
+  {
+    "id": 1642,
+    "name": "Protect L"
+  },
+  {
+    "id": 1643,
+    "name": "Shell L"
+  },
+  {
+    "id": 1644,
+    "name": "Swift L"
+  },
+  {
+    "id": 1645,
+    "name": "Rapid Recast L"
+  },
+  {
+    "id": 1646,
+    "name": "Bravery L"
+  },
+  {
+    "id": 1647,
+    "name": "Solid Shield L"
+  },
+  {
+    "id": 1648,
+    "name": "Spell Shield L"
+  },
+  {
+    "id": 1649,
+    "name": "Reflect L"
+  },
+  {
+    "id": 1650,
+    "name": "Poison L"
+  },
+  {
+    "id": 1651,
+    "name": "Refresh L"
+  },
+  {
+    "id": 1652,
+    "name": "Magic Burst L"
+  },
+  {
+    "id": 1653,
+    "name": "Double Edge L"
+  },
+  {
+    "id": 1654,
+    "name": "Spirit Dart L"
+  },
+  {
+    "id": 1655,
+    "name": "Banish L"
+  },
+  {
+    "id": 1656,
+    "name": "Boost"
+  },
+  {
+    "id": 1657,
+    "name": "Incense L"
+  },
+  {
+    "id": 1658,
+    "name": "Omega"
+  },
+  {
+    "id": 1659,
+    "name": "Infinite Limit"
+  },
+  {
+    "id": 1660,
+    "name": "Packet Filter M"
+  },
+  {
+    "id": 1661,
+    "name": "Packet Filter F"
+  },
+  {
+    "id": 1662,
+    "name": "Local Resonance"
+  },
+  {
+    "id": 1663,
+    "name": "Remote Resonance"
+  },
+  {
+    "id": 1664,
+    "name": "Critical Synchronization Bug"
+  },
+  {
+    "id": 1665,
+    "name": "Critical Overflow Bug"
+  },
+  {
+    "id": 1666,
+    "name": "Critical Underflow Bug"
+  },
+  {
+    "id": 1667,
+    "name": "Synchronization Debugger"
+  },
+  {
+    "id": 1668,
+    "name": "Overflow Debugger"
+  },
+  {
+    "id": 1669,
+    "name": "Underflow Debugger"
+  },
+  {
+    "id": 1670,
+    "name": "Latent Defect"
+  },
+  {
+    "id": 1671,
+    "name": "Cascading Latent Defect"
+  },
+  {
+    "id": 1672,
+    "name": "Local Regression"
+  },
+  {
+    "id": 1673,
+    "name": "Remote Regression"
+  },
+  {
+    "id": 1674,
+    "name": "Omega-M"
+  },
+  {
+    "id": 1675,
+    "name": "Omega-F"
+  },
+  {
+    "id": 1676,
+    "name": "Superfluid"
+  },
+  {
+    "id": 1677,
+    "name": "Bloodbath L"
+  },
+  {
+    "id": 1678,
+    "name": ""
+  },
+  {
+    "id": 1679,
+    "name": ""
+  },
+  {
+    "id": 1680,
+    "name": ""
+  },
+  {
+    "id": 1681,
+    "name": "Paying the Piper"
+  },
+  {
+    "id": 1682,
+    "name": "Sleeping Dark"
+  },
+  {
+    "id": 1683,
+    "name": "Sleeping Light"
+  },
+  {
+    "id": 1684,
+    "name": "Break III Edict"
+  },
+  {
+    "id": 1685,
+    "name": "Rush Edict"
+  },
+  {
+    "id": 1686,
+    "name": "Tornado Edict"
+  },
+  {
+    "id": 1687,
+    "name": "Rehabilitation"
+  },
+  {
+    "id": 1688,
+    "name": "Group Oriented"
+  },
+  {
+    "id": 1689,
+    "name": "Primary Target"
+  },
+  {
+    "id": 1690,
+    "name": "Skyborne"
+  },
+  {
+    "id": 1691,
+    "name": "Landborne"
+  },
+  {
+    "id": 1692,
+    "name": "Guardian Spirit"
+  },
+  {
+    "id": 1693,
+    "name": ""
+  },
+  {
+    "id": 1694,
+    "name": ""
+  },
+  {
+    "id": 1695,
+    "name": ""
+  },
+  {
+    "id": 1696,
+    "name": "Drowning"
+  },
+  {
+    "id": 1697,
+    "name": "Invincibility"
+  },
+  {
+    "id": 1698,
+    "name": "Mutation"
+  },
+  {
+    "id": 1699,
+    "name": "Looming Crescendo"
+  },
+  {
+    "id": 1700,
+    "name": "Mutation"
+  },
+  {
+    "id": 1701,
+    "name": "Electromagnetic Field"
+  },
+  {
+    "id": 1702,
+    "name": "Ice Resistance Down"
+  },
+  {
+    "id": 1703,
+    "name": "Biohacked"
+  },
+  {
+    "id": 1704,
+    "name": "Looper"
+  },
+  {
+    "id": 1705,
+    "name": "Hidden"
+  },
+  {
+    "id": 1706,
+    "name": "Evasion Up"
+  },
+  {
+    "id": 1707,
+    "name": "Right Unseen"
+  },
+  {
+    "id": 1708,
+    "name": "Left Unseen"
+  },
+  {
+    "id": 1709,
+    "name": "Back Unseen"
+  },
+  {
+    "id": 1710,
+    "name": "Astral Essence"
+  },
+  {
+    "id": 1711,
+    "name": "Umbral Essence"
+  },
+  {
+    "id": 1712,
+    "name": "Astral Cloak"
+  },
+  {
+    "id": 1713,
+    "name": "Umbral Cloak"
+  },
+  {
+    "id": 1714,
+    "name": "Bleeding"
+  },
+  {
+    "id": 1715,
+    "name": "Malodorous"
+  },
+  {
+    "id": 1716,
+    "name": "Boost"
+  },
+  {
+    "id": 1717,
+    "name": "Off-guard"
+  },
+  {
+    "id": 1718,
+    "name": "Waxing Nocturne"
+  },
+  {
+    "id": 1719,
+    "name": "Mighty Guard"
+  },
+  {
+    "id": 1720,
+    "name": "Ice Spikes"
+  },
+  {
+    "id": 1721,
+    "name": "Peculiar Light"
+  },
+  {
+    "id": 1722,
+    "name": "Diamondback"
+  },
+  {
+    "id": 1723,
+    "name": "Windburn"
+  },
+  {
+    "id": 1724,
+    "name": "Veil of the Whorl"
+  },
+  {
+    "id": 1725,
+    "name": "Cursekeeper"
+  },
+  {
+    "id": 1726,
+    "name": "Fetters"
+  },
+  {
+    "id": 1727,
+    "name": "Waning Nocturne"
+  },
+  {
+    "id": 1728,
+    "name": "Contractual Obligation"
+  },
+  {
+    "id": 1729,
+    "name": "Sheer Will"
+  },
+  {
+    "id": 1730,
+    "name": "Flying High"
+  },
+  {
+    "id": 1731,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 1732,
+    "name": "Elemental EXP Up"
+  },
+  {
+    "id": 1733,
+    "name": "Shieldbearer"
+  },
+  {
+    "id": 1734,
+    "name": "Swordbearer"
+  },
+  {
+    "id": 1735,
+    "name": "Heavenly Shield"
+  },
+  {
+    "id": 1736,
+    "name": "Dropsy"
+  },
+  {
+    "id": 1737,
+    "name": "Toad Oil"
+  },
+  {
+    "id": 1738,
+    "name": "Doom"
+  },
+  {
+    "id": 1739,
+    "name": "Wisdom of the Elder"
+  },
+  {
+    "id": 1740,
+    "name": "Wisdom of the Duelist"
+  },
+  {
+    "id": 1741,
+    "name": "Wisdom of the Fiendhunter"
+  },
+  {
+    "id": 1742,
+    "name": "Wisdom of the Indomitable"
+  },
+  {
+    "id": 1743,
+    "name": "Doom"
+  },
+  {
+    "id": 1744,
+    "name": "Stellation"
+  },
+  {
+    "id": 1745,
+    "name": "Black Hole Buffer"
+  },
+  {
+    "id": 1746,
+    "name": "Blown Away"
+  },
+  {
+    "id": 1747,
+    "name": "Fearless"
+  },
+  {
+    "id": 1748,
+    "name": "Guardians' Aegis"
+  },
+  {
+    "id": 1749,
+    "name": "Area of Influence Up"
+  },
+  {
+    "id": 1750,
+    "name": "Twin Fates"
+  },
+  {
+    "id": 1751,
+    "name": "Soul of Fire"
+  },
+  {
+    "id": 1752,
+    "name": "Soul of Ice"
+  },
+  {
+    "id": 1753,
+    "name": "Blood Sacrifice"
+  },
+  {
+    "id": 1754,
+    "name": "Aetherially Primed"
+  },
+  {
+    "id": 1755,
+    "name": "Resurrection Restricted"
+  },
+  {
+    "id": 1756,
+    "name": "Elemental Blessing"
+  },
+  {
+    "id": 1757,
+    "name": "Fetters"
+  },
+  {
+    "id": 1758,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 1759,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 1760,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1761,
+    "name": "Ice Resistance Up"
+  },
+  {
+    "id": 1762,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 1763,
+    "name": "HP Boost"
+  },
+  {
+    "id": 1764,
+    "name": "Artificially Enhanced"
+  },
+  {
+    "id": 1765,
+    "name": "Artificially Enhanced"
+  },
+  {
+    "id": 1766,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1767,
+    "name": "Weak Magitek Field"
+  },
+  {
+    "id": 1768,
+    "name": "Watery Grave"
+  },
+  {
+    "id": 1769,
+    "name": "Doom"
+  },
+  {
+    "id": 1770,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1771,
+    "name": "True Virtue"
+  },
+  {
+    "id": 1772,
+    "name": "Aggressive Posture"
+  },
+  {
+    "id": 1773,
+    "name": "Defensive Posture"
+  },
+  {
+    "id": 1774,
+    "name": "Blazing Aramitama"
+  },
+  {
+    "id": 1775,
+    "name": "Reforged"
+  },
+  {
+    "id": 1776,
+    "name": "Blunt Resistance Down"
+  },
+  {
+    "id": 1777,
+    "name": "Reforged"
+  },
+  {
+    "id": 1778,
+    "name": "Hoofing It"
+  },
+  {
+    "id": 1779,
+    "name": "Ajisai"
+  },
+  {
+    "id": 1780,
+    "name": "魔力汚染"
+  },
+  {
+    "id": 1781,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1782,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 1783,
+    "name": "Soul of Fire"
+  },
+  {
+    "id": 1784,
+    "name": "Soul of Ice"
+  },
+  {
+    "id": 1785,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 1786,
+    "name": "Pure Muscle"
+  },
+  {
+    "id": 1787,
+    "name": "Burns"
+  },
+  {
+    "id": 1788,
+    "name": "Frostbite"
+  },
+  {
+    "id": 1789,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1790,
+    "name": "Shadow Links"
+  },
+  {
+    "id": 1791,
+    "name": "Magic Infusion"
+  },
+  {
+    "id": 1792,
+    "name": "Artificial Boost"
+  },
+  {
+    "id": 1793,
+    "name": "Mark of Mortality"
+  },
+  {
+    "id": 1794,
+    "name": "Heated Up"
+  },
+  {
+    "id": 1795,
+    "name": "Heated Up"
+  },
+  {
+    "id": 1796,
+    "name": "Heavy"
+  },
+  {
+    "id": 1797,
+    "name": "Critical Strikes"
+  },
+  {
+    "id": 1798,
+    "name": "Dualcast"
+  },
+  {
+    "id": 1799,
+    "name": "Fae Light"
+  },
+  {
+    "id": 1800,
+    "name": "Bloated"
+  },
+  {
+    "id": 1801,
+    "name": "Pick Clean"
+  },
+  {
+    "id": 1802,
+    "name": "The Giving Land"
+  },
+  {
+    "id": 1803,
+    "name": "Surface Slap"
+  },
+  {
+    "id": 1804,
+    "name": "Identical Cast"
+  },
+  {
+    "id": 1805,
+    "name": "Identical Gig"
+  },
+  {
+    "id": 1806,
+    "name": "Reusing"
+  },
+  {
+    "id": 1807,
+    "name": "Cocoon of the Penitent"
+  },
+  {
+    "id": 1808,
+    "name": "Spell-in-Waiting"
+  },
+  {
+    "id": 1809,
+    "name": "Spell-in-Waiting: Unholy Darkness"
+  },
+  {
+    "id": 1810,
+    "name": "Spell-in-Waiting: Dark Fire III"
+  },
+  {
+    "id": 1811,
+    "name": "Spell-in-Waiting: Hell Wind"
+  },
+  {
+    "id": 1812,
+    "name": "Spell-in-Waiting: Shadoweye"
+  },
+  {
+    "id": 1813,
+    "name": "Flesh Wound"
+  },
+  {
+    "id": 1814,
+    "name": "Flourishing Cascade"
+  },
+  {
+    "id": 1815,
+    "name": "Flourishing Fountain"
+  },
+  {
+    "id": 1816,
+    "name": "Flourishing Windmill"
+  },
+  {
+    "id": 1817,
+    "name": "Flourishing Shower"
+  },
+  {
+    "id": 1818,
+    "name": "Standard Step"
+  },
+  {
+    "id": 1819,
+    "name": "Technical Step"
+  },
+  {
+    "id": 1820,
+    "name": "Flourishing Fan Dance"
+  },
+  {
+    "id": 1821,
+    "name": "Standard Finish"
+  },
+  {
+    "id": 1822,
+    "name": "Technical Finish"
+  },
+  {
+    "id": 1823,
+    "name": "Closed Position"
+  },
+  {
+    "id": 1824,
+    "name": "Dance Partner"
+  },
+  {
+    "id": 1825,
+    "name": "Devilment"
+  },
+  {
+    "id": 1826,
+    "name": "Shield Samba",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 1827,
+    "name": "Improvisation"
+  },
+  {
+    "id": 1828,
+    "name": "Improvisation"
+  },
+  {
+    "id": 1829,
+    "name": "Invincibility"
+  },
+  {
+    "id": 1830,
+    "name": "Monstrous"
+  },
+  {
+    "id": 1831,
+    "name": "No Mercy"
+  },
+  {
+    "id": 1832,
+    "name": "Camouflage",
+    "mit": {
+      "value": 10,
+      "type": "all"
+    }
+  },
+  {
+    "id": 1833,
+    "name": "Royal Guard"
+  },
+  {
+    "id": 1834,
+    "name": "Nebula",
+    "mit": {
+      "value": 30,
+      "type": "all"
+    }
+  },
+  {
+    "id": 1835,
+    "name": "Aurora"
+  },
+  {
+    "id": 1836,
+    "name": "Superbolide"
+  },
+  {
+    "id": 1837,
+    "name": "Sonic Break"
+  },
+  {
+    "id": 1838,
+    "name": "Bow Shock"
+  },
+  {
+    "id": 1839,
+    "name": "Heart of Light",
+    "mit": {
+      "value": 10,
+      "type": "magic"
+    }
+  },
+  {
+    "id": 1840,
+    "name": "Heart of Stone",
+    "mit": {
+      "value": 15,
+      "type": "all"
+    }
+  },
+  {
+    "id": 1841,
+    "name": ""
+  },
+  {
+    "id": 1842,
+    "name": "Ready to Rip"
+  },
+  {
+    "id": 1843,
+    "name": "Ready to Tear"
+  },
+  {
+    "id": 1844,
+    "name": "Ready to Gouge"
+  },
+  {
+    "id": 1845,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 1846,
+    "name": "Curse of the Ronka"
+  },
+  {
+    "id": 1847,
+    "name": "Esprit"
+  },
+  {
+    "id": 1848,
+    "name": "Esprit"
+  },
+  {
+    "id": 1849,
+    "name": "Fetters"
+  },
+  {
+    "id": 1850,
+    "name": "Surging Waters"
+  },
+  {
+    "id": 1851,
+    "name": "Splashing Waters"
+  },
+  {
+    "id": 1852,
+    "name": "Swirling Waters"
+  },
+  {
+    "id": 1853,
+    "name": "Smothering Waters"
+  },
+  {
+    "id": 1854,
+    "name": "Sundering Waters"
+  },
+  {
+    "id": 1855,
+    "name": "Sweeping Waters"
+  },
+  {
+    "id": 1856,
+    "name": "Sheltron"
+  },
+  {
+    "id": 1857,
+    "name": "Nascent Flash"
+  },
+  {
+    "id": 1858,
+    "name": "Nascent Glint",
+    "mit": {
+      "value": 10,
+      "type": "all"
+    }
+  },
+  {
+    "id": 1859,
+    "name": "Fading Fast"
+  },
+  {
+    "id": 1860,
+    "name": "Vital Sign"
+  },
+  {
+    "id": 1861,
+    "name": "Leaden Fist"
+  },
+  {
+    "id": 1862,
+    "name": "Anatman"
+  },
+  {
+    "id": 1863,
+    "name": "Raiden Thrust Ready"
+  },
+  {
+    "id": 1864,
+    "name": "Lance Charge"
+  },
+  {
+    "id": 1865,
+    "name": "Meditation"
+  },
+  {
+    "id": 1866,
+    "name": "Bioblaster"
+  },
+  {
+    "id": 1867,
+    "name": "Hellish Conduit"
+  },
+  {
+    "id": 1868,
+    "name": "Everlasting Flight"
+  },
+  {
+    "id": 1869,
+    "name": "Gale Enforcer"
+  },
+  {
+    "id": 1870,
+    "name": ""
+  },
+  {
+    "id": 1871,
+    "name": "Dia"
+  },
+  {
+    "id": 1872,
+    "name": "Temperance"
+  },
+  {
+    "id": 1873,
+    "name": "Temperance",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 1874,
+    "name": "Angel's Whisper"
+  },
+  {
+    "id": 1875,
+    "name": "Seraphic Illumination",
+    "mit": {
+      "type": "all",
+      "value": 5
+    }
+  },
+  {
+    "id": 1876,
+    "name": "Lord of Crowns"
+  },
+  {
+    "id": 1877,
+    "name": "Lady of Crowns"
+  },
+  {
+    "id": 1878,
+    "name": "Divination"
+  },
+  {
+    "id": 1879,
+    "name": "Diurnal Opposition"
+  },
+  {
+    "id": 1880,
+    "name": "Nocturnal Opposition"
+  },
+  {
+    "id": 1881,
+    "name": "Combust III"
+  },
+  {
+    "id": 1882,
+    "name": "The Balance"
+  },
+  {
+    "id": 1883,
+    "name": "The Bole"
+  },
+  {
+    "id": 1884,
+    "name": "The Arrow"
+  },
+  {
+    "id": 1885,
+    "name": "The Spear"
+  },
+  {
+    "id": 1886,
+    "name": "The Ewer"
+  },
+  {
+    "id": 1887,
+    "name": "The Spire"
+  },
+  {
+    "id": 1888,
+    "name": "Diurnal Intersection"
+  },
+  {
+    "id": 1889,
+    "name": "Nocturnal Intersection"
+  },
+  {
+    "id": 1890,
+    "name": "Horoscope"
+  },
+  {
+    "id": 1891,
+    "name": "Horoscope Helios"
+  },
+  {
+    "id": 1892,
+    "name": "Neutral Sect"
+  },
+  {
+    "id": 1893,
+    "name": "Scouring Waters"
+  },
+  {
+    "id": 1894,
+    "name": "Dark Missionary",
+    "mit": {
+      "value": 10,
+      "type": "magic"
+    }
+  },
+  {
+    "id": 1895,
+    "name": "Biolysis"
+  },
+  {
+    "id": 1896,
+    "name": "Recitation"
+  },
+  {
+    "id": 1897,
+    "name": "Nascent Chaos"
+  },
+  {
+    "id": 1898,
+    "name": "Brutal Shell"
+  },
+  {
+    "id": 1899,
+    "name": "Electrocution"
+  },
+  {
+    "id": 1900,
+    "name": "Winged Shield"
+  },
+  {
+    "id": 1901,
+    "name": "Enshielded"
+  },
+  {
+    "id": 1902,
+    "name": "Sword Oath"
+  },
+  {
+    "id": 1903,
+    "name": "Phantasmal"
+  },
+  {
+    "id": 1904,
+    "name": "Light in the Dark"
+  },
+  {
+    "id": 1905,
+    "name": "Veil of Gukumatz"
+  },
+  {
+    "id": 1906,
+    "name": "Perfect Deception"
+  },
+  {
+    "id": 1907,
+    "name": "Faded Out"
+  },
+  {
+    "id": 1908,
+    "name": "Fetters"
+  },
+  {
+    "id": 1909,
+    "name": "Area of Influence Up"
+  },
+  {
+    "id": 1910,
+    "name": "Right Eye"
+  },
+  {
+    "id": 1911,
+    "name": "Asylum"
+  },
+  {
+    "id": 1912,
+    "name": "Asylum"
+  },
+  {
+    "id": 1913,
+    "name": "Vauthry's Blessing"
+  },
+  {
+    "id": 1914,
+    "name": "Disembowel"
+  },
+  {
+    "id": 1915,
+    "name": "Summon Order"
+  },
+  {
+    "id": 1916,
+    "name": "Name of the Elements"
+  },
+  {
+    "id": 1917,
+    "name": "Seraphic Veil"
+  },
+  {
+    "id": 1918,
+    "name": "Catalyze"
+  },
+  {
+    "id": 1919,
+    "name": "Damage Up"
+  },
+  {
+    "id": 1920,
+    "name": "Diurnal Balance"
+  },
+  {
+    "id": 1921,
+    "name": "Nocturnal Balance"
+  },
+  {
+    "id": 1922,
+    "name": "Vauthry's Blessing"
+  },
+  {
+    "id": 1923,
+    "name": "Vauthry's Blessing"
+  },
+  {
+    "id": 1924,
+    "name": "Vauthry's Blessing"
+  },
+  {
+    "id": 1925,
+    "name": "Vauthry's Blessing"
+  },
+  {
+    "id": 1926,
+    "name": "Sleeve Draw"
+  },
+  {
+    "id": 1927,
+    "name": "Trusty Shield"
+  },
+  {
+    "id": 1928,
+    "name": "Levinskin"
+  },
+  {
+    "id": 1929,
+    "name": "Light Beyond Darkness"
+  },
+  {
+    "id": 1930,
+    "name": ""
+  },
+  {
+    "id": 1931,
+    "name": "Gunmetal Soul"
+  },
+  {
+    "id": 1932,
+    "name": "Army's Muse"
+  },
+  {
+    "id": 1933,
+    "name": "Army's Ethos"
+  },
+  {
+    "id": 1934,
+    "name": "Troubadour",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 1935,
+    "name": "Soaking Wet"
+  },
+  {
+    "id": 1936,
+    "name": "Stone Wall"
+  },
+  {
+    "id": 1937,
+    "name": "In Event"
+  },
+  {
+    "id": 1938,
+    "name": ""
+  },
+  {
+    "id": 1939,
+    "name": "Beckoned"
+  },
+  {
+    "id": 1940,
+    "name": ""
+  },
+  {
+    "id": 1941,
+    "name": "Accursed Poison"
+  },
+  {
+    "id": 1942,
+    "name": "Ranging"
+  },
+  {
+    "id": 1943,
+    "name": "Hastilude"
+  },
+  {
+    "id": 1944,
+    "name": "Sacred Soil"
+  },
+  {
+    "id": 1945,
+    "name": "Hoofing It"
+  },
+  {
+    "id": 1946,
+    "name": "Wildfire"
+  },
+  {
+    "id": 1947,
+    "name": "Sleep"
+  },
+  {
+    "id": 1948,
+    "name": "Magic Damage Down"
+  },
+  {
+    "id": 1949,
+    "name": "Splashing Waters"
+  },
+  {
+    "id": 1950,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 1951,
+    "name": "Tactician",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 1952,
+    "name": "Hide"
+  },
+  {
+    "id": 1953,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 1954,
+    "name": "Bunshin"
+  },
+  {
+    "id": 1955,
+    "name": "Assassinate Ready"
+  },
+  {
+    "id": 1956,
+    "name": "Souldeep Invisibility"
+  },
+  {
+    "id": 1957,
+    "name": ""
+  },
+  {
+    "id": 1958,
+    "name": "Forward March"
+  },
+  {
+    "id": 1959,
+    "name": "About Face"
+  },
+  {
+    "id": 1960,
+    "name": "Left Face"
+  },
+  {
+    "id": 1961,
+    "name": "Right Face"
+  },
+  {
+    "id": 1962,
+    "name": "Haste"
+  },
+  {
+    "id": 1963,
+    "name": "Down for the Count"
+  },
+  {
+    "id": 1964,
+    "name": "Summon Order II"
+  },
+  {
+    "id": 1965,
+    "name": "Summon Order III"
+  },
+  {
+    "id": 1966,
+    "name": "Summon Order IV"
+  },
+  {
+    "id": 1967,
+    "name": "Sleep Resistance"
+  },
+  {
+    "id": 1968,
+    "name": "Behelmed"
+  },
+  {
+    "id": 1969,
+    "name": "Behelmed"
+  },
+  {
+    "id": 1970,
+    "name": "Doom"
+  },
+  {
+    "id": 1971,
+    "name": "Manafication"
+  },
+  {
+    "id": 1972,
+    "name": "Delirium"
+  },
+  {
+    "id": 1973,
+    "name": "Lightning Resistance Down II"
+  },
+  {
+    "id": 1974,
+    "name": "Paradise Regained"
+  },
+  {
+    "id": 1975,
+    "name": "Enlarged"
+  },
+  {
+    "id": 1976,
+    "name": "Fully Enlarged"
+  },
+  {
+    "id": 1977,
+    "name": "Full Swing"
+  },
+  {
+    "id": 1978,
+    "name": "Rampart"
+  },
+  {
+    "id": 1979,
+    "name": "アルティメイタム"
+  },
+  {
+    "id": 1980,
+    "name": "アルティメイタム[被]"
+  },
+  {
+    "id": 1981,
+    "name": "Blood for Blood"
+  },
+  {
+    "id": 1982,
+    "name": "Bloodbath"
+  },
+  {
+    "id": 1983,
+    "name": "Fetter Ward"
+  },
+  {
+    "id": 1984,
+    "name": "Arm's Length"
+  },
+  {
+    "id": 1985,
+    "name": "Peloton"
+  },
+  {
+    "id": 1986,
+    "name": "Phantom Dart"
+  },
+  {
+    "id": 1987,
+    "name": "Swiftcast"
+  },
+  {
+    "id": 1988,
+    "name": "Addle"
+  },
+  {
+    "id": 1989,
+    "name": "Manaward"
+  },
+  {
+    "id": 1990,
+    "name": "Attunement"
+  },
+  {
+    "id": 1991,
+    "name": "Sword Oath"
+  },
+  {
+    "id": 1992,
+    "name": "Nascent Chaos"
+  },
+  {
+    "id": 1993,
+    "name": "Shake It Off"
+  },
+  {
+    "id": 1994,
+    "name": "ブラッドスピラー"
+  },
+  {
+    "id": 1995,
+    "name": "クワイタス"
+  },
+  {
+    "id": 1996,
+    "name": "Delirium"
+  },
+  {
+    "id": 1997,
+    "name": "Brutal Shell"
+  },
+  {
+    "id": 1998,
+    "name": "バーストストライク"
+  },
+  {
+    "id": 1999,
+    "name": "フェイテッドサークル"
+  },
+  {
+    "id": 2000,
+    "name": "Heart of Light",
+    "mit": {
+      "value": 10,
+      "type": "magic"
+    }
+  },
+  {
+    "id": 2001,
+    "name": "無敵"
+  },
+  {
+    "id": 2002,
+    "name": "Ready to Rip"
+  },
+  {
+    "id": 2003,
+    "name": "Ready to Tear"
+  },
+  {
+    "id": 2004,
+    "name": "Ready to Gouge"
+  },
+  {
+    "id": 2005,
+    "name": "Fists of Fire"
+  },
+  {
+    "id": 2006,
+    "name": "Fists of Earth"
+  },
+  {
+    "id": 2007,
+    "name": "Fists of Wind"
+  },
+  {
+    "id": 2008,
+    "name": "Riddle of Earth"
+  },
+  {
+    "id": 2009,
+    "name": "Wanderer's Minuet"
+  },
+  {
+    "id": 2010,
+    "name": "Bunshin"
+  },
+  {
+    "id": 2011,
+    "name": "Shade Shift"
+  },
+  {
+    "id": 2012,
+    "name": "Corps-a-corps"
+  },
+  {
+    "id": 2013,
+    "name": "Displacement"
+  },
+  {
+    "id": 2014,
+    "name": "Trick Attack"
+  },
+  {
+    "id": 2015,
+    "name": "陣風"
+  },
+  {
+    "id": 2016,
+    "name": "士風"
+  },
+  {
+    "id": 2017,
+    "name": "Repelling Shot"
+  },
+  {
+    "id": 2018,
+    "name": "ワイルドファイア"
+  },
+  {
+    "id": 2019,
+    "name": "Bioblaster"
+  },
+  {
+    "id": 2020,
+    "name": "Intervention"
+  },
+  {
+    "id": 2021,
+    "name": "Flourishing Fan Dance"
+  },
+  {
+    "id": 2022,
+    "name": "Saber Dance"
+  },
+  {
+    "id": 2023,
+    "name": "Standard Step"
+  },
+  {
+    "id": 2024,
+    "name": "Standard Finish"
+  },
+  {
+    "id": 2025,
+    "name": "Esprit"
+  },
+  {
+    "id": 2026,
+    "name": "Closed Position"
+  },
+  {
+    "id": 2027,
+    "name": "Dance Partner"
+  },
+  {
+    "id": 2028,
+    "name": "三連魔"
+  },
+  {
+    "id": 2029,
+    "name": "Fountain of Fire"
+  },
+  {
+    "id": 2030,
+    "name": "Everlasting Flight"
+  },
+  {
+    "id": 2031,
+    "name": "ヴァルエアロ"
+  },
+  {
+    "id": 2032,
+    "name": "ヴァルサンダー"
+  },
+  {
+    "id": 2033,
+    "name": "Engagement"
+  },
+  {
+    "id": 2034,
+    "name": "Divination"
+  },
+  {
+    "id": 2035,
+    "name": "Dia"
+  },
+  {
+    "id": 2036,
+    "name": "Afflatus Solace"
+  },
+  {
+    "id": 2037,
+    "name": "Temperance"
+  },
+  {
+    "id": 2038,
+    "name": "Temperance"
+  },
+  {
+    "id": 2039,
+    "name": "Biolysis"
+  },
+  {
+    "id": 2040,
+    "name": "Seraphic Veil"
+  },
+  {
+    "id": 2041,
+    "name": "Combust III"
+  },
+  {
+    "id": 2042,
+    "name": "Diurnal Balance"
+  },
+  {
+    "id": 2043,
+    "name": "Nocturnal Balance"
+  },
+  {
+    "id": 2044,
+    "name": "Neutral Sect"
+  },
+  {
+    "id": 2045,
+    "name": "シャーク"
+  },
+  {
+    "id": 2046,
+    "name": "シャーク[被]"
+  },
+  {
+    "id": 2047,
+    "name": "Wide Awake"
+  },
+  {
+    "id": 2048,
+    "name": "En Avant"
+  },
+  {
+    "id": 2049,
+    "name": "Technical Step"
+  },
+  {
+    "id": 2050,
+    "name": "Technical Finish"
+  },
+  {
+    "id": 2051,
+    "name": "Esprit"
+  },
+  {
+    "id": 2052,
+    "name": "Fan Dance III"
+  },
+  {
+    "id": 2053,
+    "name": "Protect"
+  },
+  {
+    "id": 2054,
+    "name": "Lord of Crowns Drawn"
+  },
+  {
+    "id": 2055,
+    "name": "Lady of Crowns Drawn"
+  },
+  {
+    "id": 2056,
+    "name": ""
+  },
+  {
+    "id": 2057,
+    "name": ""
+  },
+  {
+    "id": 2058,
+    "name": ""
+  },
+  {
+    "id": 2059,
+    "name": ""
+  },
+  {
+    "id": 2060,
+    "name": ""
+  },
+  {
+    "id": 2061,
+    "name": "Nascent Flash"
+  },
+  {
+    "id": 2062,
+    "name": "Nascent Glint",
+    "mit": {
+      "value": 10,
+      "type": "all"
+    }
+  },
+  {
+    "id": 2063,
+    "name": "Draw Power"
+  },
+  {
+    "id": 2064,
+    "name": "Draw Fortitude"
+  },
+  {
+    "id": 2065,
+    "name": "Aurora"
+  },
+  {
+    "id": 2066,
+    "name": "Drained Power"
+  },
+  {
+    "id": 2067,
+    "name": "Drained Fortitude"
+  },
+  {
+    "id": 2068,
+    "name": "Smackdown"
+  },
+  {
+    "id": 2069,
+    "name": "Dissipation"
+  },
+  {
+    "id": 2070,
+    "name": "Diurnal Opposition"
+  },
+  {
+    "id": 2071,
+    "name": "Nocturnal Opposition"
+  },
+  {
+    "id": 2072,
+    "name": "Focalization"
+  },
+  {
+    "id": 2073,
+    "name": "Acidic Bite"
+  },
+  {
+    "id": 2074,
+    "name": "Physical Damage Up"
+  },
+  {
+    "id": 2075,
+    "name": "Thunder II"
+  },
+  {
+    "id": 2076,
+    "name": "Confiteor"
+  },
+  {
+    "id": 2077,
+    "name": "Inner Chaos"
+  },
+  {
+    "id": 2078,
+    "name": "Chaotic Cyclone"
+  },
+  {
+    "id": 2079,
+    "name": "Flesh Wound"
+  },
+  {
+    "id": 2080,
+    "name": "Stab Wound"
+  },
+  {
+    "id": 2081,
+    "name": "Concussion"
+  },
+  {
+    "id": 2082,
+    "name": "Burns"
+  },
+  {
+    "id": 2083,
+    "name": "Frostbite"
+  },
+  {
+    "id": 2084,
+    "name": "Windburn"
+  },
+  {
+    "id": 2085,
+    "name": "Sludge"
+  },
+  {
+    "id": 2086,
+    "name": "Electrocution"
+  },
+  {
+    "id": 2087,
+    "name": "Dropsy"
+  },
+  {
+    "id": 2088,
+    "name": "Bleeding"
+  },
+  {
+    "id": 2089,
+    "name": "Poison"
+  },
+  {
+    "id": 2090,
+    "name": "Physical Vulnerability Up"
+  },
+  {
+    "id": 2091,
+    "name": "Magic Vulnerability Up"
+  },
+  {
+    "id": 2092,
+    "name": "Damage Down"
+  },
+  {
+    "id": 2093,
+    "name": "Healing Magic Down"
+  },
+  {
+    "id": 2094,
+    "name": "Water Resistance Down II"
+  },
+  {
+    "id": 2095,
+    "name": "Lightning Resistance Down II"
+  },
+  {
+    "id": 2096,
+    "name": "Wind Resistance Down II"
+  },
+  {
+    "id": 2097,
+    "name": "Earth Resistance Down II"
+  },
+  {
+    "id": 2098,
+    "name": "Fire Resistance Down II"
+  },
+  {
+    "id": 2099,
+    "name": "Heavy"
+  },
+  {
+    "id": 2100,
+    "name": "Unstable Gravity"
+  },
+  {
+    "id": 2101,
+    "name": "Reprisal"
+  },
+  {
+    "id": 2102,
+    "name": "Edge of Shadow"
+  },
+  {
+    "id": 2103,
+    "name": "Concussion"
+  },
+  {
+    "id": 2104,
+    "name": "Poison"
+  },
+  {
+    "id": 2105,
+    "name": "Standard Finish"
+  },
+  {
+    "id": 2106,
+    "name": "Spell-in-Waiting: Flare"
+  },
+  {
+    "id": 2107,
+    "name": ""
+  },
+  {
+    "id": 2108,
+    "name": ""
+  },
+  {
+    "id": 2109,
+    "name": "Out of the Action"
+  },
+  {
+    "id": 2110,
+    "name": "Ancient Circle"
+  },
+  {
+    "id": 2111,
+    "name": "Prey"
+  },
+  {
+    "id": 2112,
+    "name": "Prey"
+  },
+  {
+    "id": 2113,
+    "name": "Standard Finish"
+  },
+  {
+    "id": 2114,
+    "name": "Gobskin"
+  },
+  {
+    "id": 2115,
+    "name": "Conked"
+  },
+  {
+    "id": 2116,
+    "name": "Meatily Shielded"
+  },
+  {
+    "id": 2117,
+    "name": "Meat Shield"
+  },
+  {
+    "id": 2118,
+    "name": "Harmonized"
+  },
+  {
+    "id": 2119,
+    "name": "Cactguard"
+  },
+  {
+    "id": 2120,
+    "name": "HP Boost"
+  },
+  {
+    "id": 2121,
+    "name": "Astral Attenuation"
+  },
+  {
+    "id": 2122,
+    "name": "Umbral Attenuation"
+  },
+  {
+    "id": 2123,
+    "name": "Physical Attenuation"
+  },
+  {
+    "id": 2124,
+    "name": "Aetherial Mimicry: Tank"
+  },
+  {
+    "id": 2125,
+    "name": "Aetherial Mimicry: DPS"
+  },
+  {
+    "id": 2126,
+    "name": "Aetherial Mimicry: Healer"
+  },
+  {
+    "id": 2127,
+    "name": "Brush with Death"
+  },
+  {
+    "id": 2128,
+    "name": "Burning Brand"
+  },
+  {
+    "id": 2129,
+    "name": "Freezing Brand"
+  },
+  {
+    "id": 2130,
+    "name": "Surpanakha's Fury"
+  },
+  {
+    "id": 2131,
+    "name": "Battle High I"
+  },
+  {
+    "id": 2132,
+    "name": "Battle High II"
+  },
+  {
+    "id": 2133,
+    "name": "Battle High III"
+  },
+  {
+    "id": 2134,
+    "name": "Battle High IV"
+  },
+  {
+    "id": 2135,
+    "name": "Battle High V"
+  },
+  {
+    "id": 2136,
+    "name": "Mortal Flame"
+  },
+  {
+    "id": 2137,
+    "name": "Final Decree Nisi γ"
+  },
+  {
+    "id": 2138,
+    "name": "Final Decree Nisi δ"
+  },
+  {
+    "id": 2139,
+    "name": "Final Judgment: Decree Nisi γ"
+  },
+  {
+    "id": 2140,
+    "name": "Final Judgment: Decree Nisi δ"
+  },
+  {
+    "id": 2141,
+    "name": "Final Judgment: Penalty IV"
+  },
+  {
+    "id": 2142,
+    "name": "Compressed Water"
+  },
+  {
+    "id": 2143,
+    "name": "Compressed Lightning"
+  },
+  {
+    "id": 2144,
+    "name": "Water Resistance Down II"
+  },
+  {
+    "id": 2145,
+    "name": "Lightning Resistance Down II"
+  },
+  {
+    "id": 2146,
+    "name": "Enigma Codex"
+  },
+  {
+    "id": 2147,
+    "name": "Enigma Codex"
+  },
+  {
+    "id": 2148,
+    "name": "Contact Prohibition Ordained"
+  },
+  {
+    "id": 2149,
+    "name": "Contact Regulation Ordained"
+  },
+  {
+    "id": 2150,
+    "name": "Escape Prohibition Ordained"
+  },
+  {
+    "id": 2151,
+    "name": "Escape Detection Ordained"
+  },
+  {
+    "id": 2152,
+    "name": "Final Word: Contact Prohibition"
+  },
+  {
+    "id": 2153,
+    "name": "Final Word: Contact Regulation"
+  },
+  {
+    "id": 2154,
+    "name": "Final Word: Escape Prohibition"
+  },
+  {
+    "id": 2155,
+    "name": "Final Word: Escape Detection"
+  },
+  {
+    "id": 2156,
+    "name": "Suppuration"
+  },
+  {
+    "id": 2157,
+    "name": "Oil"
+  },
+  {
+    "id": 2158,
+    "name": "Heavy"
+  },
+  {
+    "id": 2159,
+    "name": "Red Light"
+  },
+  {
+    "id": 2160,
+    "name": ""
+  },
+  {
+    "id": 2161,
+    "name": "Forward March"
+  },
+  {
+    "id": 2162,
+    "name": "About Face"
+  },
+  {
+    "id": 2163,
+    "name": "Left Face"
+  },
+  {
+    "id": 2164,
+    "name": "Right Face"
+  },
+  {
+    "id": 2165,
+    "name": "Temporal Displacement"
+  },
+  {
+    "id": 2166,
+    "name": "Magitek Field"
+  },
+  {
+    "id": 2167,
+    "name": ""
+  },
+  {
+    "id": 2168,
+    "name": "Divine Veil"
+  },
+  {
+    "id": 2169,
+    "name": "Divine Veil"
+  },
+  {
+    "id": 2170,
+    "name": "Flood of Shadow"
+  },
+  {
+    "id": 2171,
+    "name": "Dark Missionary"
+  },
+  {
+    "id": 2172,
+    "name": "Arm's Length"
+  },
+  {
+    "id": 2173,
+    "name": "Meditative Brotherhood"
+  },
+  {
+    "id": 2174,
+    "name": "Brotherhood"
+  },
+  {
+    "id": 2175,
+    "name": "Life Surge"
+  },
+  {
+    "id": 2176,
+    "name": "Meditation"
+  },
+  {
+    "id": 2177,
+    "name": "Tactician",
+    "mit": {
+      "type": "all",
+      "value": 10
+    }
+  },
+  {
+    "id": 2178,
+    "name": "Nature's Minne"
+  },
+  {
+    "id": 2179,
+    "name": "Testudo"
+  },
+  {
+    "id": 2180,
+    "name": "Fast Draw"
+  },
+  {
+    "id": 2181,
+    "name": "Arm's Length"
+  },
+  {
+    "id": 2182,
+    "name": "Excogitation"
+  },
+  {
+    "id": 2183,
+    "name": "Nocturnal Field"
+  },
+  {
+    "id": 2184,
+    "name": "Retaliation"
+  },
+  {
+    "id": 2185,
+    "name": "Feint"
+  },
+  {
+    "id": 2186,
+    "name": "Concentrate"
+  },
+  {
+    "id": 2187,
+    "name": "Aetheric Burst"
+  },
+  {
+    "id": 2188,
+    "name": "Largesse"
+  },
+  {
+    "id": 2189,
+    "name": "Innovation"
+  },
+  {
+    "id": 2190,
+    "name": "Final Appraisal"
+  },
+  {
+    "id": 2191,
+    "name": "Muscle Memory"
+  },
+  {
+    "id": 2192,
+    "name": "Blight"
+  },
+  {
+    "id": 2193,
+    "name": ""
+  },
+  {
+    "id": 2194,
+    "name": "Burns"
+  },
+  {
+    "id": 2195,
+    "name": ""
+  },
+  {
+    "id": 2196,
+    "name": "Light in the Dark"
+  },
+  {
+    "id": 2197,
+    "name": "Death Becomes You"
+  },
+  {
+    "id": 2198,
+    "name": "Vulnerability Down"
+  },
+  {
+    "id": 2199,
+    "name": "Burns"
+  },
+  {
+    "id": 2200,
+    "name": "Electrocution"
+  },
+  {
+    "id": 2201,
+    "name": "Ancient Double"
+  },
+  {
+    "id": 2202,
+    "name": ""
+  },
+  {
+    "id": 2203,
+    "name": ""
+  },
+  {
+    "id": 2204,
+    "name": ""
+  },
+  {
+    "id": 2205,
+    "name": ""
+  },
+  {
+    "id": 2206,
+    "name": ""
+  },
+  {
+    "id": 2207,
+    "name": ""
+  },
+  {
+    "id": 2208,
+    "name": ""
+  },
+  {
+    "id": 2209,
+    "name": ""
+  },
+  {
+    "id": 2210,
+    "name": ""
+  },
+  {
+    "id": 2211,
+    "name": ""
+  },
+  {
+    "id": 2212,
+    "name": ""
+  },
+  {
+    "id": 2213,
+    "name": "Vulnerability Up"
+  },
+  {
+    "id": 2214,
+    "name": "Army's Paeon"
+  },
+  {
+    "id": 2215,
+    "name": "The Wanderer's Minuet"
+  },
+  {
+    "id": 2216,
+    "name": "The Wanderer's Minuet"
+  },
+  {
+    "id": 2217,
+    "name": "Mage's Ballad"
+  },
+  {
+    "id": 2218,
+    "name": "Army's Paeon"
+  },
+  {
+    "id": 2219,
+    "name": "Shadow of the Dragon"
+  },
+  {
+    "id": 2220,
+    "name": "Damage Up"
+  },
+  {
+    "id": 2221,
+    "name": "Final Judgment: Penalty III"
+  },
+  {
+    "id": 2222,
+    "name": "Final Decree Nisi α"
+  },
+  {
+    "id": 2223,
+    "name": "Final Decree Nisi β"
+  },
+  {
+    "id": 2224,
+    "name": "Final Judgment: Decree Nisi α"
+  },
+  {
+    "id": 2225,
+    "name": "Final Judgment: Decree Nisi β"
+  },
+  {
+    "id": 2226,
+    "name": ""
+  },
+  {
+    "id": 2227,
+    "name": ""
+  },
+  {
+    "id": 2228,
+    "name": ""
+  },
+  {
+    "id": 2229,
+    "name": ""
+  },
+  {
+    "id": 2230,
+    "name": ""
+  },
+  {
+    "id": 2231,
+    "name": ""
+  },
+  {
+    "id": 2232,
+    "name": ""
+  },
+  {
+    "id": 2233,
+    "name": ""
+  },
+  {
+    "id": 2234,
+    "name": ""
+  },
+  {
+    "id": 2235,
+    "name": ""
+  },
+  {
+    "id": 2236,
+    "name": ""
+  },
+  {
+    "id": 2237,
+    "name": ""
+  },
+  {
+    "id": 2238,
+    "name": ""
+  },
+  {
+    "id": 2239,
+    "name": ""
+  },
+  {
+    "id": 2240,
+    "name": ""
+  },
+  {
+    "id": 2241,
+    "name": ""
+  },
+  {
+    "id": 2242,
+    "name": ""
+  },
+  {
+    "id": 2243,
+    "name": ""
+  },
+  {
+    "id": 2244,
+    "name": ""
+  },
+  {
+    "id": 2245,
+    "name": ""
+  },
+  {
+    "id": 2246,
+    "name": ""
+  },
+  {
+    "id": 2247,
+    "name": ""
+  },
+  {
+    "id": 2248,
+    "name": ""
+  },
+  {
+    "id": 2249,
+    "name": ""
+  },
+  {
+    "id": 2250,
+    "name": ""
+  }
+]
