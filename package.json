@@ -1,12 +1,12 @@
 {
   "name": "xiv-packet",
   "version": "1.0.0",
-  "description": "",
+  "description": "xiv packet parsing",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "freehaha",
+  "license": "MIT"
 }

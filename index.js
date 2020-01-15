@@ -1,7 +1,7 @@
 const _statuses = require("./statuses.json");
 const _skills = require("./actions.json");
 
-export const EventTypes = {
+const EventTypes = {
   PC: "PC",
   STATUS_LIST: "STATUS_LIST",
   ACTION: "ACTION",
@@ -20,6 +20,8 @@ export const EventTypes = {
   TICK: "TICK",
   STATUS_STATS: "STATUS_STATS"
 };
+
+module.exports.EventTypes = EventTypes;
 
 let skills = {};
 let statuses = {};
@@ -355,7 +357,7 @@ function parseAllianceInfo(packet) {
   return pcs;
 }
 
-export function parsePackets(packets) {
+module.exports.parsePackets = function(packets) {
   let events = [];
   packets.forEach(packet => {
     if (!PTYPE[packet.ptype]) return;
@@ -523,4 +525,43 @@ export function parsePackets(packets) {
     }
   });
   return events;
+};
+
+function getBigUint64(view, position, littleEndian = false) {
+  if ("getBigUint64" in DataView.prototype) {
+    return view.getBigUint64(position, littleEndian);
+  } else {
+    const lsb = BigInt(
+      view.getUint32(position + (littleEndian ? 0 : 4), littleEndian)
+    );
+    const gsb = BigInt(
+      view.getUint32(position + (littleEndian ? 4 : 0), littleEndian)
+    );
+    return lsb + BigInt(4294967296) * gsb;
+  }
 }
+
+module.exports.unpackPacket = function(rawPacket) {
+  if (rawPacket instanceof Buffer) {
+    rawPacket = rawPacket.buffer.slice(
+      rawPacket.byteOffset,
+      rawPacket.byteOffset + rawPacket.byteLength
+    );
+  }
+  let view = new DataView(rawPacket);
+  let time = Number(getBigUint64(view, 3, true));
+  let size = view.getUint32(11, true);
+  let source = view.getUint32(15, true);
+  let target = view.getUint32(19, true);
+  let ptype = view.getUint16(29, false).toString(16);
+  ptype = ("0000" + ptype).slice(-4);
+  let payload = new Uint8Array(rawPacket.slice(32)).buffer;
+  return {
+    time,
+    size,
+    source,
+    target,
+    ptype,
+    payload
+  };
+};
