@@ -38,6 +38,11 @@ Events parsed from `parsePackets` will have one of the following `type`:
     STATUS_STATS = "STATUS_STATS"
   }
 ```
+## Time resolution
+
+Time parsed from individual packet only has precision up to seconds. If you have a time
+millisecond timestamp you got from the batch packet you can pass it as the 2nd argument
+to `unpackPacket` and it will be returned as the time instead.
 
 # Acknowledgement
 
