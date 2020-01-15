@@ -2,6 +2,7 @@
   "name": "xiv-packet",
   "version": "1.0.0",
   "description": "xiv packet parsing",
+  "url": "https://github.com/freehaha/xiv-packet",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
