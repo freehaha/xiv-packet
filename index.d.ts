@@ -168,5 +168,14 @@ declare module "xiv-packet" {
     | StatusStatsEvent
     | TickEvent;
 
-  function parsePackets(packets: any): XivEvent[];
+  interface XivPacket {
+    time: number;
+    size: number;
+    source: number;
+    target: number;
+    ptype: string;
+    payload: ArrayBuffer;
+  }
+  function unpackPacket(rawPacket: ArrayBuffer | any): XivPacket;
+  function parsePackets(packets: XivPacket[]): XivEvent[];
 }

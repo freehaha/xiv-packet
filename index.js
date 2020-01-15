@@ -541,7 +541,7 @@ function getBigUint64(view, position, littleEndian = false) {
   }
 }
 
-module.exports.unpackPacket = function(rawPacket) {
+module.exports.unpackPacket = function(rawPacket, _time = 0) {
   if (rawPacket instanceof Buffer) {
     rawPacket = rawPacket.buffer.slice(
       rawPacket.byteOffset,
@@ -549,12 +549,15 @@ module.exports.unpackPacket = function(rawPacket) {
     );
   }
   let view = new DataView(rawPacket);
-  let time = Number(getBigUint64(view, 3, true));
-  let size = view.getUint32(11, true);
-  let source = view.getUint32(15, true);
-  let target = view.getUint32(19, true);
-  let ptype = view.getUint16(29, false).toString(16);
-  ptype = ("0000" + ptype).slice(-4);
+  let size = view.getUint32(0, true);
+  let source = view.getUint32(4, true);
+  let target = view.getUint32(8, true);
+  let ptype = view.getUint32(18, false).toString(16);
+  let time = _time;
+  if (time === 0) {
+    time = view.getUint32(24, true) * 1000;
+  }
+  ptype = ("00000000" + ptype).slice(-8);
   let payload = new Uint8Array(rawPacket.slice(32)).buffer;
   return {
     time,
