@@ -60,11 +60,11 @@ const EFFECT_TYPE = {
   9: "unknown0",
   10: "mp loss",
   11: "mp gain",
-  12: "tp loss",
-  13: "tp gain",
-  14: "gp gain",
-  15: "apply status",
-  16: "apply status(self)",
+  //12: "tp loss",
+  //13: "tp gain",
+  13: "gp gain",
+  14: "apply status",
+  15: "apply status(self)",
   28: "action combo",
   33: "knockback",
   38: "mount",
@@ -240,13 +240,12 @@ function parseTick(packet) {
 }
 
 function parseStatusPacket(packet) {
-  // 8002000080100040f1380100f13801001027e8031027001900015f67007fa40000005f670000904153010810000000004c825f67f57f000006f805100000000018815f67f57f000050825f67f57f00000052ee9bf57f000000c3c79bf57f0000
   let view = new DataView(packet);
   let shield = view.getUint8(24);
   let hp = view.getUint32(8, true);
   let maxHp = view.getUint32(12, true);
-  let count = view.getUint8(25);
-  packet = packet.slice(30);
+  let count = view.getUint8(21);
+  packet = packet.slice(26);
   let out = [];
   for (let i = 0; i < count; i++) {
     view = new DataView(packet);
@@ -277,9 +276,9 @@ function parseStatusPacket(packet) {
 
 function parsePCPacket(packet) {
   let view = new DataView(packet);
-  let job = view.getUint8(130);
+  let job = view.getUint8(0x80);
   let textDecoder = new TextDecoder();
-  let name = textDecoder.decode(packet.slice(560, 592));
+  let name = textDecoder.decode(packet.slice(0x022c, 0x022c + 32));
   let idx = -1;
   if ((idx = name.indexOf("\0")) > -1) {
     name = name.slice(0, idx);
@@ -313,7 +312,7 @@ function parseParty(packet) {
   for (let i = 0; i < count; i++) {
     let chunk = packet.slice(i * 440, i * 440 + 440);
     let pcView = new DataView(chunk);
-    let job = pcView.getUint8(71);
+    let job = pcView.getUint8(69);
     let id = pcView.getUint32(40, true);
     let textDecoder = new TextDecoder();
     let name = textDecoder.decode(chunk.slice(0, 32));
@@ -337,8 +336,9 @@ function parseAllianceInfo(packet) {
   // let view = new DataView(packet);
   let textDecoder = new TextDecoder();
   let pcs = [];
+  let CHUNK_SIZE = 52;
   for (let i = 0; i < 16; i++) {
-    let chunk = packet.slice(i * 48, i * 48 + 48);
+    let chunk = packet.slice(i * CHUNK_SIZE, i * CHUNK_SIZE + CHUNK_SIZE);
     let view = new DataView(chunk);
     let id = view.getUint32(32, true);
     if (id === 0xe0000000) continue;
