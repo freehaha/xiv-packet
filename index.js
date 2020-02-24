@@ -152,7 +152,7 @@ function parseStatusList(packet) {
   let view = new DataView(packet);
   let hp = view.getUint32(4, true);
   let maxHp = view.getUint32(8, true);
-  let shield = view.getUint8(18);
+  let shield = view.getUint8(16);
   let chunk = packet.slice(20);
   let status = [];
   while (chunk.byteLength >= 12) {
@@ -241,7 +241,7 @@ function parseTick(packet) {
 
 function parseStatusPacket(packet) {
   let view = new DataView(packet);
-  let shield = view.getUint8(24);
+  let shield = view.getUint8(20);
   let hp = view.getUint32(8, true);
   let maxHp = view.getUint32(12, true);
   let count = view.getUint8(21);
