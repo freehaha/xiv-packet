@@ -18,7 +18,9 @@ const EventTypes = {
   ACTION32: "ACTION32",
   CASTING: "CASTING",
   TICK: "TICK",
-  STATUS_STATS: "STATUS_STATS"
+  STATUS_STATS: "STATUS_STATS",
+  CRAFTING_ACTION: "CRAFTING_ACTION",
+  CRAFTING_STATUS: "CRAFTING_STATUS"
 };
 
 module.exports.EventTypes = EventTypes;
@@ -152,6 +154,8 @@ function parseStatusList(packet) {
   let view = new DataView(packet);
   let hp = view.getUint32(4, true);
   let maxHp = view.getUint32(8, true);
+  let mp = view.getUint16(12, true);
+  let maxMp = view.getUint16(14, true);
   let shield = view.getUint8(16);
   let chunk = packet.slice(20);
   let status = [];
@@ -176,6 +180,8 @@ function parseStatusList(packet) {
   return {
     hp,
     maxHp,
+    mp,
+    maxMp,
     shield,
     statuses: status
   };
@@ -357,6 +363,38 @@ function parseAllianceInfo(packet) {
   return pcs;
 }
 
+function parseCraftingAction(packet) {
+  let view = new DataView(packet);
+  let action = view.getUint32(44);
+  let progress = view.getUint32(56);
+  let progressInc = view.getUint32(60);
+  let quality = view.getUint32(64);
+  let qualityInc = view.getUint32(68);
+  let durability = view.getUint32(76);
+  let nextCondition = view.getUint8(84);
+  let condition = view.getUint8(88);
+  let flag = view.getUint8(92);
+  return {
+    action,
+    progress,
+    progressInc,
+    quality,
+    qualityInc,
+    durability,
+    nextCondition,
+    condition,
+    flag,
+  }
+}
+
+function parseCraftingStatus(packet) {
+  let view = new DataView(packet);
+  let status = view.getUint8(28);
+  return {
+    status: status
+  }
+}
+
 module.exports.parsePackets = function(packets) {
   let events = [];
   packets.forEach(packet => {
@@ -518,6 +556,24 @@ module.exports.parsePackets = function(packets) {
           time: time(packet.time),
           target: packet.source
         });
+        break;
+      }
+      case "CRAFTING_STATUS": {
+        let event = parseCraftingStatus(packet.payload);
+        events.push({
+          ...event,
+          type: EventTypes.CRAFTING_STATUS,
+          source: packet.source,
+        })
+        break;
+      }
+      case "CRAFTING_ACTION": {
+        let event = parseCraftingAction(packet.payload);
+        events.push({
+          ...event,
+          type: EventTypes.CRAFTING_ACTION,
+          source: packet.source,
+        })
         break;
       }
       default:

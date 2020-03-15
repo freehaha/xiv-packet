@@ -16,7 +16,9 @@ declare module "xiv-packet" {
     ACTION32 = "ACTION32",
     CASTING = "CASTING",
     TICK = "TICK",
-    STATUS_STATS = "STATUS_STATS"
+    STATUS_STATS = "STATUS_STATS",
+    CRAFTING_STATUS = "CRAFTING_STATUS",
+    CRAFTING_ACTION = "CRAFTING_ACTION"
   }
 
   interface XivEventBase {
@@ -32,6 +34,8 @@ declare module "xiv-packet" {
     source: number;
     hp: number;
     maxHp: number;
+    mp: number;
+    maxMp: number;
     shield: number;
     statuses: Status[];
   }
@@ -59,8 +63,7 @@ declare module "xiv-packet" {
     target: number;
   }
 
-  interface ActionEvent extends XivEventBase {
-    type: EventTypes.ACTION;
+  interface ActionEventBase extends XivEventBase {
     source: number;
     time: number;
     skill: number;
@@ -68,19 +71,19 @@ declare module "xiv-packet" {
     target: number;
   }
 
-  interface Action8Event extends ActionEvent {
+  interface ActionEvent extends ActionEventBase {
+    type: EventTypes.ACTION;
+  }
+
+  interface Action8Event extends ActionEventBase {
     type: EventTypes.ACTION8;
   }
 
-  interface Action8Event extends ActionEvent {
-    type: EventTypes.ACTION8;
-  }
-
-  interface Action16Event extends ActionEvent {
+  interface Action16Event extends ActionEventBase {
     type: EventTypes.ACTION16;
   }
 
-  interface Action24Event extends ActionEvent {
+  interface Action24Event extends ActionEventBase {
     type: EventTypes.ACTION24;
   }
 
@@ -148,6 +151,24 @@ declare module "xiv-packet" {
     type: EventTypes.TICK;
     target: number;
     tickType: string;
+  }
+
+  interface CraftingStatusEvent extends XivEventBase {
+    type: EventTypes.CRAFTING_STATUS;
+    status: string;
+  }
+
+  interface CraftingActionEvent extends XivEventBase {
+    type: EventTypes.CRAFTING_ACTION;
+    action: number;
+    progress: number;
+    progressInc: number;
+    quality: number;
+    qualityInc: number;
+    durability: number;
+    nextCondition: number;
+    condition: number;
+    flag: number;
   }
 
   type XivEvent =

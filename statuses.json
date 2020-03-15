@@ -4826,7 +4826,12 @@
   },
   {
     "id": 1195,
-    "name": "Feint"
+    "name": "Feint",
+    "mit": {
+      "value": 10,
+      "type": "physical",
+      "debuff": true
+    }
   },
   {
     "id": 1196,
@@ -8931,27 +8936,27 @@
   },
   {
     "id": 2206,
-    "name": ""
+    "name": "Atlas"
   },
   {
     "id": 2207,
-    "name": ""
+    "name": "Unwavering Will"
   },
   {
     "id": 2208,
-    "name": ""
+    "name": "Blind to Rage"
   },
   {
     "id": 2209,
-    "name": ""
+    "name": "Blind to Grief"
   },
   {
     "id": 2210,
-    "name": ""
+    "name": "Pall of Rage"
   },
   {
     "id": 2211,
-    "name": ""
+    "name": "Pall of Grief"
   },
   {
     "id": 2212,
@@ -9011,7 +9016,7 @@
   },
   {
     "id": 2226,
-    "name": ""
+    "name": "Veneration"
   },
   {
     "id": 2227,
@@ -9019,27 +9024,27 @@
   },
   {
     "id": 2228,
-    "name": ""
+    "name": "Surge Protection"
   },
   {
     "id": 2229,
-    "name": ""
+    "name": "Static Condensation"
   },
   {
     "id": 2230,
-    "name": ""
+    "name": "パニック"
   },
   {
     "id": 2231,
-    "name": ""
+    "name": "Fury's Bolt"
   },
   {
     "id": 2232,
-    "name": ""
+    "name": "System Shock"
   },
   {
     "id": 2233,
-    "name": ""
+    "name": "Electrified"
   },
   {
     "id": 2234,
@@ -9047,47 +9052,47 @@
   },
   {
     "id": 2235,
-    "name": ""
+    "name": "Hated of the Vortex"
   },
   {
     "id": 2236,
-    "name": ""
+    "name": "Hated of Embers"
   },
   {
     "id": 2237,
-    "name": ""
+    "name": "Irons of Purgatory"
   },
   {
     "id": 2238,
-    "name": ""
+    "name": "Astral Effect"
   },
   {
     "id": 2239,
-    "name": ""
+    "name": "Umbral Effect"
   },
   {
     "id": 2240,
-    "name": ""
+    "name": "Forward with Thee"
   },
   {
     "id": 2241,
-    "name": ""
+    "name": "Back with Thee"
   },
   {
     "id": 2242,
-    "name": ""
+    "name": "Left with Thee"
   },
   {
     "id": 2243,
-    "name": ""
+    "name": "Right with Thee"
   },
   {
     "id": 2244,
-    "name": ""
+    "name": "Anemomorph"
   },
   {
     "id": 2245,
-    "name": ""
+    "name": "Hated of Levin"
   },
   {
     "id": 2246,
@@ -9095,18 +9100,258 @@
   },
   {
     "id": 2247,
-    "name": ""
+    "name": "Waymark"
   },
   {
     "id": 2248,
-    "name": ""
+    "name": "Blunt Resistance Down"
   },
   {
     "id": 2249,
-    "name": ""
+    "name": "Unstable"
   },
   {
     "id": 2250,
+    "name": "Lightheaded"
+  },
+  {
+    "id": 2251,
+    "name": "Freezing"
+  },
+  {
+    "id": 2252,
+    "name": "Deep Freeze"
+  },
+  {
+    "id": 2253,
+    "name": "Refulgent Chain"
+  },
+  {
+    "id": 2254,
+    "name": "Refulgent Chain"
+  },
+  {
+    "id": 2255,
+    "name": "Refulgent Fate"
+  },
+  {
+    "id": 2256,
+    "name": "Refulgent Fate"
+  },
+  {
+    "id": 2257,
+    "name": "Lightsteeped"
+  },
+  {
+    "id": 2258,
+    "name": "Wyrmclaw"
+  },
+  {
+    "id": 2259,
+    "name": "Wyrmfang"
+  },
+  {
+    "id": 2260,
+    "name": "Hated of Frost"
+  },
+  {
+    "id": 2261,
+    "name": "Hated of the Wyrm"
+  },
+  {
+    "id": 2262,
+    "name": "Grace of Light"
+  },
+  {
+    "id": 2263,
+    "name": "Shock Spikes"
+  },
+  {
+    "id": 2264,
+    "name": "Braced"
+  },
+  {
+    "id": 2265,
+    "name": "Standing Firm"
+  },
+  {
+    "id": 2266,
+    "name": ""
+  },
+  {
+    "id": 2267,
+    "name": "Meat Shield"
+  },
+  {
+    "id": 2268,
+    "name": ""
+  },
+  {
+    "id": 2269,
+    "name": "FATE Participant"
+  },
+  {
+    "id": 2270,
+    "name": ""
+  },
+  {
+    "id": 2271,
+    "name": "Panic"
+  },
+  {
+    "id": 2272,
+    "name": ""
+  },
+  {
+    "id": 2273,
+    "name": ""
+  },
+  {
+    "id": 2274,
+    "name": ""
+  },
+  {
+    "id": 2275,
+    "name": ""
+  },
+  {
+    "id": 2276,
+    "name": "In Costume"
+  },
+  {
+    "id": 2277,
+    "name": ""
+  },
+  {
+    "id": 2278,
+    "name": "Light Resistance Down"
+  },
+  {
+    "id": 2279,
+    "name": ""
+  },
+  {
+    "id": 2280,
+    "name": "Enlarged"
+  },
+  {
+    "id": 2281,
+    "name": "Fully Enlarged"
+  },
+  {
+    "id": 2282,
+    "name": "Embolden"
+  },
+  {
+    "id": 2283,
+    "name": ""
+  },
+  {
+    "id": 2284,
+    "name": ""
+  },
+  {
+    "id": 2285,
+    "name": ""
+  },
+  {
+    "id": 2286,
+    "name": "Fetters"
+  },
+  {
+    "id": 2287,
+    "name": ""
+  },
+  {
+    "id": 2288,
+    "name": ""
+  },
+  {
+    "id": 2289,
+    "name": ""
+  },
+  {
+    "id": 2290,
+    "name": ""
+  },
+  {
+    "id": 2291,
+    "name": ""
+  },
+  {
+    "id": 2292,
+    "name": ""
+  },
+  {
+    "id": 2293,
+    "name": ""
+  },
+  {
+    "id": 2294,
+    "name": ""
+  },
+  {
+    "id": 2295,
+    "name": ""
+  },
+  {
+    "id": 2296,
+    "name": ""
+  },
+  {
+    "id": 2297,
+    "name": ""
+  },
+  {
+    "id": 2298,
+    "name": ""
+  },
+  {
+    "id": 2299,
+    "name": ""
+  },
+  {
+    "id": 2300,
+    "name": ""
+  },
+  {
+    "id": 2301,
+    "name": ""
+  },
+  {
+    "id": 2302,
+    "name": ""
+  },
+  {
+    "id": 2303,
+    "name": ""
+  },
+  {
+    "id": 2304,
+    "name": ""
+  },
+  {
+    "id": 2305,
+    "name": ""
+  },
+  {
+    "id": 2306,
+    "name": ""
+  },
+  {
+    "id": 2307,
+    "name": ""
+  },
+  {
+    "id": 2308,
+    "name": ""
+  },
+  {
+    "id": 2309,
+    "name": ""
+  },
+  {
+    "id": 2310,
     "name": ""
   }
 ]
