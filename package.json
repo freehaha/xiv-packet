@@ -1,6 +1,6 @@
 {
   "name": "xiv-packet",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "xiv packet parsing",
   "url": "https://github.com/freehaha/xiv-packet",
   "main": "index.js",
