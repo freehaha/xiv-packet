@@ -365,12 +365,12 @@ function parseAllianceInfo(packet) {
 
 function parseCraftingAction(packet) {
   let view = new DataView(packet);
-  let action = view.getUint32(44);
-  let progress = view.getUint32(56);
-  let progressInc = view.getUint32(60);
-  let quality = view.getUint32(64);
-  let qualityInc = view.getUint32(68);
-  let durability = view.getUint32(76);
+  let action = view.getUint32(44, true);
+  let progress = view.getUint32(56, true);
+  let progressInc = view.getUint32(60, true);
+  let quality = view.getUint32(64, true);
+  let qualityInc = view.getUint32(68, true);
+  let durability = view.getUint32(76, true);
   let nextCondition = view.getUint8(84);
   let condition = view.getUint8(88);
   let flag = view.getUint8(92);
@@ -383,8 +383,8 @@ function parseCraftingAction(packet) {
     durability,
     nextCondition,
     condition,
-    flag,
-  }
+    flag
+  };
 }
 
 function parseCraftingStatus(packet) {
@@ -392,7 +392,7 @@ function parseCraftingStatus(packet) {
   let status = view.getUint8(28);
   return {
     status: status
-  }
+  };
 }
 
 module.exports.parsePackets = function(packets) {
@@ -563,8 +563,8 @@ module.exports.parsePackets = function(packets) {
         events.push({
           ...event,
           type: EventTypes.CRAFTING_STATUS,
-          source: packet.source,
-        })
+          source: packet.source
+        });
         break;
       }
       case "CRAFTING_ACTION": {
@@ -572,8 +572,8 @@ module.exports.parsePackets = function(packets) {
         events.push({
           ...event,
           type: EventTypes.CRAFTING_ACTION,
-          source: packet.source,
-        })
+          source: packet.source
+        });
         break;
       }
       default:
