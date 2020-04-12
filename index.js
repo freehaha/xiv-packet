@@ -5,7 +5,6 @@ const EventTypes = {
   PC: "PC",
   STATUS_LIST: "STATUS_LIST",
   ACTION: "ACTION",
-  ZONE_IN: "ZONE_IN",
   STATUS_SYNC: "STATUS_SYNC",
   ALLIANCE_INFO: "ALLIANCE_INFO",
   PARTY_INFO: "PARTY_INFO",
@@ -20,7 +19,7 @@ const EventTypes = {
   TICK: "TICK",
   STATUS_STATS: "STATUS_STATS",
   CRAFTING_ACTION: "CRAFTING_ACTION",
-  CRAFTING_STATUS: "CRAFTING_STATUS"
+  CRAFTING_STATUS: "CRAFTING_STATUS",
 };
 
 module.exports.EventTypes = EventTypes;
@@ -42,7 +41,7 @@ _statuses.forEach(status => {
   } else {
     statuses[status.id] = {
       ...statuses[status.id],
-      ...status
+      ...status,
     };
   }
 });
@@ -70,7 +69,7 @@ const EFFECT_TYPE = {
   28: "action combo",
   33: "knockback",
   38: "mount",
-  59: "vfx"
+  59: "vfx",
 };
 
 const TICK_TYPE = {
@@ -79,7 +78,7 @@ const TICK_TYPE = {
   0x0014: "STATUS_GAIN",
   0x0006: "DEATH",
   0x0022: "MARK",
-  0x0197: "ANIMATION"
+  0x0197: "ANIMATION",
 };
 
 function parseEffects(effects) {
@@ -117,7 +116,7 @@ function parseEffects(effects) {
       param,
       bonus,
       mod,
-      value
+      value,
     });
   }
   return out;
@@ -134,7 +133,7 @@ function parseAction(action) {
   return {
     skill,
     effects,
-    target
+    target,
   };
 }
 
@@ -146,7 +145,7 @@ function parseCasting(cast) {
   return {
     skill,
     castTime,
-    target
+    target,
   };
 }
 
@@ -172,7 +171,7 @@ function parseStatusList(packet) {
         id,
         stack,
         duration,
-        source
+        source,
       });
     }
     chunk = chunk.slice(12);
@@ -183,7 +182,7 @@ function parseStatusList(packet) {
     mp,
     maxMp,
     shield,
-    statuses: status
+    statuses: status,
   };
 }
 
@@ -197,7 +196,7 @@ function parseActionX(x, packet) {
   let count = view.getUint8(33);
   let chunk = packet.slice(42, 64 * x + 42);
   let targets = new DataView(
-    packet.slice(42 + 64 * x + 6, 42 + 64 * x + 6 + 8 * x)
+    packet.slice(42 + 64 * x + 6, 42 + 64 * x + 6 + 8 * x),
   );
   let actions = [];
   for (let i = 0; i < count && i < x; i++) {
@@ -206,12 +205,12 @@ function parseActionX(x, packet) {
     let target = targets.getUint32(i * 8, true);
     actions.push({
       effects,
-      target
+      target,
     });
   }
   return {
     skill,
-    actions: actions
+    actions: actions,
   };
 }
 
@@ -241,7 +240,7 @@ function parseTick(packet) {
     skill,
     param,
     value,
-    source
+    source,
   };
 }
 
@@ -268,7 +267,7 @@ function parseStatusPacket(packet) {
       id,
       stacks,
       duration,
-      source
+      source,
     });
     packet = packet.slice(16);
   }
@@ -276,7 +275,7 @@ function parseStatusPacket(packet) {
     hp,
     maxHp,
     shield,
-    statuses: out
+    statuses: out,
   };
 }
 
@@ -291,7 +290,7 @@ function parsePCPacket(packet) {
   }
   return {
     name,
-    job
+    job,
   };
 }
 
@@ -299,7 +298,7 @@ function parseSpawnPacket(packet) {
   let view = new DataView(packet);
   let owner = view.getUint32(84, true);
   return {
-    owner
+    owner,
   };
 }
 
@@ -307,7 +306,7 @@ function parseObjSpawn(payload) {
   let view = new DataView(payload);
   let owner = view.getUint32(20, true);
   return {
-    owner
+    owner,
   };
 }
 
@@ -332,7 +331,7 @@ function parseParty(packet) {
     pcs.push({
       id,
       name,
-      job
+      job,
     });
   }
   return pcs;
@@ -357,7 +356,7 @@ function parseAllianceInfo(packet) {
     pcs.push({
       id,
       name,
-      job
+      job,
     });
   }
   return pcs;
@@ -383,7 +382,7 @@ function parseCraftingAction(packet) {
     durability,
     nextCondition,
     condition,
-    flag
+    flag,
   };
 }
 
@@ -391,11 +390,11 @@ function parseCraftingStatus(packet) {
   let view = new DataView(packet);
   let status = view.getUint8(28);
   return {
-    status: status
+    status: status,
   };
 }
 
-module.exports.parsePackets = function(packets) {
+module.exports.parsePackets = function (packets) {
   let events = [];
   packets.forEach(packet => {
     if (!PTYPE[packet.ptype]) return;
@@ -406,21 +405,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.STATUS_LIST,
           target: packet.source,
-          status
-        });
-        break;
-      }
-      case "ZONE_IN": {
-        events.push({
-          type: EventTypes.ZONE_IN,
-          time: packet.time
-        });
-        break;
-      }
-      case "STATUS_SYNC": {
-        events.push({
-          type: EventTypes.STATUS_SYNC,
-          time: packet.time
+          status,
         });
         break;
       }
@@ -429,7 +414,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.ALLIANCE_INFO,
           time: packet.time,
-          pcs: pcs
+          pcs: pcs,
         });
         break;
       }
@@ -438,7 +423,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.PARTY_INFO,
           time: packet.time,
-          pcs
+          pcs,
         });
         break;
       }
@@ -447,7 +432,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.NPC_SPAWN,
           source: packet.source,
-          owner
+          owner,
         });
         break;
       }
@@ -456,7 +441,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.PC,
           source: packet.source,
-          actorInfo
+          actorInfo,
         });
         break;
       }
@@ -465,7 +450,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           type: EventTypes.OBJ_SPAWN,
           source: packet.source,
-          actorInfo: objSpawn
+          actorInfo: objSpawn,
         });
         break;
       }
@@ -476,14 +461,14 @@ module.exports.parsePackets = function(packets) {
           type: EventTypes.STATUS_STATS,
           shield: status.shield,
           hp: status.hp,
-          maxHp: status.maxHp
+          maxHp: status.maxHp,
         });
         status.statuses.forEach(status => {
           events.push({
             type: EventTypes.STATUS,
             status: status,
             target: packet.source,
-            time: time(packet.time)
+            time: time(packet.time),
           });
         });
         break;
@@ -494,7 +479,7 @@ module.exports.parsePackets = function(packets) {
           type: EventTypes.ACTION,
           time: time(packet.time),
           source: packet.source,
-          ...action
+          ...action,
         });
         break;
       }
@@ -506,7 +491,7 @@ module.exports.parsePackets = function(packets) {
             time: time(packet.time),
             skill: action8.skill,
             source: packet.source,
-            ...action
+            ...action,
           });
         });
         break;
@@ -519,7 +504,7 @@ module.exports.parsePackets = function(packets) {
             time: time(packet.time),
             skill: action16.skill,
             source: packet.source,
-            ...action
+            ...action,
           });
         });
         break;
@@ -532,7 +517,7 @@ module.exports.parsePackets = function(packets) {
             time: time(packet.time),
             source: packet.source,
             skill: action24.skill,
-            ...action
+            ...action,
           });
         });
         break;
@@ -543,7 +528,7 @@ module.exports.parsePackets = function(packets) {
           type: EventTypes.CASTING,
           time: time(packet.time),
           ...cast,
-          source: packet.source
+          source: packet.source,
         });
         break;
       }
@@ -554,7 +539,7 @@ module.exports.parsePackets = function(packets) {
           type: EventTypes.TICK,
           tickType: tick.type,
           time: time(packet.time),
-          target: packet.source
+          target: packet.source,
         });
         break;
       }
@@ -563,7 +548,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           ...event,
           type: EventTypes.CRAFTING_STATUS,
-          source: packet.source
+          source: packet.source,
         });
         break;
       }
@@ -572,7 +557,7 @@ module.exports.parsePackets = function(packets) {
         events.push({
           ...event,
           type: EventTypes.CRAFTING_ACTION,
-          source: packet.source
+          source: packet.source,
         });
         break;
       }
@@ -588,20 +573,20 @@ function getBigUint64(view, position, littleEndian = false) {
     return view.getBigUint64(position, littleEndian);
   } else {
     const lsb = BigInt(
-      view.getUint32(position + (littleEndian ? 0 : 4), littleEndian)
+      view.getUint32(position + (littleEndian ? 0 : 4), littleEndian),
     );
     const gsb = BigInt(
-      view.getUint32(position + (littleEndian ? 4 : 0), littleEndian)
+      view.getUint32(position + (littleEndian ? 4 : 0), littleEndian),
     );
     return lsb + BigInt(4294967296) * gsb;
   }
 }
 
-module.exports.unpackPacket = function(rawPacket, _time = 0) {
+module.exports.unpackPacket = function (rawPacket, _time = 0) {
   if (rawPacket instanceof Buffer) {
     rawPacket = rawPacket.buffer.slice(
       rawPacket.byteOffset,
-      rawPacket.byteOffset + rawPacket.byteLength
+      rawPacket.byteOffset + rawPacket.byteLength,
     );
   }
   let view = new DataView(rawPacket);
@@ -621,6 +606,6 @@ module.exports.unpackPacket = function(rawPacket, _time = 0) {
     source,
     target,
     ptype,
-    payload
+    payload,
   };
 };
