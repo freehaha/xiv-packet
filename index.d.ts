@@ -18,7 +18,7 @@ declare module "xiv-packet" {
     TICK = "TICK",
     STATUS_STATS = "STATUS_STATS",
     CRAFTING_STATUS = "CRAFTING_STATUS",
-    CRAFTING_ACTION = "CRAFTING_ACTION"
+    CRAFTING_ACTION = "CRAFTING_ACTION",
   }
 
   interface XivEventBase {
@@ -27,7 +27,6 @@ declare module "xiv-packet" {
   }
 
   interface Status {
-    name: string;
     id: number;
     stace: number;
     duration: number;
@@ -97,11 +96,12 @@ declare module "xiv-packet" {
 
   interface ActorInfo {
     id: number;
+    owner: number;
     name: string;
   }
 
   interface Pc extends ActorInfo {
-    job: string;
+    job: number;
   }
 
   interface AllianceInfoEvent extends XivEventBase {
@@ -142,6 +142,7 @@ declare module "xiv-packet" {
 
   interface StatusStatsEvent extends XivEventBase {
     type: EventTypes.STATUS_STATS;
+    target: number;
     shield: number;
     hp: number;
     maxHp: number;
@@ -150,7 +151,10 @@ declare module "xiv-packet" {
   interface TickEvent extends XivEventBase {
     type: EventTypes.TICK;
     target: number;
+    value: number;
+    skill: number;
     tickType: string;
+    source: number;
   }
 
   interface CraftingStatusEvent extends XivEventBase {
@@ -197,6 +201,9 @@ declare module "xiv-packet" {
     ptype: string;
     payload: ArrayBuffer;
   }
-  function unpackPacket(rawPacket: ArrayBuffer | any): XivPacket;
+  function unpackPacket(
+    rawPacket: ArrayBuffer | any,
+    time?: number | bigint,
+  ): XivPacket;
   function parsePackets(packets: XivPacket[]): XivEvent[];
 }

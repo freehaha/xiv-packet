@@ -1,6 +1,3 @@
-const _statuses = require("./statuses.json");
-const _skills = require("./actions.json");
-
 const EventTypes = {
   PC: "PC",
   STATUS_LIST: "STATUS_LIST",
@@ -24,30 +21,8 @@ const EventTypes = {
 
 module.exports.EventTypes = EventTypes;
 
-let skills = {};
-let statuses = {};
-_skills.forEach(skill => {
-  skills[skill.id] = skill;
-  if (skill.effects) {
-    skill.effects.forEach(status => {
-      statuses[status.id] = status;
-    });
-  }
-});
-
-_statuses.forEach(status => {
-  if (!statuses[status.id]) {
-    statuses[status.id] = status;
-  } else {
-    statuses[status.id] = {
-      ...statuses[status.id],
-      ...status,
-    };
-  }
-});
-
-const PTYPE = require("./ptypes.json");
 const DamagingEffect = new Set(["damage", "block", "parried"]);
+const PTYPE = require("./ptypes.json");
 const EFFECT_TYPE = {
   0: "",
   1: "miss",
@@ -164,10 +139,8 @@ function parseStatusList(packet) {
     let stack = view.getUint16(2, true);
     let duration = view.getFloat32(4, true);
     let source = view.getUint32(8, true);
-    let _status = statuses[id];
     if (id > 0) {
       status.push({
-        name: _status ? _status.name : undefined,
         id,
         stack,
         duration,
@@ -261,9 +234,7 @@ function parseStatusPacket(packet) {
     let stacks = view.getUint16(2, true);
     let duration = view.getFloat32(6, true);
     let source = view.getUint32(10, true);
-    let _status = statuses[id];
     out.push({
-      name: _status ? _status.name : undefined,
       id,
       stacks,
       duration,
