@@ -151,6 +151,7 @@ declare module "xiv-packet" {
   interface TickEvent extends XivEventBase {
     type: EventTypes.TICK;
     target: number;
+    param: number;
     value: number;
     skill: number;
     tickType: string;
