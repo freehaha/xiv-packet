@@ -377,6 +377,7 @@ module.exports.parsePackets = function (packets) {
         events.push({
           type: EventTypes.STATUS_LIST,
           target: packet.source,
+          time: packet.time,
           status,
         });
         break;
