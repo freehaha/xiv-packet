@@ -1,7 +1,7 @@
 {
   "xd6000000": "PARTY_INFO",
   "a3010000": "NPC_SPAWN",
-  "b9000000": "PC",
+  "8e030000": "PC",
   "f9010000": "OBJ_SPAWN",
   "a9030000": "ACTION",
   "b3020000": "ACTION8",
