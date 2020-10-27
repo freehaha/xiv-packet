@@ -403,6 +403,7 @@ module.exports.parsePackets = function (packets) {
       case "NPC_SPAWN": {
         let { owner } = parseSpawnPacket(packet.payload);
         events.push({
+          time: packet.time,
           type: EventTypes.NPC_SPAWN,
           source: packet.source,
           owner,
@@ -412,6 +413,7 @@ module.exports.parsePackets = function (packets) {
       case "PC": {
         let actorInfo = parsePCPacket(packet.payload);
         events.push({
+          time: packet.time,
           type: EventTypes.PC,
           source: packet.source,
           actorInfo,
@@ -421,6 +423,7 @@ module.exports.parsePackets = function (packets) {
       case "OBJ_SPAWN": {
         let objSpawn = parseObjSpawn(packet.payload);
         events.push({
+          time: packet.time,
           type: EventTypes.OBJ_SPAWN,
           source: packet.source,
           actorInfo: objSpawn,
@@ -430,6 +433,7 @@ module.exports.parsePackets = function (packets) {
       case "STATUS": {
         let status = parseStatusPacket(packet.payload);
         events.push({
+          time: packet.time,
           target: packet.source,
           type: EventTypes.STATUS_STATS,
           shield: status.shield,
@@ -522,6 +526,7 @@ module.exports.parsePackets = function (packets) {
           ...event,
           type: EventTypes.CRAFTING_STATUS,
           source: packet.source,
+          time: packet.time,
         });
         break;
       }
@@ -530,6 +535,7 @@ module.exports.parsePackets = function (packets) {
         events.push({
           ...event,
           type: EventTypes.CRAFTING_ACTION,
+          time: packet.time,
           source: packet.source,
         });
         break;
