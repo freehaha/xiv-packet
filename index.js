@@ -366,11 +366,11 @@ function parseCraftingStatus(packet) {
   };
 }
 
-module.exports.parsePackets = function (packets) {
+module.exports.parsePackets = function (packets, ptype = PTYPE) {
   let events = [];
   packets.forEach(packet => {
-    if (!PTYPE[packet.ptype]) return;
-    let event = PTYPE[packet.ptype];
+    if (!ptype[packet.ptype]) return;
+    let event = ptype[packet.ptype];
     switch (event) {
       case "STATUS_LIST": {
         let status = parseStatusList(packet.payload);
