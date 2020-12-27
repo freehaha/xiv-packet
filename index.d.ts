@@ -206,5 +206,13 @@ declare module "xiv-packet" {
     rawPacket: ArrayBuffer | any,
     time?: number | bigint,
   ): XivPacket;
-  function parsePackets(packets: XivPacket[]): XivEvent[];
+
+  type PacketDefinition = {
+    [string]: EventTypes;
+  };
+
+  function parsePackets(
+    packets: XivPacket[],
+    ptypes?: PacketDefinition,
+  ): XivEvent[];
 }
